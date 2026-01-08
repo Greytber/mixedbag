@@ -1,0 +1,1 @@
+attribute @s minecraft:flying_speed modifier remove mixedbag:effect.speed

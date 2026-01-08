@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{mixedbag:{id:riding_crop}}] run return run function mixedbag:technical/macro/damage_slot/main {slot:"weapon.mainhand",slot_raw:"SelectedItem",amount:"1"}
+function mixedbag:technical/macro/damage_slot/main {slot:"weapon.offhand",slot_raw:"equipment.offhand",amount:"1"}

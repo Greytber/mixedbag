@@ -1,0 +1,24 @@
+{
+  "parent": "mixedbag:technical/revoked",
+  "criteria": {
+    "consume_item": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "mixedbag": {
+                "id": "chocolate_bar_emerald"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mixedbag:item/chocolate_bar_emerald_effect",
+    "loot": []
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,1 @@
+execute as @a[tag=mixedbag.loot.fortress] at @s run function mixedbag:loot/nether_fortress/ray/start

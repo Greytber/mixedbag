@@ -1,0 +1,6 @@
+{
+    "parent": "mixedbag:item/icon/18x18",
+    "textures": {
+        "layer0": "mixedbag:item/icon/undead_mayhem"
+    }
+}

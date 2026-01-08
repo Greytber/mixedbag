@@ -1,0 +1,22 @@
+{
+  "parent": "mixedbag:technical/revoked",
+  "criteria": {
+    "player_hurt_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {}
+    },
+    "player_killed_entity": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "player_hurt_entity",
+      "player_killed_entity"
+    ]
+  ],
+  "rewards": {
+    "function": "mixedbag:item/sickle/courage/check_hit"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "parent": "mixedbag:technical/revoked",
+  "criteria": {
+    "using_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "mixedbag": {
+                "weapon_type": "sickle"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mixedbag:item/sickle/use"
+  }
+}

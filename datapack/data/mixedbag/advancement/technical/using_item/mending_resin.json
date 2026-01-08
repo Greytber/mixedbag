@@ -1,0 +1,23 @@
+{
+  "parent": "mixedbag:technical/revoked",
+  "criteria": {
+    "using_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {
+              "mixedbag": {
+                "id": "mending_resin"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mixedbag:item/mending_resin/use"
+  }
+}

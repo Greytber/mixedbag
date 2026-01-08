@@ -1,0 +1,62 @@
+[
+  {
+    "function": "minecraft:filtered",
+    "item_filter": {
+      "items": "minecraft:copper_sword",
+      "components": {
+        "minecraft:item_name": {
+          "translate": "item.siscu.exposed_copper_sword"
+        }
+      },
+      "predicates": {}
+    },
+    "on_pass": {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:item_name": {
+          "translate": "item.mixedbag.exposed_copper_sickle"
+        }
+      }
+    }
+  },
+  {
+    "function": "minecraft:filtered",
+    "item_filter": {
+      "items": "minecraft:copper_sword",
+      "components": {
+        "minecraft:item_name": {
+          "translate": "item.siscu.weathered_copper_sword"
+        }
+      },
+      "predicates": {}
+    },
+    "on_pass": {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:item_name": {
+          "translate": "item.mixedbag.weathered_copper_sickle"
+        }
+      }
+    }
+  },
+  {
+    "function": "minecraft:filtered",
+    "item_filter": {
+      "items": "minecraft:copper_sword",
+      "components": {
+        "minecraft:item_name": {
+          "translate": "item.siscu.oxidised_copper_sword"
+        }
+      },
+      "predicates": {}
+    },
+    "on_pass": {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:item_name": {
+          "translate": "item.mixedbag.oxidised_copper_sickle"
+        }
+      }
+    }
+  }
+]

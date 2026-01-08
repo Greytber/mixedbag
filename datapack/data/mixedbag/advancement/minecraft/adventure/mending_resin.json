@@ -1,0 +1,55 @@
+{
+  "parent": "minecraft:adventure/kill_mob_near_sculk_catalyst",
+  "criteria": {
+    "transform": {
+      "trigger": "minecraft:impossible"
+    },
+    "repair": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "advancements.mixedbag.mending_resin.description"
+      },
+      "\n\n",
+      [
+        {
+          "translate": "ui.mixedbag.title.symbol",
+          "color": "white",
+          "font": "mixedbag:icon"
+        },
+        " ",
+        {
+          "translate": "ui.mixedbag.title",
+          "color": "white",
+          "font": "mixedbag:tooltip"
+        }
+      ]
+    ],
+    "icon": {
+      "components": {
+        "minecraft:item_model": "mixedbag:mending_resin"
+      },
+      "count": 1,
+      "id": "minecraft:poisonous_potato"
+    },
+    "title": {
+      "translate": "advancements.mixedbag.mending_resin.title"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "transform"
+    ],
+    [
+      "repair"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

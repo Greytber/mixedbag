@@ -1,0 +1,1 @@
+execute as @a[tag=mixedbag.loot.outpost] at @s run function mixedbag:loot/pillager_outpost/ray/start

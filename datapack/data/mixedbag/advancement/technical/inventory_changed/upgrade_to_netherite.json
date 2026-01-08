@@ -1,0 +1,26 @@
+{
+  "parent": "mixedbag:technical/revoked",
+  "criteria": {
+    "sickle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_sword",
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"diamond_sickle\"}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sickle"
+    ]
+  ],
+  "rewards": {
+    "function": "mixedbag:item/upgrade_to_netherite/start"
+  }
+}

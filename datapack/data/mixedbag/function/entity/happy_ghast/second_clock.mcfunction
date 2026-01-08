@@ -1,0 +1,1 @@
+function mixedbag:entity/happy_ghast/effect_check

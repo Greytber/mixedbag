@@ -1,0 +1,53 @@
+{
+  "parent": "minecraft:adventure/crafters_crafting_crafters",
+  "criteria": {
+    "crafter_chocolate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "mixedbag:chocolate_bar",
+        "ingredients": []
+      }
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "advancements.mixedbag.chocolate_factory.description"
+      },
+      "\n\n",
+      [
+        {
+          "translate": "ui.mixedbag.title.symbol",
+          "color": "white",
+          "font": "mixedbag:icon"
+        },
+        " ",
+        {
+          "translate": "ui.mixedbag.title",
+          "color": "white",
+          "font": "mixedbag:tooltip"
+        }
+      ]
+    ],
+    "icon": {
+      "components": {
+        "minecraft:item_model": "mixedbag:chocolate_bar"
+      },
+      "count": 1,
+      "id": "minecraft:poisonous_potato"
+    },
+    "title": {
+      "translate": "advancements.mixedbag.chocolate_factory.title"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "crafter_chocolate"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

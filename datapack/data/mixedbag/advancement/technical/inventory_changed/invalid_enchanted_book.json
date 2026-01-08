@@ -1,0 +1,69 @@
+{
+  "parent": "mixedbag:technical/revoked",
+  "criteria": {
+    "dummy_enchantment": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_book",
+            "predicates": {
+              "minecraft:stored_enchantments": [
+                {
+                  "enchantments": "mixedbag:gashing"
+                },
+                {
+                  "enchantments": "mixedbag:overload"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "overload": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_book",
+            "predicates": {
+              "minecraft:stored_enchantments": [
+                {
+                  "enchantments": "mixedbag:overload"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "gashing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_book",
+            "predicates": {
+              "minecraft:stored_enchantments": [
+                {
+                  "enchantments": "mixedbag:gashing"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dummy_enchantment",
+      "gashing",
+      "overload"
+    ]
+  ],
+  "rewards": {
+    "function": "mixedbag:item/dummy_enchantments/enchanted_book"
+  }
+}

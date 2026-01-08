@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"item.mixedbag.fortune_cookie\"}",
+                "minecraft:item_model": "mixedbag:fortune_cookie",
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 1,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "animation": "eat",
+                  "on_consume_effects": []
+                }
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{mixedbag:{id:\"fortune_cookie\"},smithed:{ignore:{functionality:1b,crafting:1b}}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "ui.mixedbag.title.symbol.paper",
+                    "color": "white",
+                    "font": "mixedbag:icon",
+                    "italic": false,
+                    "shadow_color": [
+                      0.361,
+                      0.251,
+                      0.176,
+                      1
+                    ]
+                  },
+                  " ",
+                  {
+                    "translate": "ui.mixedbag.title",
+                    "color": "white",
+                    "font": "mixedbag:tooltip_paper",
+                    "italic": false,
+                    "shadow_color": [
+                      0.361,
+                      0.251,
+                      0.176,
+                      1
+                    ]
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

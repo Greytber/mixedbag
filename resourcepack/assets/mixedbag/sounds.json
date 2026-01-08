@@ -1,0 +1,85 @@
+{
+  "item.sickle.charge": {
+    "sounds": [
+      "mixedbag:item/sickle/charge1"
+    ],
+    "subtitle": "subtitles.mixedbag.item.sickle.charge"
+  },
+  "item.sickle.lunge": {
+    "sounds": [
+      "minecraft:item/spear/lunge1",
+      "minecraft:item/spear/lunge2",
+      "minecraft:item/spear/lunge3"
+    ],
+    "subtitle": "subtitles.mixedbag.item.sickle.lunge"
+  },
+  "item.sickle.overcharge": {
+    "sounds": [
+      "mixedbag:item/sickle/overcharge"
+    ],
+    "subtitle": "subtitles.mixedbag.item.sickle.overcharge"
+  },
+  "item.riding_crop.use": {
+    "sounds": [
+      "minecraft:entity/player/attack/weak1",
+      "minecraft:entity/player/attack/weak2",
+      "minecraft:entity/player/attack/weak3",
+      "minecraft:entity/player/attack/weak4"
+    ],
+    "subtitle": "subtitles.mixedbag.item.riding_crop.use"
+  },
+  "item.mending_resin.using": {
+    "sounds": [
+      "minecraft:block/resin/resin_break1",
+      "minecraft:block/resin/resin_break2",
+      "minecraft:block/resin/resin_break3",
+      "minecraft:block/resin/resin_break4",
+      "minecraft:block/resin/resin_break5",
+      "minecraft:block/sculk/break1",
+      "minecraft:block/sculk/break2",
+      "minecraft:block/sculk/break3",
+      "minecraft:block/sculk/break4",
+      "minecraft:block/sculk/break5",
+      "minecraft:block/sculk/break6",
+      "minecraft:block/sculk/break7",
+      "minecraft:block/sculk/break8",
+      "minecraft:block/sculk/break9",
+      "minecraft:block/sculk/break10",
+      "minecraft:block/sculk/break11"
+    ],
+    "subtitle": "subtitles.mixedbag.item.mending_resin.using"
+  },
+  "item.mending_resin.apply": {
+    "sounds": [
+      "minecraft:block/sculk_shrieker/break1",
+      "minecraft:block/sculk_shrieker/break2",
+      "minecraft:block/sculk_shrieker/break3",
+      "minecraft:block/sculk_shrieker/break4",
+      "minecraft:block/sculk_shrieker/break5",
+      "minecraft:block/sculk_shrieker/break6"
+    ],
+    "subtitle": "subtitles.mixedbag.item.mending_resin.apply"
+  },
+  "entity.horse.drink_potion": {
+    "sounds": [
+      "minecraft:mob/wandering_trader/drink_milk1",
+      "minecraft:mob/wandering_trader/drink_milk2",
+      "minecraft:mob/wandering_trader/drink_milk3",
+      "minecraft:mob/wandering_trader/drink_milk4",
+      "minecraft:mob/wandering_trader/drink_milk5",
+      "minecraft:mob/wandering_trader/drink_potion"
+    ],
+    "subtitle": "subtitles.mixedbag.entity.horse.drink_potion"
+  },
+  "entity.mount.drink_potion": {
+    "sounds": [
+      "minecraft:mob/wandering_trader/drink_milk1",
+      "minecraft:mob/wandering_trader/drink_milk2",
+      "minecraft:mob/wandering_trader/drink_milk3",
+      "minecraft:mob/wandering_trader/drink_milk4",
+      "minecraft:mob/wandering_trader/drink_milk5",
+      "minecraft:mob/wandering_trader/drink_potion"
+    ],
+    "subtitle": "subtitles.mixedbag.entity.mount.drink_potion"
+  }
+}

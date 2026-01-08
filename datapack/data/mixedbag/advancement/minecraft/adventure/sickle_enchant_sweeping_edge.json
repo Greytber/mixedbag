@@ -1,0 +1,71 @@
+{
+  "parent": "mixedbag:minecraft/adventure/sickle_use",
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:swords",
+            "predicates": {
+              "minecraft:custom_data": {
+                "mixedbag": {
+                  "weapon_type": "sickle"
+                }
+              },
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:sweeping_edge",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "advancements.mixedbag.sickle_sweeping_edge.description"
+      },
+      "\n\n",
+      [
+        {
+          "translate": "ui.mixedbag.title.symbol",
+          "color": "white",
+          "font": "mixedbag:icon"
+        },
+        " ",
+        {
+          "translate": "ui.mixedbag.title",
+          "color": "white",
+          "font": "mixedbag:tooltip"
+        }
+      ]
+    ],
+    "icon": {
+      "components": {
+        "minecraft:item_model": "mixedbag:golden_sickle"
+      },
+      "count": 1,
+      "id": "minecraft:poisonous_potato"
+    },
+    "title": {
+      "translate": "advancements.mixedbag.sickle_sweeping_edge.title"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "inventory_changed"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

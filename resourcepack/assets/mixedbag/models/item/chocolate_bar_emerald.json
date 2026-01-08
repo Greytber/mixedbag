@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "particle": "mixedbag:item/chocolate_bar_emerald_particle",
+        "layer0": "mixedbag:item/chocolate_bar_emerald"
+    }
+}

@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "advancements.mixedbag.riding_crop.description"
+      },
+      "\n\n",
+      [
+        {
+          "translate": "ui.mixedbag.title.symbol",
+          "color": "white",
+          "font": "mixedbag:icon"
+        },
+        " ",
+        {
+          "translate": "ui.mixedbag.title",
+          "color": "white",
+          "font": "mixedbag:tooltip"
+        }
+      ]
+    ],
+    "icon": {
+      "components": {
+        "minecraft:item_model": "mixedbag:riding_crop"
+      },
+      "count": 1,
+      "id": "minecraft:poisonous_potato"
+    },
+    "title": {
+      "translate": "advancements.mixedbag.riding_crop.title"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

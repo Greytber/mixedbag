@@ -1,0 +1,21 @@
+{
+  "parent": "mixedbag:recipes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cocoa_beans"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "mixedbag:chocolate_bar",
+      "mixedbag:chocolate_bar_emerald"
+    ]
+  }
+}

@@ -1,0 +1,598 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": "gui",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "scale": 1,
+              "entries": [
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mixedbag:item/sickle_charge_0"
+                  }
+                },
+                {
+                  "threshold": 20,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mixedbag:item/sickle_charge_1"
+                  }
+                },
+                {
+                  "threshold": 60,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mixedbag:item/sickle_charge_2"
+                  }
+                },
+                {
+                  "threshold": 100,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mixedbag:item/sickle_charge_3"
+                  }
+                },
+                {
+                  "threshold": 130,
+                  "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:enchantments",
+                    "value": [
+                      {
+                        "enchantments": "mixedbag:overload"
+                      }
+                    ],
+                    "on_true": {
+                      "type": "minecraft:model",
+                      "model": "mixedbag:item/sickle_charge_4",
+                      "tints": []
+                    },
+                    "on_false": {
+                      "type": "minecraft:model",
+                      "model": "mixedbag:item/sickle_charge_3"
+                    }
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:empty"
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "firstperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:range_dispatch",
+                "property": "minecraft:use_duration",
+                "scale": 1,
+                "entries": [
+                  {
+                    "threshold": 1,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mixedbag:item/copper_sickle_using"
+                    }
+                  },
+                  {
+                    "threshold": 20,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mixedbag:item/copper_sickle_glow_0"
+                    }
+                  },
+                  {
+                    "threshold": 21,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mixedbag:item/copper_sickle_glow_1"
+                    }
+                  },
+                  {
+                    "threshold": 22,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mixedbag:item/copper_sickle_glow_0"
+                    }
+                  },
+                  {
+                    "threshold": 23,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mixedbag:item/copper_sickle_using"
+                    }
+                  },
+                  {
+                    "threshold": 60,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mixedbag:item/copper_sickle_glow_0"
+                    }
+                  },
+                  {
+                    "threshold": 61,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mixedbag:item/copper_sickle_glow_1"
+                    }
+                  },
+                  {
+                    "threshold": 62,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mixedbag:item/copper_sickle_glow_0"
+                    }
+                  },
+                  {
+                    "threshold": 63,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mixedbag:item/copper_sickle_using"
+                    }
+                  },
+                  {
+                    "threshold": 100,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mixedbag:item/copper_sickle_glow_0"
+                    }
+                  },
+                  {
+                    "threshold": 101,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mixedbag:item/copper_sickle_glow_1"
+                    }
+                  },
+                  {
+                    "threshold": 102,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mixedbag:item/copper_sickle_glow_0"
+                    }
+                  },
+                  {
+                    "threshold": 103,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mixedbag:item/copper_sickle_using"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "mixedbag:item/copper_sickle"
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "mixedbag:item/copper_sickle_using"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "mixedbag:item/copper_sickle"
+            }
+          }
+        },
+        "entries": [
+          {
+            "model": {
+              "type": "minecraft:select",
+              "property": "minecraft:display_context",
+              "cases": [
+                {
+                  "when": [
+                    "firstperson_righthand",
+                    "firstperson_lefthand"
+                  ],
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:use_duration",
+                    "scale": 1,
+                    "entries": [
+                      {
+                        "threshold": 1,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/exposed_copper_sickle_using"
+                        }
+                      },
+                      {
+                        "threshold": 20,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/exposed_copper_sickle_glow_0"
+                        }
+                      },
+                      {
+                        "threshold": 21,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/exposed_copper_sickle_glow_1"
+                        }
+                      },
+                      {
+                        "threshold": 22,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/exposed_copper_sickle_glow_0"
+                        }
+                      },
+                      {
+                        "threshold": 23,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/exposed_copper_sickle_using"
+                        }
+                      },
+                      {
+                        "threshold": 60,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/exposed_copper_sickle_glow_0"
+                        }
+                      },
+                      {
+                        "threshold": 61,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/exposed_copper_sickle_glow_1"
+                        }
+                      },
+                      {
+                        "threshold": 62,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/exposed_copper_sickle_glow_0"
+                        }
+                      },
+                      {
+                        "threshold": 63,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/exposed_copper_sickle_using"
+                        }
+                      },
+                      {
+                        "threshold": 100,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/exposed_copper_sickle_glow_0"
+                        }
+                      },
+                      {
+                        "threshold": 101,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/exposed_copper_sickle_glow_1"
+                        }
+                      },
+                      {
+                        "threshold": 102,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/exposed_copper_sickle_glow_0"
+                        }
+                      },
+                      {
+                        "threshold": 103,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/exposed_copper_sickle_using"
+                        }
+                      }
+                    ],
+                    "fallback": {
+                      "type": "minecraft:model",
+                      "model": "mixedbag:item/exposed_copper_sickle"
+                    }
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:condition",
+                "property": "minecraft:using_item",
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "mixedbag:item/exposed_copper_sickle_using"
+                },
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "mixedbag:item/exposed_copper_sickle"
+                }
+              }
+            },
+            "threshold": 1
+          },
+          {
+            "model": {
+              "type": "minecraft:select",
+              "property": "minecraft:display_context",
+              "cases": [
+                {
+                  "when": [
+                    "firstperson_righthand",
+                    "firstperson_lefthand"
+                  ],
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:use_duration",
+                    "scale": 1,
+                    "entries": [
+                      {
+                        "threshold": 1,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/weathered_copper_sickle_using"
+                        }
+                      },
+                      {
+                        "threshold": 20,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/weathered_copper_sickle_glow_0"
+                        }
+                      },
+                      {
+                        "threshold": 21,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/weathered_copper_sickle_glow_1"
+                        }
+                      },
+                      {
+                        "threshold": 22,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/weathered_copper_sickle_glow_0"
+                        }
+                      },
+                      {
+                        "threshold": 23,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/weathered_copper_sickle_using"
+                        }
+                      },
+                      {
+                        "threshold": 60,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/weathered_copper_sickle_glow_0"
+                        }
+                      },
+                      {
+                        "threshold": 61,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/weathered_copper_sickle_glow_1"
+                        }
+                      },
+                      {
+                        "threshold": 62,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/weathered_copper_sickle_glow_0"
+                        }
+                      },
+                      {
+                        "threshold": 63,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/weathered_copper_sickle_using"
+                        }
+                      },
+                      {
+                        "threshold": 100,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/weathered_copper_sickle_glow_0"
+                        }
+                      },
+                      {
+                        "threshold": 101,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/weathered_copper_sickle_glow_1"
+                        }
+                      },
+                      {
+                        "threshold": 102,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/weathered_copper_sickle_glow_0"
+                        }
+                      },
+                      {
+                        "threshold": 103,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/weathered_copper_sickle_using"
+                        }
+                      }
+                    ],
+                    "fallback": {
+                      "type": "minecraft:model",
+                      "model": "mixedbag:item/weathered_copper_sickle"
+                    }
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:condition",
+                "property": "minecraft:using_item",
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "mixedbag:item/weathered_copper_sickle_using"
+                },
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "mixedbag:item/weathered_copper_sickle"
+                }
+              }
+            },
+            "threshold": 2
+          },
+          {
+            "model": {
+              "type": "minecraft:select",
+              "property": "minecraft:display_context",
+              "cases": [
+                {
+                  "when": [
+                    "firstperson_righthand",
+                    "firstperson_lefthand"
+                  ],
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:use_duration",
+                    "scale": 1,
+                    "entries": [
+                      {
+                        "threshold": 1,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/oxidised_copper_sickle_using"
+                        }
+                      },
+                      {
+                        "threshold": 20,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/oxidised_copper_sickle_glow_0"
+                        }
+                      },
+                      {
+                        "threshold": 21,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/oxidised_copper_sickle_glow_1"
+                        }
+                      },
+                      {
+                        "threshold": 22,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/oxidised_copper_sickle_glow_0"
+                        }
+                      },
+                      {
+                        "threshold": 23,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/oxidised_copper_sickle_using"
+                        }
+                      },
+                      {
+                        "threshold": 60,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/oxidised_copper_sickle_glow_0"
+                        }
+                      },
+                      {
+                        "threshold": 61,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/oxidised_copper_sickle_glow_1"
+                        }
+                      },
+                      {
+                        "threshold": 62,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/oxidised_copper_sickle_glow_0"
+                        }
+                      },
+                      {
+                        "threshold": 63,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/oxidised_copper_sickle_using"
+                        }
+                      },
+                      {
+                        "threshold": 100,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/oxidised_copper_sickle_glow_0"
+                        }
+                      },
+                      {
+                        "threshold": 101,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/oxidised_copper_sickle_glow_1"
+                        }
+                      },
+                      {
+                        "threshold": 102,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/oxidised_copper_sickle_glow_0"
+                        }
+                      },
+                      {
+                        "threshold": 103,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mixedbag:item/oxidised_copper_sickle_using"
+                        }
+                      }
+                    ],
+                    "fallback": {
+                      "type": "minecraft:model",
+                      "model": "mixedbag:item/oxidised_copper_sickle"
+                    }
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:condition",
+                "property": "minecraft:using_item",
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "mixedbag:item/oxidised_copper_sickle_using"
+                },
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "mixedbag:item/oxidised_copper_sickle"
+                }
+              }
+            },
+            "threshold": 3
+          }
+        ]
+      }
+    ]
+  }
+}

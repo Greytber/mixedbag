@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "ui.mixedbag.menu"
+  },
+  "external_title": {
+    "translate": "ui.mixedbag.title"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ui.thallium.not_paused",
+        "color": "#e00239",
+        "font": "thallium:5"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": ""
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ui.mixedbag.description"
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "translate": "ui.mixedbag.version",
+          "color": "gray",
+          "font": "thallium:5"
+        },
+        "\n",
+        {
+          "translate": "book.byAuthor",
+          "color": "gray",
+          "font": "thallium:5",
+          "with": [
+            {
+              "translate": "contributor.greytber",
+              "color": "#0096be"
+            }
+          ]
+        }
+      ],
+      "width": 300
+    }
+  ],
+  "pause": false,
+  "after_action": "none",
+  "columns": 2,
+  "actions": [
+    {
+      "label": {
+        "translate": "ui.mixedbag.credits"
+      },
+      "action": {
+        "type": "show_dialog",
+        "dialog": "mixedbag:credits"
+      }
+    },
+    {
+      "label": {"translate":"ui.mixedbag.website"},
+      "action": {
+        "type": "open_url",
+        "url": "https://modrinth.com/project/mixedbag"
+      }
+    },
+    {
+      "label": {"translate":"ui.mixedbag.wiki"},
+      "action": {
+        "type": "open_url",
+        "url": "https://github.com/Greytber/mixedbag/wiki"
+      }
+    }
+  ],
+  "exit_action": {
+    "action": {
+      "type": "show_dialog",
+      "dialog": "smithed:data_packs"
+    },
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 200
+  }
+}

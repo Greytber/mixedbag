@@ -1,0 +1,3 @@
+execute if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{effects:{"minecraft:speed":{amplifier:0}}}} run attribute @s minecraft:flying_speed modifier add mixedbag:effect.speed 0.01 add_value
+execute if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{effects:{"minecraft:speed":{amplifier:1}}}} run attribute @s minecraft:flying_speed modifier add mixedbag:effect.speed 0.02 add_value
+execute if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{effects:{"minecraft:speed":{amplifier:2}}}} run attribute @s minecraft:flying_speed modifier add mixedbag:effect.speed 0.03 add_value

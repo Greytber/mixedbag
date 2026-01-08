@@ -1,0 +1,39 @@
+advancement revoke @s only mixedbag:technical/inventory_changed/copper_name
+
+execute if items entity @s hotbar.0 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s hotbar.0 mixedbag:copper_name
+execute if items entity @s hotbar.1 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s hotbar.1 mixedbag:copper_name
+execute if items entity @s hotbar.2 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s hotbar.2 mixedbag:copper_name
+execute if items entity @s hotbar.3 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s hotbar.3 mixedbag:copper_name
+execute if items entity @s hotbar.4 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s hotbar.4 mixedbag:copper_name
+execute if items entity @s hotbar.5 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s hotbar.5 mixedbag:copper_name
+execute if items entity @s hotbar.6 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s hotbar.6 mixedbag:copper_name
+execute if items entity @s hotbar.7 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s hotbar.7 mixedbag:copper_name
+execute if items entity @s hotbar.8 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s hotbar.8 mixedbag:copper_name
+
+execute if items entity @s inventory.0 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.0 mixedbag:copper_name
+execute if items entity @s inventory.1 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.1 mixedbag:copper_name
+execute if items entity @s inventory.2 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.2 mixedbag:copper_name
+execute if items entity @s inventory.3 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.3 mixedbag:copper_name
+execute if items entity @s inventory.4 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.4 mixedbag:copper_name
+execute if items entity @s inventory.5 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.5 mixedbag:copper_name
+execute if items entity @s inventory.6 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.6 mixedbag:copper_name
+execute if items entity @s inventory.7 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.7 mixedbag:copper_name
+execute if items entity @s inventory.8 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.8 mixedbag:copper_name
+execute if items entity @s inventory.9 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.9 mixedbag:copper_name
+execute if items entity @s inventory.10 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.10 mixedbag:copper_name
+execute if items entity @s inventory.11 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.11 mixedbag:copper_name
+execute if items entity @s inventory.12 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.12 mixedbag:copper_name
+execute if items entity @s inventory.13 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.13 mixedbag:copper_name
+execute if items entity @s inventory.14 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.14 mixedbag:copper_name
+execute if items entity @s inventory.15 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.15 mixedbag:copper_name
+execute if items entity @s inventory.16 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.16 mixedbag:copper_name
+execute if items entity @s inventory.17 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.17 mixedbag:copper_name
+execute if items entity @s inventory.18 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.18 mixedbag:copper_name
+execute if items entity @s inventory.19 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.19 mixedbag:copper_name
+execute if items entity @s inventory.20 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.20 mixedbag:copper_name
+execute if items entity @s inventory.21 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.21 mixedbag:copper_name
+execute if items entity @s inventory.22 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.22 mixedbag:copper_name
+execute if items entity @s inventory.23 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.23 mixedbag:copper_name
+execute if items entity @s inventory.24 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.24 mixedbag:copper_name
+execute if items entity @s inventory.25 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.25 mixedbag:copper_name
+execute if items entity @s inventory.26 minecraft:copper_sword[minecraft:custom_data~{mixedbag:{id:"copper_sickle"}}] run item modify entity @s inventory.26 mixedbag:copper_name

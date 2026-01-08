@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_name": {
+                  "translate": "item.mixedbag.mending_resin"
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "translate": "ui.mixedbag.title.symbol",
+                      "color": "white",
+                      "font": "mixedbag:icon",
+                      "italic": false
+                    },
+                    " ",
+                    {
+                      "translate": "ui.mixedbag.title",
+                      "color": "white",
+                      "font": "mixedbag:tooltip",
+                      "italic": false
+                    }
+                  ]
+                ],
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647,
+                  "animation": "block",
+                  "has_consume_particles": false
+                },
+                "item_model": "mixedbag:mending_resin",
+                "custom_data": {
+                  "mixedbag": {
+                    "id": "mending_resin"
+                  },
+                  "smithed": {
+                    "ignore": {
+                      "crafting": true,
+                      "functionality": true
+                    }
+                  }
+                },
+                "minecraft:use_effects": {
+                  "can_sprint": true
+                },
+                "minecraft:rarity": "uncommon",
+                "!minecraft:food": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

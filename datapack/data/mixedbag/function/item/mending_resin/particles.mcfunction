@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand minecraft:poisonous_potato[minecraft:custom_data~{mixedbag:{id:"mending_resin"}}] anchored eyes run return run particle minecraft:sculk_charge{roll:0} ^0.5 ^-0.3 ^0.5 0.1 0 0.1 0.01 2 normal
+execute anchored eyes run particle minecraft:sculk_charge{roll:0} ^-0.5 ^-0.3 ^0.5 0.1 0 0.1 0.01 2 normal

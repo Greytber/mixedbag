@@ -1,0 +1,36 @@
+{
+  "parent": "mixedbag:recipes/root",
+  "criteria": {
+    "copper_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_ingot"
+          }
+        ]
+      }
+    },
+    "leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "copper_ingot",
+      "leather"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mixedbag:riding_crop"
+    ]
+  }
+}

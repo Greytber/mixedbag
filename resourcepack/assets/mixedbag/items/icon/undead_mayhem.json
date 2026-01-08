@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "mixedbag:item/icon/undead_mayhem"
+  },
+  "oversized_in_gui": true
+}

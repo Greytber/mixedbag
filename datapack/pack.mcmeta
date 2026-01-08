@@ -1,0 +1,24 @@
+{
+  "id": "mixedbag",
+  "pack": {
+    "description": [
+      {
+        "text": "Mixed Bag Datapack",
+        "color": "#cd7b46"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "by ",
+        "color": "gray"
+      },
+      {
+        "text": "Greytber",
+        "color": "#0096be"
+      }
+    ],
+    "min_format": 89,
+    "max_format": 89
+  }
+}

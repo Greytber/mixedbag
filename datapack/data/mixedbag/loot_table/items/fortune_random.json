@@ -1,0 +1,116 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/fortunes/1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/fortunes/2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/fortunes/3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/fortunes/4"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/fortunes/5"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/fortunes/6"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/fortunes/7"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/fortunes/8"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/fortunes/9"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/fortunes/10"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/fortunes/11"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/fortunes/12"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/fortunes/13"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/fortunes/14"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/fortunes/15"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/fortunes/16"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/fortunes/17"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/fortunes/18"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            [{
+              "translate": "ui.mixedbag.title.symbol.paper",
+              "color": "white",
+              "font": "mixedbag:icon",
+              "italic": false,
+              "shadow_color": [
+                0.361,
+                0.251,
+                0.176,
+                1
+              ]
+            },
+            " ",
+            {
+              "translate": "ui.mixedbag.title",
+              "color": "white",
+              "font": "mixedbag:tooltip_paper",
+              "italic": false,
+              "shadow_color": [
+                0.361,
+                0.251,
+                0.176,
+                1
+              ]
+            }]
+          ],
+          "mode": "append",
+          "conditions": []
+        }
+      ]
+    }
+  ]
+}

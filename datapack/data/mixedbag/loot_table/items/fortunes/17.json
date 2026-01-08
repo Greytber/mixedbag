@@ -1,0 +1,34 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "mixedbag:items/fortunes/base"
+				}
+			],
+			"functions": [
+				
+				{
+					"function": "minecraft:set_custom_data",
+					"tag": "{mixedbag:{id:\"fortune_paper\",fortune:17}}"
+				},
+				{
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"lore": [
+						{
+							"translate": "fortune.mixedbag.17",
+              				"font": "mixedbag:handwritten",
+							"color": "#6d523e",
+							"shadow_color": 0,
+							"italic": false
+						}
+					],
+					"mode": "append"
+				}
+			]
+		}
+	]
+}

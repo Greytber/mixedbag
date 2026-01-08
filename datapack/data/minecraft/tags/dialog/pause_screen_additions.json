@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "smithed:data_packs",
+      "required": false
+    }
+  ]
+}

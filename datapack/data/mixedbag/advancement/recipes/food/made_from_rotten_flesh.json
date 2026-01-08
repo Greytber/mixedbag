@@ -1,0 +1,21 @@
+{
+  "parent": "mixedbag:recipes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:rotten_flesh"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "mixedbag:tough_flesh",
+      "mixedbag:tough_flesh_from_smoking"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "parent": "mixedbag:technical/revoked",
+  "criteria": {
+    "overload": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:swords",
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "mixedbag:overload_dummy"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "gashing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:swords",
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "mixedbag:gashing_dummy"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "overload",
+      "gashing"
+    ]
+  ],
+  "rewards": {
+    "function": "mixedbag:item/dummy_enchantments/start"
+  }
+}

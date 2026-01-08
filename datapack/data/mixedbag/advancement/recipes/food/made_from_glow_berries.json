@@ -1,0 +1,22 @@
+{
+  "parent": "mixedbag:recipes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glow_berries"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "mixedbag:roasted_glow_berries",
+      "mixedbag:roasted_glow_berries_from_smoking",
+      "mixedbag:roasted_glow_berries_from_campfire_cooking"
+    ]
+  }
+}

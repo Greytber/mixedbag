@@ -1,0 +1,90 @@
+{
+  "parent": "mixedbag:minecraft/adventure/sickle_use",
+  "criteria": {
+    "sickle_block": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "mixedbag.courage.flag": 1
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:custom_data": {
+                      "mixedbag": {
+                        "weapon_type": "sickle"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_explosion",
+                "expected": true
+              }
+            ],
+            "source_entity": {
+              "type": "minecraft:creeper"
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "advancements.mixedbag.sickle_block.description"
+      },
+      "\n\n",
+      [
+        {
+          "translate": "ui.mixedbag.title.symbol",
+          "color": "white",
+          "font": "mixedbag:icon"
+        },
+        " ",
+        {
+          "translate": "ui.mixedbag.title",
+          "color": "white",
+          "font": "mixedbag:tooltip"
+        }
+      ]
+    ],
+    "icon": {
+      "components": {
+        "minecraft:item_model": "minecraft:creeper_head"
+      },
+      "count": 1,
+      "id": "minecraft:poisonous_potato"
+    },
+    "title": {
+      "translate": "advancements.mixedbag.sickle_block.title"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "sickle_block"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

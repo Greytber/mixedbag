@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "ui.mixedbag.credits"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ui.thallium.not_paused",
+        "color": "#e00239",
+        "font": "thallium:5"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        { "translate": "ui.mixedbag.hyphen",
+          "with": [ { "translate": "contributor.greytber", "color": "#0096be" }, { "translate": "contributor.mixedbag.greytber.description" } ],
+          "click_event": { "action": "open_url", "url": "https://modrinth.com/user/Greytber" },
+          "hover_event": { "action": "show_text", "value": { "text": "https://modrinth.com/user/Greytber" } } },
+          "\n",
+          "\n",
+        { "translate": "ui.mixedbag.hyphen",
+          "with": [ { "translate": "contributor.lead", "color": "#c99b73" }, { "translate": "contributor.mixedbag.lead.description" } ],
+          "click_event": { "action": "open_url", "url": "https://modrinth.com/user/LeadisToxic" },
+          "hover_event": { "action": "show_text", "value": { "text": "https://modrinth.com/user/LeadisToxic" } } },
+          "\n",
+        { "translate": "ui.mixedbag.hyphen",
+          "with": [ { "translate": "contributor.creepermagnet", "color": "#006e1e" }, { "translate": "contributor.mixedbag.creepermagnet.description" } ],
+          "click_event": { "action": "open_url", "url": "https://thecreeperscode.com" },
+          "hover_event": { "action": "show_text", "value": { "text": "https://thecreeperscode.com" } } },
+          "\n",
+        { "translate": "ui.mixedbag.hyphen",
+          "with": [ { "translate": "contributor.maybejake", "color": "#b9643a" }, { "translate": "contributor.mixedbag.maybejake.description" } ],
+          "click_event": { "action": "open_url", "url": "https://thecreeperscode.com" },
+          "hover_event": { "action": "show_text", "value": { "text": "https://modrinth.com/user/maybejake" } } },
+          "\n",
+        { "translate": "ui.mixedbag.hyphen",
+          "with": [ { "translate": "contributor.conure", "color": "#938934" }, { "translate": "contributor.mixedbag.conure.description" } ],
+          "click_event": { "action": "open_url", "url": "https://modrinth.com/user/Conure512" },
+          "hover_event": { "action": "show_text", "value": { "text": "https://modrinth.com/user/Conure512" } } },
+          "\n",
+          "\n",
+        { "translate": "ui.mixedbag.hyphen",
+          "with": [ { "translate": "contributor.smithed", "color": "#2127d3" }, { "translate": "contributor.mixedbag.smithed.description" } ],
+          "click_event": { "action": "open_url", "url": "https://modrinth.com/user/Conure512" },
+          "hover_event": { "action": "show_text", "value": { "text": "https://smithed.net" } } }
+      ],
+      "width": 500
+    }
+  ],
+  "pause": false,
+  "action": {
+    "label": {
+      "translate": "gui.done"
+    },
+    "action": {
+      "type": "show_dialog",
+      "dialog": "mixedbag:about"
+    }
+  }
+}

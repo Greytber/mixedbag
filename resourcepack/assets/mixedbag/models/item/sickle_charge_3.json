@@ -1,0 +1,6 @@
+{
+  "parent": "mixedbag:item/gui_overlay",
+  "textures": {
+    "layer0": "mixedbag:item/sickle_charge_3"
+  }
+}

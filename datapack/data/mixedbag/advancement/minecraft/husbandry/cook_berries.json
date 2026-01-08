@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "criteria": {
+    "sweet_berry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "mixedbag": {
+                  "id": "roasted_sweet_berries"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "glow_berry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "mixedbag": {
+                  "id": "roasted_glow_berries"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "advancements.mixedbag.cook_berries.description"
+      },
+      "\n\n",
+      [
+        {
+          "translate": "ui.mixedbag.title.symbol",
+          "color": "white",
+          "font": "mixedbag:icon"
+        },
+        " ",
+        {
+          "translate": "ui.mixedbag.title",
+          "color": "white",
+          "font": "mixedbag:tooltip"
+        }
+      ]
+    ],
+    "icon": {
+      "components": {
+        "minecraft:item_model": "mixedbag:icon/cook_berries"
+      },
+      "count": 1,
+      "id": "minecraft:poisonous_potato"
+    },
+    "title": {
+      "translate": "advancements.mixedbag.cook_berries.title"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "glow_berry",
+      "sweet_berry"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

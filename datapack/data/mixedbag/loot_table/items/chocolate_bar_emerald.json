@@ -1,0 +1,81 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.mixedbag.chocolate_bar_emerald"
+                },
+                "minecraft:item_model": "mixedbag:chocolate_bar_emerald",
+                "minecraft:lore": [
+                  {
+                    "translate": "item.mixedbag.chocolate_bar_emerald.duration.regeneration",
+                    "with": [
+                      {
+                        "translate": "effect.minecraft.regeneration",
+                        "color": "blue",
+                        "italic": false
+                      }
+                    ],
+                    "color": "blue",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "translate": "ui.mixedbag.title.symbol",
+                      "color": "white",
+                      "font": "mixedbag:icon",
+                      "italic": false
+                    },
+                    " ",
+                    {
+                      "translate": "ui.mixedbag.title",
+                      "color": "white",
+                      "font": "mixedbag:tooltip",
+                      "italic": false
+                    }
+                  ]
+                ],
+                "minecraft:food": {
+                  "nutrition": 6,
+                  "saturation": 8,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "animation": "eat",
+                  "has_consume_particles": true
+                },
+                "minecraft:custom_data": {
+                  "mixedbag": {
+                    "id": "chocolate_bar_emerald"
+                  },
+                  "smithed": {
+                    "ignore": {
+                      "functionality": true,
+                      "crafting": true
+                    }
+                  },
+                  "cnk": {
+                    "ingredient": {
+                      "type": "emerald_chocolate_bar"
+                    }
+                  }
+                }
+              },
+              "conditions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

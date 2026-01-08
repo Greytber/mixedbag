@@ -1,0 +1,75 @@
+{
+  "description": {
+    "text": ""
+  },
+  "anvil_cost": 2,
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 8
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "body"
+  ],
+  "supported_items": "minecraft:poisonous_potato",
+  "weight": 5,
+  "effects": {
+    "minecraft:damage_immunity": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "mixedbag.courage.flag": 1
+            }
+          },
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "tags": [
+                {
+                  "id": "mixedbag:bypasses_courage",
+                  "expected": false
+                }
+              ]
+            }
+          }
+        ],
+        "effect": {}
+      }
+    ],
+    "minecraft:damage_protection": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "mixedbag.courage.flag": 1
+            }
+          },
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "tags": [
+                {
+                  "id": "minecraft:is_explosion",
+                  "expected": true
+                }
+              ]
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:set",
+          "value": 40
+        }
+      }
+    ]
+  }
+}

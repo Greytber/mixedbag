@@ -1,0 +1,19 @@
+{
+  "parent": "mixedbag:technical/revoked",
+  "criteria": {
+    "minecraft:chests/nether_bridge": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/nether_bridge"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:chests/nether_bridge"
+    ]
+  ],
+  "rewards": {
+    "function": "mixedbag:loot/nether_fortress/main"
+  }
+}

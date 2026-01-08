@@ -1,0 +1,3 @@
+execute if score @s mixedbag.sickle.timer matches 20..59 run execute as @s at @s anchored eyes positioned ^ ^ ^2 positioned ~-0.5 ~-1.5 ~-0.5 run execute as @e[tag=!mixedbag.temp.sickle,dx=1,dy=2,dz=1] run function mixedbag:item/sickle/gashing/mark_entity
+execute if score @s mixedbag.sickle.timer matches 60..99 run execute as @s at @s anchored eyes positioned ^ ^ ^2 positioned ~-1 ~-1.5 ~-1 run execute as @e[tag=!mixedbag.temp.sickle,dx=2,dy=2,dz=2] run function mixedbag:item/sickle/gashing/mark_entity
+execute if score @s mixedbag.sickle.timer matches 100.. run execute as @s at @s anchored eyes positioned ^ ^ ^3 positioned ~-1.5 ~-1.5 ~-1.5 run execute as @e[tag=!mixedbag.temp.sickle,dx=3,dy=3,dz=3] run function mixedbag:item/sickle/gashing/mark_entity

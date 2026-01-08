@@ -1,0 +1,1 @@
+function mixedbag:technical/init_player

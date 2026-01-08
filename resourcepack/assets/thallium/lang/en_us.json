@@ -1,0 +1,37 @@
+{
+ "ui.thallium.title": "Thallium",
+ "ui.thallium.version": "v1.5.2",
+ "ui.thallium.load.announce": "%s %s initialized",
+ "ui.thallium.load.suggest": "Run %s to bring up this menu again",
+ "ui.thallium.load.installed": "Installed datapacks:",
+ "ui.thallium.load.list_entry": "%s %s - %s",
+ "ui.thallium.hyphen": "%s - %s",
+ "ui.thallium.colon": "%s: %s",
+ "ui.thallium.quotations": "\"%s\"",
+ "ui.thallium.credits": "Credits",
+ "ui.thallium.links": "Links",
+ "ui.thallium.not_paused": "Game is not paused",
+ "ui.thallium.when_applied": "When Applied:",
+
+ "platform.modrinth": "Modrinth",
+ "platform.smithed": "Smithed",
+ "platform.github": "GitHub",
+
+ "ui.thallium.menu.warning": "You're not using that command right! Please only use %s, nothing more.",
+ "ui.thallium.menu.command": "/trigger tl.menu",
+ 
+ "ui.thallium.updater.start": "%sUpdating inventory...",
+ "ui.thallium.updater.end": "%sFinished! Processed %s total items.",
+ "ui.thallium.updater": "Update Items",
+ "ui.thallium.updater.description": "This will go through every item in your inventory, and attempt to update it. Would you like to proceed?\n\nUse %s to skip this warning.",
+ "ui.thallium.updater.command": "/trigger tl.update set 101",
+
+ "item.modifiers.thallium.inventory": "When in Inventory:",
+ "item.thallium.when_applied": "When Applied:",
+ 
+ "item.thallium.music_disc": "Music Disc",
+ "item.thallium.thallium_ingot": "Thallium Ingot",
+ "item.thallium.thallium_ingot.description": "* human.. i remember you're %s",
+ 
+ "enchantment.thallium.technical": "Technical Enchantment | Ignore this!"
+}

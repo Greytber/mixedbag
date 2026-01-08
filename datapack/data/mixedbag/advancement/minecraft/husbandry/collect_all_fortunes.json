@@ -1,0 +1,316 @@
+{
+  "parent": "mixedbag:minecraft/husbandry/fortune_cookie",
+  "criteria": {
+    "mixedbag.fortune.1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"fortune_paper\",fortune:1}}"
+            }
+          }
+        ]
+      }
+    },
+    "mixedbag.fortune.2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"fortune_paper\",fortune:2}}"
+            }
+          }
+        ]
+      }
+    },
+    "mixedbag.fortune.3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"fortune_paper\",fortune:3}}"
+            }
+          }
+        ]
+      }
+    },
+    "mixedbag.fortune.4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"fortune_paper\",fortune:4}}"
+            }
+          }
+        ]
+      }
+    },
+    "mixedbag.fortune.5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"fortune_paper\",fortune:5}}"
+            }
+          }
+        ]
+      }
+    },
+    "mixedbag.fortune.6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"fortune_paper\",fortune:6}}"
+            }
+          }
+        ]
+      }
+    },
+    "mixedbag.fortune.7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"fortune_paper\",fortune:7}}"
+            }
+          }
+        ]
+      }
+    },
+    "mixedbag.fortune.8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"fortune_paper\",fortune:8}}"
+            }
+          }
+        ]
+      }
+    },
+    "mixedbag.fortune.9": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"fortune_paper\",fortune:9}}"
+            }
+          }
+        ]
+      }
+    },
+    "mixedbag.fortune.10": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"fortune_paper\",fortune:10}}"
+            }
+          }
+        ]
+      }
+    },
+    "mixedbag.fortune.11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"fortune_paper\",fortune:11}}"
+            }
+          }
+        ]
+      }
+    },
+    "mixedbag.fortune.12": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"fortune_paper\",fortune:12}}"
+            }
+          }
+        ]
+      }
+    },
+    "mixedbag.fortune.13": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"fortune_paper\",fortune:13}}"
+            }
+          }
+        ]
+      }
+    },
+    "mixedbag.fortune.14": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"fortune_paper\",fortune:14}}"
+            }
+          }
+        ]
+      }
+    },
+    "mixedbag.fortune.15": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"fortune_paper\",fortune:15}}"
+            }
+          }
+        ]
+      }
+    },
+    "mixedbag.fortune.16": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"fortune_paper\",fortune:16}}"
+            }
+          }
+        ]
+      }
+    },
+    "mixedbag.fortune.17": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"fortune_paper\",fortune:17}}"
+            }
+          }
+        ]
+      }
+    },
+    "mixedbag.fortune.18": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"fortune_paper\",fortune:18}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "advancements.mixedbag.all_fortunes.description"
+      },
+      "\n\n",
+      [
+        {
+          "translate": "ui.mixedbag.title.symbol",
+          "color": "white",
+          "font": "mixedbag:icon"
+        },
+        " ",
+        {
+          "translate": "ui.mixedbag.title",
+          "color": "white",
+          "font": "mixedbag:tooltip"
+        }
+      ]
+    ],
+    "frame": "challenge",
+    "icon": {
+      "components": {
+        "minecraft:item_model": "mixedbag:fortune_paper"
+      },
+      "count": 1,
+      "id": "minecraft:poisonous_potato"
+    },
+    "title": {
+      "translate": "advancements.mixedbag.all_fortunes.title"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "mixedbag.fortune.1"
+    ],
+    [
+      "mixedbag.fortune.2"
+    ],
+    [
+      "mixedbag.fortune.3"
+    ],
+    [
+      "mixedbag.fortune.4"
+    ],
+    [
+      "mixedbag.fortune.5"
+    ],
+    [
+      "mixedbag.fortune.6"
+    ],
+    [
+      "mixedbag.fortune.7"
+    ],
+    [
+      "mixedbag.fortune.8"
+    ],
+    [
+      "mixedbag.fortune.9"
+    ],
+    [
+      "mixedbag.fortune.10"
+    ],
+    [
+      "mixedbag.fortune.11"
+    ],
+    [
+      "mixedbag.fortune.12"
+    ],
+    [
+      "mixedbag.fortune.13"
+    ],
+    [
+      "mixedbag.fortune.14"
+    ],
+    [
+      "mixedbag.fortune.15"
+    ],
+    [
+      "mixedbag.fortune.16"
+    ],
+    [
+      "mixedbag.fortune.17"
+    ],
+    [
+      "mixedbag.fortune.18"
+    ]
+  ],
+  "rewards": {
+    "experience": 10
+  },
+  "sends_telemetry_event": false
+}

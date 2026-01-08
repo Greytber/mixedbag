@@ -1,0 +1,22 @@
+{
+  "parent": "mixedbag:technical/revoked",
+  "criteria": {
+    "using_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "mixedbag": {
+                "id": "tough_flesh"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mixedbag:item/tough_flesh_eating"
+  }
+}

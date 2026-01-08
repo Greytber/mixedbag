@@ -1,0 +1,29 @@
+[
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "mixedbag:gashing_dummy": 0
+    },
+    "add": false
+  },
+  {
+    "function": "minecraft:filtered",
+    "item_filter": {
+      "predicates": {
+        "minecraft:custom_data": {
+          "mixedbag": {
+            "weapon_type": "sickle"
+          }
+        }
+      }
+    },
+    "on_pass": {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "mixedbag:gashing": 1
+      },
+      "add": false,
+      "conditions": []
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "parent": "mixedbag:technical/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

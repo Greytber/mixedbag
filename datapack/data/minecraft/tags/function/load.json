@@ -1,0 +1,7 @@
+{
+  "values": [
+    "smithed.tech_slots:impl/technical/load",
+    "player_motion:internal/init",
+    "mixedbag:technical/load"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "mixedbag:technical/revoked",
+  "criteria": {
+    "kill_mob_near_sculk_catalyst": {
+      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+    }
+  },
+  "rewards": {
+    "function": "mixedbag:block/sculk_catalyst/scan"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,1 @@
+function thallium:technical/list/hook {namespace: "mixedbag", pack_text: [{text: "0 ", color: "white", font: "mixedbag:icon"}, {translate: "ui.mixedbag.title", color: "white", font: "mixedbag:tooltip"}], version: {translate: "ui.mixedbag.version"}, version_title: {translate: "ui.mixedbag.update", color: "#cd7b46", font: "thallium:5"}}

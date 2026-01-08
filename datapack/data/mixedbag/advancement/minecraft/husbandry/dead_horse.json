@@ -1,0 +1,52 @@
+{
+  "parent": "mixedbag:minecraft/husbandry/riding_crop",
+  "criteria": {
+    "skeleton_horse": {
+      "trigger": "minecraft:impossible"
+    },
+    "zombie_horse": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "advancements.mixedbag.dead_horse.description"
+      },
+      "\n\n",
+      [
+        {
+          "translate": "ui.mixedbag.title.symbol",
+          "color": "white",
+          "font": "mixedbag:icon"
+        },
+        " ",
+        {
+          "translate": "ui.mixedbag.title",
+          "color": "white",
+          "font": "mixedbag:tooltip"
+        }
+      ]
+    ],
+    "icon": {
+      "components": {
+        "minecraft:item_model": "mixedbag:icon/dead_horse"
+      },
+      "count": 1,
+      "id": "minecraft:poisonous_potato"
+    },
+    "title": {
+      "translate": "advancements.mixedbag.dead_horse.title"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "skeleton_horse",
+      "zombie_horse"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

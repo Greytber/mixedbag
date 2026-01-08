@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_pickaxe",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.mixedbag.riding_crop"
+                },
+                "minecraft:item_model": "mixedbag:riding_crop",
+                "minecraft:lore": [
+                  [
+                    {
+                      "translate": "ui.mixedbag.title.symbol",
+                      "color": "white",
+                      "font": "mixedbag:icon",
+                      "italic": false
+                    },
+                    " ",
+                    {
+                      "translate": "ui.mixedbag.title",
+                      "color": "white",
+                      "font": "mixedbag:tooltip",
+                      "italic": false
+                    }
+                  ]
+                ],
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647,
+                  "animation": "brush",
+                  "has_consume_particles": false,
+                  "on_consume_effects": []
+                },
+                "minecraft:custom_data": {
+                  "mixedbag": {
+                    "id": "riding_crop"
+                  },
+                  "smithed": {
+                    "ignore": {
+                      "functionality": true,
+                      "crafting": true
+                    }
+                  }
+                },
+                "minecraft:repairable": {
+                  "items": "minecraft:stick"
+                },
+                "!minecraft:food": {},
+                "minecraft:max_damage": 128,
+                "minecraft:max_stack_size": 1,
+                "!minecraft:tool": {},
+                "!minecraft:attribute_modifiers": {},
+                "!minecraft:enchantable": {}
+              },
+              "conditions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

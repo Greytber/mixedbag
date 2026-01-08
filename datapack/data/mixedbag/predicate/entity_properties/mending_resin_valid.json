@@ -1,0 +1,63 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {
+                "mixedbag": {
+                  "id": "mending_resin"
+                }
+              }
+            }
+          },
+          "offhand": {
+            "items": "#minecraft:enchantable/durability",
+            "predicates": {
+              "minecraft:damage": {
+                "damage": {
+                  "min": 1
+                }
+              },
+              "minecraft:max_damage": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": "minecraft:poisonous_potato",
+            "predicates": {
+              "minecraft:custom_data": {
+                "mixedbag": {
+                  "id": "mending_resin"
+                }
+              }
+            }
+          },
+          "mainhand": {
+            "items": "#minecraft:enchantable/durability",
+            "predicates": {
+              "minecraft:damage": {
+                "damage": {
+                  "min": 1
+                }
+              },
+              "minecraft:max_damage": {}
+            }
+          }
+        }
+      }
+    }
+  ]
+}

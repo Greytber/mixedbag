@@ -1,0 +1,24 @@
+{
+  "parent": "mixedbag:technical/revoked",
+  "criteria": {
+    "consume_item": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "mixedbag": {
+                "id": "misfortune_cookie"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mixedbag:item/misfortune_cookie_effect",
+    "loot": []
+  },
+  "sends_telemetry_event": false
+}

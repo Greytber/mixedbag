@@ -1,0 +1,37 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "mixedbag:gui/sprites/icon.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": [
+				"0"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "mixedbag:gui/sprites/icon_paper.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": [
+				"1"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "mixedbag:gui/sprites/sickle.png",
+			"ascent": 8,
+			"height": 8,
+			"chars": [
+				"\u1F5E"
+			]
+		},
+		{
+			"type": "space",
+			"advances": {
+				" ": 2
+			}
+		}
+	]
+}

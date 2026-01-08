@@ -1,0 +1,44 @@
+[
+  {
+    "function": "minecraft:filtered",
+    "item_filter": {
+      "items": "minecraft:enchanted_book",
+      "components": {},
+      "predicates": {
+        "minecraft:stored_enchantments": [
+          {
+            "enchantments": "mixedbag:gashing"
+          }
+        ]
+      }
+    },
+    "on_pass": {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "mixedbag:gashing": 0,
+        "mixedbag:gashing_dummy": 1
+      }
+    }
+  },
+  {
+    "function": "minecraft:filtered",
+    "item_filter": {
+      "items": "minecraft:enchanted_book",
+      "components": {},
+      "predicates": {
+        "minecraft:stored_enchantments": [
+          {
+            "enchantments": "mixedbag:overload"
+          }
+        ]
+      }
+    },
+    "on_pass": {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "mixedbag:overload": 0,
+        "mixedbag:overload_dummy": 1
+      }
+    }
+  }
+]

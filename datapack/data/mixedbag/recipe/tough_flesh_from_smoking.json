@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": "minecraft:rotten_flesh",
+  "result": {
+    "id": "minecraft:rabbit_hide",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.mixedbag.tough_flesh"
+      },
+      "minecraft:item_model": "mixedbag:tough_flesh",
+      "minecraft:lore": [
+        {
+          "translate": "item.mixedbag.tough_flesh.description",
+          "with": [
+            {
+              "translate": "effect.minecraft.resistance",
+              "color": "#8f45ed",
+              "italic": false
+            }
+          ],
+          "color": "gray",
+          "italic": false
+        },
+        [
+          {
+            "translate": "ui.mixedbag.title.symbol",
+            "color": "white",
+            "font": "mixedbag:icon",
+            "italic": false
+          },
+          " ",
+          {
+            "translate": "ui.mixedbag.title",
+            "color": "white",
+            "font": "mixedbag:tooltip",
+            "italic": false
+          }
+        ]
+      ],
+      "minecraft:custom_data": {
+        "mixedbag": {
+          "id": "tough_flesh"
+        },
+        "smithed": {
+          "ignore": {
+            "functionality": 1
+          }
+        }
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 2,
+        "animation": "eat",
+        "has_consume_particles": true
+      },
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 0.4,
+        "can_always_eat": false
+      }
+    }
+  },
+  "experience": 0.1,
+  "cookingtime": 200
+}

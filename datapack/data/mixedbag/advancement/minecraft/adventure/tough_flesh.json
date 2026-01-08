@@ -1,0 +1,79 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "craft_leather": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:leather",
+        "ingredients": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "mixedbag": {
+                  "id": "tough_flesh"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "smelt_rotten_flesh": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mixedbag:tough_flesh"
+      }
+    },
+    "smoke_rotten_flesh": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mixedbag:tough_flesh_from_smoking"
+      }
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "advancements.mixedbag.tough_flesh.description"
+      },
+      "\n\n",
+      [
+        {
+          "translate": "ui.mixedbag.title.symbol",
+          "color": "white",
+          "font": "mixedbag:icon"
+        },
+        " ",
+        {
+          "translate": "ui.mixedbag.title",
+          "color": "white",
+          "font": "mixedbag:tooltip"
+        }
+      ]
+    ],
+    "icon": {
+      "components": {
+        "minecraft:item_model": "mixedbag:tough_flesh"
+      },
+      "count": 1,
+      "id": "minecraft:poisonous_potato"
+    },
+    "title": {
+      "translate": "advancements.mixedbag.tough_flesh.title"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "smelt_rotten_flesh",
+      "smoke_rotten_flesh"
+    ],
+    [
+      "craft_leather"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

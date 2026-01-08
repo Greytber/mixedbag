@@ -1,0 +1,17 @@
+{
+  "function": "minecraft:filtered",
+  "item_filter": {
+    "predicates": {
+      "minecraft:custom_data": {
+        "mixed": {
+          "id": "mending_resin"
+        }
+      }
+    }
+  },
+  "on_pass": {
+    "function": "minecraft:set_count",
+    "count": -1,
+    "add": true
+  }
+}

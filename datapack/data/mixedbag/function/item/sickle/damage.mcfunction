@@ -1,0 +1,2 @@
+execute if predicate mixedbag:entity_properties/sickle/mainhand run function mixedbag:technical/macro/damage_slot/main {slot:"weapon.mainhand",slot_raw:"SelectedItem",amount:"1"}
+execute if predicate mixedbag:entity_properties/sickle/offhand run function mixedbag:technical/macro/damage_slot/main {slot:"weapon.offhand",slot_raw:"equipment.offhand",amount:"1"}

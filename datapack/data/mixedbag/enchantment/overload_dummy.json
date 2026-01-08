@@ -1,0 +1,28 @@
+{
+  "exclusive_set": "#mixedbag:overload_enchantments",
+  "anvil_cost": 2,
+  "description": [
+    {
+      "translate": "ui.mixedbag.title.symbol.sickle_space",
+      "font": "mixedbag:icon"
+    },
+    {
+      "translate": "enchantment.mixedbag.overload",
+      "font": "minecraft:default"
+    }
+  ],
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 8
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "#minecraft:swords",
+  "weight": 5
+}

@@ -1,0 +1,70 @@
+{
+  "parent": "mixedbag:minecraft/husbandry/dead_horse",
+  "criteria": {
+    "zombie_horse": {
+      "trigger": "minecraft:impossible"
+    },
+    "skeleton_horse": {
+      "trigger": "minecraft:impossible"
+    },
+    "zombie_nautilus": {
+      "trigger": "minecraft:impossible"
+    },
+    "camel_husk": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "advancements.mixedbag.undead_mayhem.description"
+      },
+      "\n\n",
+      [
+        {
+          "translate": "ui.mixedbag.title.symbol",
+          "color": "white",
+          "font": "mixedbag:icon"
+        },
+        " ",
+        {
+          "translate": "ui.mixedbag.title",
+          "color": "white",
+          "font": "mixedbag:tooltip"
+        }
+      ]
+    ],
+    "icon": {
+      "components": {
+        "minecraft:item_model": "mixedbag:icon/undead_mayhem"
+      },
+      "count": 1,
+      "id": "minecraft:poisonous_potato"
+    },
+    "title": {
+      "translate": "advancements.mixedbag.undead_mayhem.title"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "camel_husk"
+    ],
+    [
+      "skeleton_horse"
+    ],
+    [
+      "zombie_horse"
+    ],
+    [
+      "zombie_nautilus"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": false
+}

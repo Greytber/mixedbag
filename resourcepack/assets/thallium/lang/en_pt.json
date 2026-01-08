@@ -1,0 +1,28 @@
+{
+ "ui.thallium.title": "Thallium",
+ "ui.thallium.load.announce": "%s %s manifested",
+ "ui.thallium.load.suggest": "Shout %s t' read this scroll again",
+ "ui.thallium.load.installed": "Datapacks aboard:",
+ "ui.thallium.load.list_entry": "%s %s - %s",
+ "ui.thallium.hyphen": "%s - %s",
+ "ui.thallium.colon": "%s: %s",
+ "ui.thallium.quotations": "\"%s\"",
+ "ui.thallium.credits": "Credits",
+ "ui.thallium.links": "Links",
+ "ui.thallium.not_paused": "Game ain't paused",
+ "ui.thallium.when_applied": "When Applied:",
+
+ "platform.modrinth": "Modrinth",
+ "platform.smithed": "Smithed",
+ "platform.github": "GitHub",
+
+ "ui.thallium.menu.warning": "Ye are nay using tha' order right! Say nothin' but %s.",
+ "ui.thallium.menu.command": "/trigger tl.menu",
+ 
+ "item.modifiers.thallium.inventory": "When in Inventory:",
+ 
+ "item.thallium.music_disc": "Shanty",
+ "item.thallium.thallium_ingot": "Bullion o' thallium",
+ 
+ "enchantment.thallium.technical": "Technical Enchantment | Don't bother wit'!"
+}

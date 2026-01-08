@@ -1,0 +1,1 @@
+advancement revoke @a from mixedbag:technical/root

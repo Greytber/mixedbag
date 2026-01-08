@@ -1,0 +1,70 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": "#minecraft:enchantable/durability",
+            "predicates": {
+              "minecraft:damage": {
+                "damage": {
+                  "min": 1
+                }
+              },
+              "minecraft:max_damage": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": "#minecraft:enchantable/durability",
+                  "predicates": {
+                    "minecraft:damage": {
+                      "damage": {
+                        "min": 1
+                      }
+                    },
+                    "minecraft:max_damage": {}
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "offhand": {
+                "items": "#minecraft:enchantable/durability",
+                "predicates": {
+                  "minecraft:damage": {
+                    "damage": {
+                      "min": 1
+                    }
+                  },
+                  "minecraft:max_damage": {}
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

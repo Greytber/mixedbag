@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="other/logo.png" width="680" title="MIXEDBAG">
+  <img src="https://github.com/Greytber/mixedbag/blob/40791cd1492da5e2c2422a089827f13c49f6c760/other/logo.png" width="680" title="MIXEDBAG">
 </p>
 <br>
 

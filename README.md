@@ -6,6 +6,8 @@
 Mixed Bag is a lightweight datapack focusing on small features like food and utility items.
 Features a few food items filling out their niches, a riding tool and a whole new tiered weapon!
 
+You can view the pack features on its [wiki](https://github.com/Greytber/mixedbag/wiki)!
+
 # Credits
 
 [Greytber](https://modrinth.com/user/Greytber) - Lead Developer

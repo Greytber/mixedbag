@@ -14,4 +14,5 @@ Features a few food items filling out their niches, a riding tool and a whole ne
 
 [CreeperMagnet_](https://thecreeperscode.com/) - [maybejake](https://modrinth.com/user/maybejake) - [Conure512](https://modrinth.com/user/Conure512)
 - Referenced code
+
 [Smithed Community](https://smithed.net) - Useful libraries and conventions

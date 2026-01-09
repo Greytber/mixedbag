@@ -1,0 +1,66 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": "#minecraft:swords",
+            "predicates": {
+              "minecraft:custom_data": {
+                "mixedbag": {
+                  "weapon_type": "sickle"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:custom_data": {
+                      "mixedbag": {
+                        "weapon_type": "sickle"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "offhand": {
+                "items": "#minecraft:swords",
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "mixedbag": {
+                      "weapon_type": "sickle"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -63,11 +63,11 @@
             "functionality": 1,
             "crafting": 1
           }
-        }
-      },
-      "cnk": {
-        "ingredient": {
-          "type": "emerald_chocolate_bar"
+        },
+        "cnk": {
+          "ingredient": {
+            "type": "emerald_chocolate_bar"
+          }
         }
       }
     },

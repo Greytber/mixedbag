@@ -9,7 +9,7 @@ execute if predicate mixedbag:entity_properties/offhand_speed_potion/any run fun
 execute as @s on vehicle run execute if entity @s[type=minecraft:happy_ghast] run function mixedbag:entity/happy_ghast/effect_check
 
 #advancements
-advancement grant @s only mixedbag:minecraft/husbandry/riding_crop
+execute on vehicle run execute if entity @s[type=#mixedbag:riding_crop_viable] on passengers run advancement grant @s only mixedbag:minecraft/husbandry/riding_crop
 execute on vehicle run execute if entity @s[type=#mixedbag:undead_horse] on passengers run advancement grant @s only mixedbag:minecraft/husbandry/dead_horse
 execute on vehicle run execute if entity @s[type=minecraft:camel_husk] on passengers run advancement grant @s only mixedbag:minecraft/husbandry/undead_mayhem camel_husk
 execute on vehicle run execute if entity @s[type=minecraft:skeleton_horse] on passengers run advancement grant @s only mixedbag:minecraft/husbandry/undead_mayhem skeleton_horse

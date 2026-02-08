@@ -60,6 +60,37 @@
     ],
     "subtitle": "subtitles.mixedbag.item.mending_resin.apply"
   },
+  "item.mortar.use": {
+    "sounds": [
+      "mixedbag:item/mortar/use1",
+      "mixedbag:item/mortar/use2",
+      "mixedbag:item/mortar/use3",
+      "mixedbag:item/mortar/use4",
+      "mixedbag:item/mortar/use5",
+      "mixedbag:item/mortar/use5"
+    ],
+    "subtitle": "subtitles.mixedbag.item.mortar.use"
+  },
+  "item.mortar.paper": {
+    "sounds": [
+      "minecraft:ui/cartography_table/drawmap1",
+      "minecraft:ui/cartography_table/drawmap2",
+      "minecraft:ui/cartography_table/drawmap3"
+    ],
+    "subtitle": "subtitles.mixedbag.item.mortar.paper"
+  },
+  "item.pet_carrier.collect": {
+    "sounds": [
+      "minecraft:block/chest/close_locked"
+    ],
+    "subtitle": "subtitles.mixedbag.item.pet_carrier.collect"
+  },
+  "item.pet_carrier.deploy": {
+    "sounds": [
+      "minecraft:block/chest/open_locked"
+    ],
+    "subtitle": "subtitles.mixedbag.item.pet_carrier.deploy"
+  },
   "entity.horse.drink_potion": {
     "sounds": [
       "minecraft:mob/wandering_trader/drink_milk1",

@@ -1,0 +1,7 @@
+execute unless predicate {condition:"minecraft:any_of",terms:[{condition:"minecraft:entity_properties",entity:"this",predicate:{slots:{"weapon.*":{items:"minecraft:warped_fungus_on_a_stick",predicates:{"minecraft:custom_data":{tcc:{id:"flower_pot",type:"prismarine"}}}}}}},{condition:"minecraft:entity_properties",entity:"this",predicate:{slots:{"weapon.*":{items:"minecraft:warped_fungus_on_a_stick",predicates:{"minecraft:custom_data":{myriad:{id:"flower_pot",type:"prismarine"}}}}}}}]} run return fail
+loot spawn ~ ~0.5 ~ loot mixedbag:recipe/mortar/prismarine_shards_from_flower_pot
+function mixedbag:item/mortar/common
+particle minecraft:item{item:"minecraft:prismarine_bricks"} ~ ~0.75 ~ 0.2 0.2 0.2 0.05 10 normal
+playsound minecraft:block.stone.break player @a ~ ~ ~ 1 0.8 0
+execute if predicate {condition:"minecraft:any_of",terms:[{condition:"minecraft:entity_properties",entity:"this",predicate:{slots:{"weapon.mainhand":{items:"minecraft:warped_fungus_on_a_stick",predicates:{"minecraft:custom_data":{tcc:{id:"flower_pot",type:"prismarine"}}}}}}},{condition:"minecraft:entity_properties",entity:"this",predicate:{slots:{"weapon.mainhand":{items:"minecraft:warped_fungus_on_a_stick",predicates:{"minecraft:custom_data":{myriad:{id:"flower_pot",type:"prismarine"}}}}}}}]} run return run item modify entity @s weapon.mainhand mixedbag:count/remove_1
+item modify entity @s weapon.offhand mixedbag:count/remove_1

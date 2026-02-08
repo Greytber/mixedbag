@@ -1,0 +1,69 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "mixedbag": {
+        "id": "pet_carrier",
+        "pet_carrier": {
+          "full": true
+        }
+      }
+    }
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "flags": {
+      "values": [
+        true
+      ],
+      "mode": "replace_all"
+    }
+  },
+  {
+    "function": "minecraft:copy_custom_data",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "mixedbag:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.entity",
+        "target": "mixedbag.entity_data",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "selector": "@e[tag=mixedbag.pet_carrier.collected,limit=1]",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "0 ",
+          "color": "white",
+          "font": "mixedbag:icon",
+          "italic": false
+        },
+        {
+          "translate": "ui.mixedbag.title",
+          "color": "white",
+          "font": "mixedbag:tooltip",
+          "italic": false
+        }
+      ]
+    ],
+    "mode": "append"
+  }
+]

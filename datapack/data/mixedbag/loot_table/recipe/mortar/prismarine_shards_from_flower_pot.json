@@ -1,0 +1,21 @@
+{
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": 3,
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:prismarine_shard"
+				}
+			],
+			"rolls": 1
+		}
+	]
+}

@@ -21,3 +21,9 @@ scoreboard objectives add mixedbag.sickle.hurt_count dummy
 
 scoreboard objectives add mixedbag.mending_resin.cooldown dummy
 scoreboard objectives add mixedbag.mending_resin.timer dummy
+
+scoreboard objectives add mixedbag.pet_carrier.cooldown dummy
+scoreboard objectives add mixedbag.pet_carrier.timer dummy
+#scoreboard objectives add mixedbag.pet_carrier.use dummy
+scoreboard objectives add mixedbag.mortar.cooldown dummy
+scoreboard objectives add mixedbag.mortar.timer dummy

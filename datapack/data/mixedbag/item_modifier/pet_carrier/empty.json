@@ -1,0 +1,58 @@
+[
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": {
+			"mixedbag": {
+				"id": "pet_carrier",
+				"pet_carrier": {
+					"full": false,
+					"entity_data": []
+				}
+			}
+		}
+	},
+	{
+		"function": "minecraft:set_custom_model_data",
+		"floats": {
+			"values": [
+				0
+			],
+			"mode": "replace_all"
+		},
+		"flags": {
+			"values": [
+				false
+			],
+			"mode": "replace_all"
+		}
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			[
+				{
+					"translate": "item.mixedbag.pet_carrier.empty",
+					"color": "dark_gray",
+					"font": "minecraft:default",
+					"italic": true
+				}
+			],
+			[
+				{
+					"text": "0 ",
+					"color": "white",
+					"font": "mixedbag:icon",
+					"italic": false
+				},
+				{
+					"translate": "ui.mixedbag.title",
+					"color": "white",
+					"font": "mixedbag:tooltip",
+					"italic": false
+				}
+			]
+		],
+		"mode": "replace_all"
+	}
+]

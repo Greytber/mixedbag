@@ -1,0 +1,41 @@
+[
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:use_remainder": {
+				"id": "minecraft:stone_pickaxe",
+				"components": {
+					"minecraft:item_name": {
+						"translate": "item.metalmorphy.mortar"
+					},
+					"minecraft:item_model": "metalmorphy:mortar",
+					"minecraft:tooltip_style": "metalmorphy:metalmorphy",
+					"minecraft:lore": [
+						{
+							"translate": "item.metalmorphy.mortar.lore",
+							"color": "gray",
+							"italic": false
+						},
+						{
+							"translate": "ui.metalmorphy.title",
+							"color": "white",
+							"font": "metalmorphy:metalmorphic",
+							"italic": false
+						}
+					],
+					"!minecraft:food": {},
+					"minecraft:consumable": {
+						"consume_seconds": 3,
+						"animation": "none",
+						"sound": {
+							"sound_id": "metalmorphy:item.mortar.use"
+						},
+						"has_consume_particles": false
+					},
+					"minecraft:max_stack_size": 1,
+					"minecraft:custom_data": "{metalmorphy:{id:\"mortar\"},smithed:{ignore:{functionality:1b,crafting:1b}}}"
+				}
+			}
+		}
+	}
+]

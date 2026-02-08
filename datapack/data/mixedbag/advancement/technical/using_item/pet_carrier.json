@@ -1,0 +1,50 @@
+{
+  "parent": "mixedbag:technical/revoked",
+  "criteria": {
+    "empty": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {
+              "mixedbag": {
+                "id": "pet_carrier",
+                "pet_carrier": {
+                  "full": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "full": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {
+              "mixedbag": {
+                "id": "pet_carrier",
+                "pet_carrier": {
+                  "full": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "empty",
+      "full"
+    ]
+  ],
+  "rewards": {
+    "function": "mixedbag:item/pet_carrier/use"
+  }
+}

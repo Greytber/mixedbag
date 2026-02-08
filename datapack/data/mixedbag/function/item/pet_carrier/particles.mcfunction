@@ -1,0 +1,1 @@
+particle minecraft:poof ~ ~0.25 ~ 0.4 0.125 0.4 0 8

@@ -20,6 +20,22 @@
       "minecraft:item_model": "mixedbag:riding_crop",
       "minecraft:lore": [
         [
+					{
+						"translate": "item.mixedbag.riding_crop.description.1",
+						"color": "gray",
+						"font": "minecraft:default",
+						"italic": false
+					}
+				],
+        [
+					{
+						"translate": "item.mixedbag.riding_crop.description.2",
+						"color": "gray",
+						"font": "minecraft:default",
+						"italic": false
+					}
+				],
+        [
           {
             "translate": "ui.mixedbag.title.symbol",
             "color": "white",

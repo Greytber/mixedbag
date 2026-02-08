@@ -1,0 +1,20 @@
+{
+  "parent": "metalmorphy:recipes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brick"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "mixedbag:mortar"
+    ]
+  }
+}

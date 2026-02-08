@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_nugget",
+          "functions": [
+            {
+              "add": false,
+              "count": 2,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

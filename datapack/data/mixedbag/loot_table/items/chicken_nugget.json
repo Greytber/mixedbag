@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.mixedbag.chicken_nugget"
+                },
+                "minecraft:item_model": "mixedbag:chicken_nugget",
+                "minecraft:lore": [
+                  [
+                    {
+                      "translate": "item.mixedbag.chicken_nugget.lore",
+                      "color": "gray",
+                      "font": "minecraft:default",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "translate": "ui.mixedbag.title.symbol",
+                      "color": "white",
+                      "font": "mixedbag:icon",
+                      "italic": false
+                    },
+                    " ",
+                    {
+                      "translate": "ui.mixedbag.title",
+                      "color": "white",
+                      "font": "mixedbag:tooltip",
+                      "italic": false
+                    }
+                  ]
+                ],
+                "minecraft:food": {
+                  "nutrition": 1.5,
+                  "saturation": 1.8,
+                  "can_always_eat": false
+                },
+                "minecraft:consumable": {
+                  "animation": "eat",
+                  "has_consume_particles": true,
+                  "on_consume_effects": []
+                },
+                "minecraft:custom_data": {
+                  "mixedbag": {
+                    "id": "chicken_nugget"
+                  },
+                  "smithed": {
+                    "ignore": {
+                      "functionality": true,
+                      "crafting": true
+                    }
+                  },
+                  "cnk": {
+                    "ingredient": {
+                      "type": "chicken_nugget"
+                    }
+                  }
+                }
+              },
+              "conditions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

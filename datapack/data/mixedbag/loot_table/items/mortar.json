@@ -1,0 +1,122 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.mixedbag.mortar"
+                },
+                "minecraft:item_model": "mixedbag:mortar",
+                "minecraft:lore": [
+                  {
+                    "translate": "item.mixedbag.mortar.lore",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "translate": "ui.mixedbag.title.symbol",
+                      "color": "white",
+                      "font": "mixedbag:icon",
+                      "italic": false
+                    },
+                    " ",
+                    {
+                      "translate": "ui.mixedbag.title",
+                      "color": "white",
+                      "font": "mixedbag:tooltip",
+                      "italic": false
+                    }
+                  ]
+                ],
+                "!minecraft:food": {},
+                "minecraft:consumable": {
+                  "consume_seconds": 3,
+                  "animation": "none",
+                  "sound": {
+                    "sound_id": "mixedbag:item.mortar.use"
+                  },
+                  "has_consume_particles": false
+                },
+                "minecraft:custom_data": "{mixedbag:{id:\"mortar\"},smithed:{ignore:{functionality:1b,crafting:1b}}}",
+                "minecraft:use_remainder": {
+                  "id": "minecraft:stone_pickaxe",
+                  "components": {
+                    "minecraft:item_name": {
+                      "translate": "item.mixedbag.mortar"
+                    },
+                    "minecraft:item_model": "mixedbag:mortar",
+                    "minecraft:lore": [
+                      {
+                        "translate": "item.mixedbag.mortar.lore",
+                        "color": "gray",
+                        "italic": false
+                      },
+                      [
+                        {
+                          "translate": "ui.mixedbag.title.symbol",
+                          "color": "white",
+                          "font": "mixedbag:icon",
+                          "italic": false
+                        },
+                        " ",
+                        {
+                          "translate": "ui.mixedbag.title",
+                          "color": "white",
+                          "font": "mixedbag:tooltip",
+                          "italic": false
+                        }
+                      ]
+                    ],
+                    "!minecraft:food": {},
+                    "minecraft:consumable": {
+                      "consume_seconds": 3,
+                      "animation": "none",
+                      "sound": {
+                        "sound_id": "mixedbag:item.mortar.use"
+                      },
+                      "has_consume_particles": false
+                    },
+                    "minecraft:custom_data": {
+                      "mixedbag": {
+                        "id": "mortar"
+                      },
+                      "smithed": {
+                        "ignore": {
+                          "functionality": true,
+                          "crafting": true
+                        }
+                      }
+                    },
+                    "minecraft:max_damage": 128,
+                    "minecraft:max_stack_size": 1,
+                    "!minecraft:tool": {},
+                    "!minecraft:attribute_modifiers": {},
+                    "!minecraft:enchantable": {},
+                    "minecraft:damage": 1
+                  },
+                  "count": 1
+                },
+                "minecraft:max_damage": 128,
+                "minecraft:max_stack_size": 1,
+                "!minecraft:tool": {},
+                "!minecraft:attribute_modifiers": {},
+                "!minecraft:enchantable": {}
+              },
+              "conditions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

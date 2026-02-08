@@ -1,0 +1,23 @@
+{
+  "parent": "mixedbag:technical/root",
+  "criteria": {
+    "consume_item": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "mixedbag": {
+                "id": "mortar"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mixedbag:item/mortar/use"
+  },
+  "sends_telemetry_event": false
+}

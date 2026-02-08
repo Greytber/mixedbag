@@ -1,0 +1,1 @@
+team join spindle.no_nametag @s[tag=spindle.entity]

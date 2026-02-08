@@ -1,15 +1,7 @@
 {
   "values": [
-    "minecraft:armadillo",
-    "minecraft:bat",
-    "minecraft:bee",
-    "minecraft:cat",
-    "minecraft:chicken",
-    "minecraft:fox",
-    "minecraft:frog",
-    "minecraft:ocelot",
-    "minecraft:pig",
-    "minecraft:rabbit",
-    "minecraft:wolf"
+    "#mixedbag:pet_carrier_viable_always",
+    "#mixedbag:pet_carrier_viable_if_baby",
+    "#mixedbag:pet_carrier_viable_if_owner"
   ]
 }

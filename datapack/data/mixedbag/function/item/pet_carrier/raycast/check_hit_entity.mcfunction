@@ -1,6 +1,7 @@
 #Checks if an entity is found, and if so, runs the corresponding function.
 execute as @s on passengers run return fail
 execute as @s on vehicle run return fail
+execute as @s unless predicate mixedbag:pet_carrier_viable run return fail
 data remove storage mixedbag:temp root.owner_check
 data modify storage mixedbag:temp root.owner_check set from entity @s Owner
 data get entity @s Owner

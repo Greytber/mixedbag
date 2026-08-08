@@ -12,4 +12,6 @@ You can view the pack features on its [wiki](https://github.com/Greytber/mixedba
 [CreeperMagnet_](https://thecreeperscode.com/) - [maybejake](https://modrinth.com/user/maybejake) - [Conure512](https://modrinth.com/user/Conure512)
 - Referenced code
 
+[Mulverine](https://github.com/MulverineX) - Player Motion library
+
 [Smithed Community](https://smithed.net) - Useful libraries and conventions

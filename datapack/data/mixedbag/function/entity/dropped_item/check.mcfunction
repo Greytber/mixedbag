@@ -1,0 +1,2 @@
+scoreboard players reset @s mixedbag.dropped.stone_sword
+execute as @e[type=item,distance=..2,nbt={Item:{id:"minecraft:stone_sword",count:1,components:{"minecraft:custom_data":{mixedbag:{mirrored:1b}}}}}] run function mixedbag:entity/dropped_item/clear

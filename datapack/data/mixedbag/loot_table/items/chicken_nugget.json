@@ -19,14 +19,6 @@
                 "minecraft:lore": [
                   [
                     {
-                      "translate": "item.mixedbag.chicken_nugget.lore",
-                      "color": "gray",
-                      "font": "minecraft:default",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
                       "translate": "ui.mixedbag.title.symbol",
                       "color": "white",
                       "font": "mixedbag:icon",
@@ -37,6 +29,14 @@
                       "translate": "ui.mixedbag.title",
                       "color": "white",
                       "font": "mixedbag:tooltip",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "translate": "item.mixedbag.chicken_nugget.lore",
+                      "color": "gray",
+                      "font": "minecraft:default",
                       "italic": false
                     }
                   ]

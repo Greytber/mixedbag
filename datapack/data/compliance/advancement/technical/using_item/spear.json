@@ -1,0 +1,34 @@
+{
+  "parent": "compliance:technical/root",
+  "criteria": {
+    "spear": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:spears"
+        }
+      }
+    },
+    "kinetic_weapon": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {},
+          "predicates": {
+            "minecraft:kinetic_weapon": {}
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "spear",
+      "kinetic_weapon"
+    ]
+  ],
+  "rewards": {
+    "function": "compliance:item/spear/using"
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,19 @@
+{
+  "parent": "mixedbag:technical/player_generates_container_loot/root",
+  "criteria": {
+    "minecraft:chests/abandoned_mineshaft": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/abandoned_mineshaft"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:chests/abandoned_mineshaft"
+    ]
+  ],
+  "rewards": {
+    "function": "mixedbag:loot/abandoned_mineshaft/main"
+  }
+}

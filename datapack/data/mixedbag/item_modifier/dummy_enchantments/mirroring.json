@@ -1,0 +1,29 @@
+[
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "mixedbag:mirroring_dummy": 0
+    },
+    "add": false
+  },
+  {
+    "function": "minecraft:filtered",
+    "item_filter": {
+      "predicates": {
+        "minecraft:custom_data": {
+          "compliance": {
+            "dual_swing": {}
+          }
+        }
+      }
+    },
+    "on_pass": {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "mixedbag:mirroring": 1
+      },
+      "add": false,
+      "conditions": []
+    }
+  }
+]

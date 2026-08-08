@@ -1,0 +1,23 @@
+{
+  "parent": "compliance:technical/revoke",
+  "criteria": {
+    "using_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {
+              "compliance": {
+                "id": "loot_bag"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "compliance:item/loot_bag/use"
+  }
+}

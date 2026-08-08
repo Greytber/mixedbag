@@ -1,0 +1,33 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:equipment": {
+          "mainhand": {
+            "items": "#minecraft:swords",
+            "predicates": {
+              "minecraft:custom_data": {
+                "mixedbag": {
+                  "weapon_type": "sickle"
+                }
+              }
+            }
+          },
+          "offhand": {
+            "items": "#minecraft:swords",
+            "predicates": {
+              "minecraft:custom_data": {
+                "mixedbag": {
+                  "weapon_type": "sickle"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

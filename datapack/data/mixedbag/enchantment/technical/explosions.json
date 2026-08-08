@@ -1,0 +1,66 @@
+{
+  "description": "",
+  "max_level": 1,
+  "slots": [
+    "feet"
+  ],
+  "supported_items": [],
+  "weight": 1,
+  "anvil_cost": 0,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "attribute_to_user": false,
+          "knockback_multiplier": 1.8,
+          "radius": 3,
+          "create_fire": false,
+          "block_interaction": "trigger",
+          "small_particle": {
+            "type": "minecraft:gust_emitter_small"
+          },
+          "large_particle": {
+            "type": "minecraft:gust_emitter_large"
+          },
+          "sound": "minecraft:entity.wind_charge.wind_burst"
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_tags": {
+                "any_of": [
+                  "mixedbag.explosion.cushion_wind_burst"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "enchantment_active_check",
+            "active": false
+          }
+        ]
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "mixedbag:entity/technical/custom_explosion/kill_explosion"
+        },
+        "requirements": {
+          "condition": "enchantment_active_check",
+          "active": false
+        }
+      }
+    ]
+  }
+}

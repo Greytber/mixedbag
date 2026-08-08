@@ -1,0 +1,16 @@
+{
+  "function": "minecraft:filtered",
+  "item_filter": {
+    "items": "#minecraft:swords",
+    "predicates": {
+      "minecraft:custom_data": {
+        "mixedbag": {
+          "mirrored": true
+        }
+      }
+    }
+  },
+  "on_pass": {
+    "function": "minecraft:discard"
+  }
+}

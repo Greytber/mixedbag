@@ -1,0 +1,1 @@
+$loot replace block ~ ~ ~ container.$(slot) loot mixedbag:chests/abandoned_mineshaft/tunneler_book

@@ -1,0 +1,7 @@
+{
+  "function": "minecraft:set_enchantments",
+  "enchantments": {
+    "ascension:technical/weapon": 0
+  },
+  "add": false
+}

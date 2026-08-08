@@ -1,0 +1,46 @@
+{
+  "values": [
+    {
+      "id": "c:stones",
+      "required": false
+    },
+    {
+      "id": "c:cobblestones",
+      "required": false
+    },
+    {
+      "id": "c:ores_in_ground/stone",
+      "required": false
+    },
+    {
+      "id": "c:sandstone/blocks",
+      "required": false
+    },
+    "#minecraft:coal_ores",
+    "#minecraft:copper_ores",
+    "#minecraft:diamond_ores",
+    "#minecraft:emerald_ores",
+    "#minecraft:gold_ores",
+    "#minecraft:iron_ores",
+    "#minecraft:lapis_ores",
+    "#minecraft:redstone_ores",
+    "minecraft:stone",
+    "minecraft:cobblestone",
+    "minecraft:andesite",
+    "minecraft:diorite",
+    "minecraft:granite",
+    "minecraft:deepslate",
+    "minecraft:cobbled_deepslate",
+    "minecraft:tuff",
+    "minecraft:dripstone_block",
+    "minecraft:calcite",
+    "minecraft:smooth_basalt",
+    "minecraft:basalt",
+    "minecraft:netherrack",
+    "minecraft:blackstone",
+    "minecraft:end_stone",
+    "minecraft:obsidian",
+    "minecraft:sandstone",
+    "minecraft:red_sandstone"
+  ]
+}

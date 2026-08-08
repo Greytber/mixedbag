@@ -1,0 +1,2 @@
+execute if entity @s[tag=compliance.technical.kill_no_vehicle] unless predicate compliance:entity_properties/has_vehicle run kill @s
+execute if entity @s[tag=compliance.technical.kill_no_passenger] unless predicate compliance:entity_properties/has_passenger run kill @s

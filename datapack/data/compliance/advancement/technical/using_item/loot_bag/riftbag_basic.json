@@ -1,0 +1,24 @@
+{
+  "parent": "ascension:technical/using_item/loot_bag/invalid_root",
+  "criteria": {
+    "using_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {
+              "ascension": {
+                "id": "loot_bag",
+                "type": "riftbag_basic"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ascension:item/loot_bag/invalid"
+  }
+}

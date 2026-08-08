@@ -1,0 +1,43 @@
+{
+  "anvil_cost": 5,
+  "description": {
+    "translate": "enchantment.mixedbag.head_start"
+  },
+  "max_cost": {
+    "base": 35,
+    "per_level_above_first": 0
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 35,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "legs"
+  ],
+  "supported_items": "#minecraft:enchantable/leg_armor",
+  "exclusive_set": "minecraft:swift_sneak",
+  "weight": 2,
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:flags": {
+              "is_sneaking": true
+            },
+            "movement": {
+              "horizontal_speed": 0
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "mixedbag:item/enchantment/head_start/effect"
+        }
+      }
+    ]
+  }
+}

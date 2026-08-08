@@ -1,5 +1,5 @@
 {
-  "parent": "mixedbag:technical/revoked",
+  "parent": "mixedbag:technical/player_hurt_entity/root",
   "criteria": {
     "player_hurt_entity": {
       "trigger": "minecraft:player_hurt_entity",

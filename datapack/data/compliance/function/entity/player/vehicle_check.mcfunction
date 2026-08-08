@@ -1,0 +1,2 @@
+execute if predicate compliance:entity_properties/has_vehicle run return run scoreboard players set @s compliance.mount.flag 1
+execute if score @s compliance.mount.flag matches 1 run function compliance:entity/player/on_dismount

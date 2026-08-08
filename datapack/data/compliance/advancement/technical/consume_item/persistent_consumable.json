@@ -1,0 +1,23 @@
+{
+  "parent": "compliance:technical/revoke",
+  "criteria": {
+    "consume_item": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "compliance": {
+                "persistent_consumable": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "compliance:item/persistent_consumable/main"
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,68 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:equipment": {
+          "mainhand": {
+            "items": "#minecraft:swords",
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "mixedbag:mirroring",
+                  "levels": 1
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:custom_data": {
+                      "compliance": {
+                        "dual_swing": {}
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "offhand": {
+                "items": "#minecraft:swords",
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "mixedbag:mirroring",
+                      "levels": 1
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

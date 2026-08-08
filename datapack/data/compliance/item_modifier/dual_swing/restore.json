@@ -1,0 +1,10 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "compliance": {
+      "dual_swing": {
+        "swing_offhand": false
+      }
+    }
+  }
+}

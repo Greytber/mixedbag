@@ -1,0 +1,1 @@
+execute if score @s compliance.relog matches 1.. run function compliance:entity/player/relog

@@ -1,0 +1,30 @@
+{
+  "parent": "mixedbag:technical/inventory_changed/root",
+  "criteria": {
+    "sickle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:swords",
+            "predicates": {
+              "minecraft:custom_data": {
+                "mixedbag": {
+                  "mirrored": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sickle"
+    ]
+  ],
+  "rewards": {
+    "function": "mixedbag:item/enchantment/mirroring/clear/main"
+  }
+}

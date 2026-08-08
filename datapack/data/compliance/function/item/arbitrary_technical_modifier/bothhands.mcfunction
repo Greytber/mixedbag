@@ -1,0 +1,2 @@
+function compliance:item/arbitrary_technical_modifier/mainhand
+function compliance:item/arbitrary_technical_modifier/offhand

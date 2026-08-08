@@ -1,0 +1,2 @@
+execute on vehicle if entity @s[type=#minecraft:can_equip_saddle] if items entity @s saddle *[minecraft:enchantments~[{enchantments:"mixedbag:stasis"}]] run function mixedbag:item/enchantment/stasis/attribute_revoke
+execute on vehicle if entity @s[type=minecraft:happy_ghast] if items entity @s armor.body *[minecraft:enchantments~[{enchantments:"mixedbag:stasis"}]] run function mixedbag:item/enchantment/stasis/attribute_revoke

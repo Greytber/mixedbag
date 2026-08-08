@@ -1,0 +1,2 @@
+#execute unless score @s mixedbag.cushion.cooldown matches 0.. if predicate mixedbag:entity_properties/inventory/wind_charge_offhand if predicate compliance:entity_properties/smash_attack_viable run function mixedbag:item/enchantment/cushion/effect
+execute if predicate mixedbag:entity_properties/inventory/wind_charge_offhand if predicate compliance:entity_properties/smash_attack_viable run function mixedbag:item/enchantment/cushion/effect

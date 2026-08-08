@@ -1,0 +1,99 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_name": {
+                  "translate": "item.mixedbag.mirrored_sickle"
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "translate": "ui.mixedbag.title.symbol",
+                      "color": "white",
+                      "font": "mixedbag:icon",
+                      "italic": false
+                    },
+                    " ",
+                    {
+                      "translate": "ui.mixedbag.title",
+                      "color": "white",
+                      "font": "mixedbag:tooltip",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "translate": "item.mixedbag.mirrored_sickle.description",
+                    "color": "dark_gray",
+                    "italic": true
+                  }
+                ],
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647,
+                  "animation": "block",
+                  "has_consume_particles": false
+                },
+                "item_model": "mixedbag:mirrored_sickle",
+                "custom_data": {
+                  "mixedbag": {
+                    "id": "mirrored_sickle",
+                    "weapon_type": "sickle",
+                    "material": "mirrored",
+                    "sickle_damage": 10,
+                    "mirrored": true
+                  },
+                  "compliance": {
+                    "dual_swing": {
+                      "flag": true,
+                      "type": "whack",
+                      "duration": 6
+                    }
+                  },
+                  "smithed": {
+                    "ignore": {
+                      "crafting": true
+                    }
+                  }
+                },
+                "minecraft:use_effects": {
+                  "can_sprint": true
+                },
+                "minecraft:damage_type": "mixedbag:sickle",
+                "minecraft:minimum_attack_charge": 1,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:base_attack_damage",
+                    "amount": 2.5,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                      "type": "default"
+                    }
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "minecraft:base_attack_speed",
+                    "amount": -2.2,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                      "type": "default"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

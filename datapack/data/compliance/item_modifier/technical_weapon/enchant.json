@@ -1,0 +1,20 @@
+{
+  "function": "minecraft:filtered",
+  "item_filter": {
+    "items": "#compliance:enchantable/technical_weapon",
+    "predicates": {
+      "minecraft:custom_data": {
+        "compliance": {
+          "technical_weapon": true
+        }
+      }
+    }
+  },
+  "on_pass": {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "ascension:technical/weapon": 1
+    },
+    "add": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "ascension:technical/revoke",
+  "criteria": {
+    "player_hurt_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "minecraft:equipment": {
+            "mainhand": {
+              "items": "minecraft:iron_sword"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "compliance:entity/player/swing/test"
+  }
+}

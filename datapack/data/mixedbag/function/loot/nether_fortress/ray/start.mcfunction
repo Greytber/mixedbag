@@ -1,4 +1,4 @@
-tag @s remove mixedbag.loot.fortress
+tag @s remove mixedbag.loot.nether_fortress
 
 scoreboard players set $distance mixedbag.dummy 0
 

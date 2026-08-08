@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "unique_id": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "compliance": {
+                  "temp": {
+                    "unique_id": true
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "unique_id"
+    ]
+  ],
+  "rewards": {
+    "function": "compliance:item/unique_id/start"
+  }
+}

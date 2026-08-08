@@ -17,18 +17,6 @@
                 },
                 "minecraft:item_model": "mixedbag:tough_flesh",
                 "minecraft:lore": [
-                  {
-                    "translate": "item.mixedbag.tough_flesh.description",
-                    "with": [
-                      {
-                        "translate": "effect.minecraft.resistance",
-                        "color": "#8f45ed",
-                        "italic": false
-                      }
-                    ],
-                    "color": "gray",
-                    "italic": false
-                  },
                   [
                     {
                       "translate": "ui.mixedbag.title.symbol",
@@ -43,7 +31,19 @@
                       "font": "mixedbag:tooltip",
                       "italic": false
                     }
-                  ]
+                  ],
+                  {
+                    "translate": "item.mixedbag.tough_flesh.description",
+                    "with": [
+                      {
+                        "translate": "effect.minecraft.resistance",
+                        "color": "#8f45ed",
+                        "italic": false
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  }
                 ],
                 "minecraft:custom_data": {
                   "mixedbag": {

@@ -1,0 +1,2 @@
+function mixedbag:technical/revoke_technical_hard
+function mixedbag:technical/apply_body

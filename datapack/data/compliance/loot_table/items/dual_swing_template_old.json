@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "compliance": {
+                    "dual_swing": {
+                      "flag": true,
+                      "type": "whack",
+                      "duration": 6
+                    }
+                  }
+                },
+                "minecraft:swing_animation": {
+                  "type": "whack",
+                  "duration": 6
+                },
+                "minecraft:item_name": "Dual Test"
+              },
+              "conditions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+execute if entity @s[type=#minecraft:can_equip_saddle,distance=..8] if items entity @s saddle *[minecraft:enchantments~[{enchantments:"mixedbag:stasis"}]] unless predicate compliance:entity_properties/has_passenger run function mixedbag:item/enchantment/stasis/attribute_grant
+execute if entity @s[type=minecraft:happy_ghast,distance=..8] if items entity @s armor.body *[minecraft:enchantments~[{enchantments:"mixedbag:stasis"}]] unless predicate compliance:entity_properties/has_passenger run function mixedbag:item/enchantment/stasis/attribute_grant

@@ -1,0 +1,12 @@
+execute if entity @s[type=#mixedbag.iris:shape_groups/drowned] run function mixedbag.iris:get_hitbox/entity/shape_groups/drowned
+execute if entity @s[type=#mixedbag.iris:shape_groups/egg] run function mixedbag.iris:get_hitbox/entity/shape_groups/egg
+execute if entity @s[type=minecraft:elder_guardian] run function mixedbag.iris:get_hitbox/entity/shape_groups/elder_guardian
+execute if entity @s[type=minecraft:end_crystal] run function mixedbag.iris:get_hitbox/entity/shape_groups/end_crystal
+execute if entity @s[type=minecraft:ender_dragon] run function mixedbag.iris:get_hitbox/entity/shape_groups/ender_dragon
+execute if entity @s[type=minecraft:enderman] run function mixedbag.iris:get_hitbox/entity/shape_groups/enderman
+execute if entity @s[type=#mixedbag.iris:shape_groups/endermite] run function mixedbag.iris:get_hitbox/entity/shape_groups/endermite
+execute if entity @s[type=minecraft:evoker_fangs] run function mixedbag.iris:get_hitbox/entity/shape_groups/evoker_fangs
+execute if entity @s[type=#mixedbag.iris:shape_groups/falling_block] run function mixedbag.iris:get_hitbox/entity/shape_groups/falling_block
+execute if entity @s[type=minecraft:ghast] run function mixedbag.iris:get_hitbox/entity/shape_groups/ghast
+execute if entity @s[type=minecraft:giant] run function mixedbag.iris:get_hitbox/entity/shape_groups/giant
+execute if entity @s[type=#mixedbag.iris:shape_groups/glow_squid] run function mixedbag.iris:get_hitbox/entity/shape_groups/glow_squid

@@ -1,0 +1,2 @@
+execute if predicate mixedbag:entity_properties/enchantment/mirroring run return run function mixedbag:item/enchantment/mirroring/tick
+execute if score @s mixedbag.mirroring.flag matches 1 run function mixedbag:item/enchantment/mirroring/reset

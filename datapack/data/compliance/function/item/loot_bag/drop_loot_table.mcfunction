@@ -1,0 +1,2 @@
+$execute unless predicate compliance:entity_properties/inventory_full run loot give @s loot $(loot_table)
+$execute if predicate compliance:entity_properties/inventory_full run loot spawn ~ ~0.5 ~ loot $(loot_table)

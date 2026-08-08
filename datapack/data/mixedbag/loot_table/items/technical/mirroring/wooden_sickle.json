@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/wooden_sickle",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_model": "mixedbag:wooden_sickle_mirrored"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "mixedbag": {
+                  "mirrored": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.mixedbag.mirrored_sickle.description",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

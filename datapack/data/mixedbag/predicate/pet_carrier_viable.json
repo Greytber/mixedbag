@@ -1,29 +1,29 @@
 {
-	"condition": "minecraft:any_of",
-	"terms": [
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"type": "#mixedbag:pet_carrier_viable_if_baby",
-				"flags": {
-					"is_baby": true
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"type": "#mixedbag:pet_carrier_viable_if_owner"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"type": "#mixedbag:pet_carrier_viable_always"
-			}
-		}
-	]
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:flags": {
+          "is_baby": true
+        },
+        "minecraft:entity_type": "#mixedbag:pet_carrier_viable_if_baby"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:entity_type": "#mixedbag:pet_carrier_viable_if_owner"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:entity_type": "#mixedbag:pet_carrier_viable_always"
+      }
+    }
+  ]
 }

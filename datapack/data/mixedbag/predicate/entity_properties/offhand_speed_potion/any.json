@@ -5,7 +5,7 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "equipment": {
+        "minecraft:equipment": {
           "offhand": {
             "items": [
               "minecraft:potion",
@@ -23,7 +23,7 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "equipment": {
+        "minecraft:equipment": {
           "offhand": {
             "items": [
               "minecraft:potion",
@@ -41,7 +41,7 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "equipment": {
+        "minecraft:equipment": {
           "offhand": {
             "items": [
               "minecraft:potion",

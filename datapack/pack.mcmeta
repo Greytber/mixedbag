@@ -18,7 +18,14 @@
         "color": "#0096be"
       }
     ],
-    "min_format": 94,
-    "max_format": 94
+    "pack_format": 107,
+    "min_format": [
+      107,
+      1
+    ],
+    "max_format": [
+      107,
+      1
+    ]
   }
 }

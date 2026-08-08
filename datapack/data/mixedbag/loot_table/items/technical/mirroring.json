@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "mixedbag:temp"
+              },
+              "ops": [
+                {
+                  "source": "mixedbag:temp",
+                  "target": "root.mirroring.components.\"minecraft:custom_data\"",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

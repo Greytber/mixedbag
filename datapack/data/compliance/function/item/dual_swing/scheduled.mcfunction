@@ -1,0 +1,1 @@
+execute as @a[tag=compliance.swing.dual] run function compliance:item/dual_swing/scheduled_as_player

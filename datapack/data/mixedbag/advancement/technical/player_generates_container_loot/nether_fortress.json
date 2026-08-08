@@ -1,5 +1,5 @@
 {
-  "parent": "mixedbag:technical/revoked",
+  "parent": "mixedbag:technical/player_generates_container_loot/root",
   "criteria": {
     "minecraft:chests/nether_bridge": {
       "trigger": "minecraft:player_generates_container_loot",

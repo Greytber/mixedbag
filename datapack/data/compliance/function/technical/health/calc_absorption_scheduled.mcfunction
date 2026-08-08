@@ -1,0 +1,1 @@
+execute as @a[tag=compliance.calc_absorption] run function compliance:technical/health/calc_absorption

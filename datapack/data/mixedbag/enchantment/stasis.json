@@ -1,0 +1,64 @@
+{
+  "description": {
+    "translate": "enchantment.mixedbag.stasis"
+  },
+  "supported_items": "#mixedbag:enchantable/stasis",
+  "primary_items": "#mixedbag:enchantable/stasis",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "body",
+    "saddle"
+  ],
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "requirements": {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:passenger": {}
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:movement_speed",
+          "id": "mixedbag:stasis_movement_speed",
+          "amount": -10,
+          "operation": "add_multiplied_total"
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:passenger": {}
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:flying_speed",
+          "id": "mixedbag:stasis_flying_speed",
+          "amount": -10,
+          "operation": "add_multiplied_total"
+        }
+      }
+    ]
+  }
+}

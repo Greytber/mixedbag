@@ -1,0 +1,17 @@
+{
+  "parent": "compliance:technical/root",
+  "criteria": {
+    "using_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:bow"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "compliance:item/bow/using"
+  },
+  "sends_telemetry_event": false
+}

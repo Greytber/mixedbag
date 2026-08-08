@@ -1,0 +1,28 @@
+{
+  "parent": "ascension:technical/revoke",
+  "criteria": {
+    "player_hurt_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "minecraft:equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "compliance": {
+                    "dual_swing": {
+                      "flag": true
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "compliance:item/dual_swing/main"
+  }
+}

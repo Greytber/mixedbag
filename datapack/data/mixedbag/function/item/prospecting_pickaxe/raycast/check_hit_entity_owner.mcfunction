@@ -1,0 +1,1 @@
+$execute if entity @p[tag=mixedbag.prospecting_pickaxe.user,nbt={UUID:$(owner_check)}] run scoreboard players set #mixedbag.prospecting_pickaxe.owner mixedbag.dummy 1

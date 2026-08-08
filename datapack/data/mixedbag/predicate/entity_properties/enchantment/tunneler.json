@@ -1,0 +1,18 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:equipment": {
+      "mainhand": {
+        "items": "#mixedbag:enchantable/tunneler",
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantments": "mixedbag:tunneler"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "function": "minecraft:filtered",
+  "item_filter": {
+    "items": "minecraft:wind_charge",
+    "count": {
+      "min": 1
+    }
+  },
+  "on_pass": {
+    "function": "minecraft:filtered",
+    "item_filter": {
+      "predicates": {
+        "minecraft:custom_data": {
+          "smithed": {
+            "ignore_functionality": true
+          }
+        }
+      }
+    },
+    "on_fail": {
+      "function": "minecraft:set_count",
+      "count": -1,
+      "add": true
+    }
+  }
+}

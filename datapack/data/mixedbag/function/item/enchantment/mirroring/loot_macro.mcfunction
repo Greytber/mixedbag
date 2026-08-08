@@ -1,0 +1,1 @@
+execute unless items entity @s weapon.offhand * run say seks

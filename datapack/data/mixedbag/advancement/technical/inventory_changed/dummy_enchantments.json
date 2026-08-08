@@ -1,5 +1,5 @@
 {
-  "parent": "mixedbag:technical/revoked",
+  "parent": "mixedbag:technical/inventory_changed/root",
   "criteria": {
     "overload": {
       "trigger": "minecraft:inventory_changed",
@@ -34,12 +34,30 @@
           }
         ]
       }
+    },
+    "mirroring": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:swords",
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "mixedbag:mirroring_dummy"
+                }
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
     [
       "overload",
-      "gashing"
+      "gashing",
+      "mirroring"
     ]
   ],
   "rewards": {

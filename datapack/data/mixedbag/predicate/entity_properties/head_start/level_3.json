@@ -1,0 +1,18 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:equipment": {
+      "legs": {
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantments": "mixedbag:head_start",
+              "levels": 3
+            }
+          ]
+        }
+      }
+    }
+  }
+}

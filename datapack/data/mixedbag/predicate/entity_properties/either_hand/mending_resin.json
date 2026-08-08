@@ -5,7 +5,7 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "equipment": {
+        "minecraft:equipment": {
           "mainhand": {
             "items": "minecraft:poisonous_potato",
             "predicates": {
@@ -28,7 +28,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "equipment": {
+              "minecraft:equipment": {
                 "mainhand": {
                   "items": "minecraft:poisonous_potato",
                   "predicates": {
@@ -47,7 +47,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "equipment": {
+            "minecraft:equipment": {
               "offhand": {
                 "items": "minecraft:poisonous_potato",
                 "predicates": {

@@ -1,5 +1,5 @@
 {
-  "parent": "mixedbag:technical/revoked",
+  "parent": "mixedbag:technical/using_item/root",
   "criteria": {
     "using_item": {
       "trigger": "minecraft:using_item",

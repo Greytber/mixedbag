@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {Tags:["mixedbag.explosion.cushion_wind_burst"],Invisible:1b,equipment:{feet:{id:poisonous_potato,components:{"minecraft:enchantments":{"mixedbag:technical/explosions":1}}}}}

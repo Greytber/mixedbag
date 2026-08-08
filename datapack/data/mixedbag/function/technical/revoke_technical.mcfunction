@@ -1,1 +1,1 @@
-advancement revoke @a from mixedbag:technical/root
+advancement revoke @s from mixedbag:technical/root_hard

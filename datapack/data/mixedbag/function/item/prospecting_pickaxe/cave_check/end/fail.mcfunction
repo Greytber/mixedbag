@@ -1,0 +1,2 @@
+playsound mixedbag:item.prospecting_pickaxe.fail player @a[distance=..16] ~ ~ ~ 1 0 0
+execute as @e[type=minecraft:marker,tag=mixedbag.prospecting.particles,limit=1] at @s run function mixedbag:item/prospecting_pickaxe/cave_check/end/any

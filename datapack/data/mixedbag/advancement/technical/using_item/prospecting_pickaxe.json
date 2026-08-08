@@ -1,0 +1,22 @@
+{
+  "parent": "mixedbag:technical/using_item/root",
+  "criteria": {
+    "using_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "mixedbag": {
+                "id": "prospecting_pickaxe"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mixedbag:item/prospecting_pickaxe/use"
+  }
+}

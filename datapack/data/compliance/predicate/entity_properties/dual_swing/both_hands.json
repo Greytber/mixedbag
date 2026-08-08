@@ -1,0 +1,30 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:equipment": {
+      "mainhand": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "compliance": {
+              "dual_swing": {
+                "flag": true
+              }
+            }
+          }
+        }
+      },
+      "offhand": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "compliance": {
+              "dual_swing": {
+                "flag": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

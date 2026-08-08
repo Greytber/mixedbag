@@ -1,0 +1,1 @@
+advancement revoke @s from mixedbag:technical/revoke_hard

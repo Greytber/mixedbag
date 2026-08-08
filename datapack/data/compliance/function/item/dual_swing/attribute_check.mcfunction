@@ -1,0 +1,2 @@
+execute if predicate compliance:entity_properties/dual_swing/both_hands run return run function compliance:item/dual_swing/attribute_grant
+function compliance:item/dual_swing/attribute_revoke

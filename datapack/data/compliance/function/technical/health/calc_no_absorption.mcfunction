@@ -1,0 +1,2 @@
+#execute store result score @s compliance.health_no_absorption run scoreboard players operation 
+#execute store result score compliance.temp compliance.health_no_absorption run scoreboard players operation 

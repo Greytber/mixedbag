@@ -1,0 +1,21 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "compliance": {
+        "dual_swing": {
+          "swing_offhand": true
+        }
+      }
+    }
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:swing_animation": {
+        "type": "none",
+        "duration": 1
+      }
+    }
+  }
+]

@@ -1,0 +1,2 @@
+#execute if items entity @s weapon.mainhand *[minecraft:item_model="mixedbag:diamond_sickle"] run loot replace entity @s weapon.offhand loot mixedbag:items/technical/mirroring/diamond_sickle
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{mixedbag:{weapon_type:"sickle"}}] run return run loot replace entity @s weapon.offhand loot mixedbag:items/technical/mirroring/generic

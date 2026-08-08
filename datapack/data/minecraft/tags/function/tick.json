@@ -1,3 +1,6 @@
-{ "values": [
-	"mixedbag:technical/tick"
-]}
+{
+  "values": [
+    "compliance:technical/tick",
+	  "mixedbag:technical/tick"
+  ]
+}

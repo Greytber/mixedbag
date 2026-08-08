@@ -1,0 +1,126 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.mixedbag.prospecting_pickaxe"
+                },
+                "minecraft:item_model": "mixedbag:prospecting_pickaxe",
+                "minecraft:lore": [
+                  [
+                    {
+                      "translate": "ui.mixedbag.title.symbol",
+                      "color": "white",
+                      "font": "mixedbag:icon",
+                      "italic": false
+                    },
+                    " ",
+                    {
+                      "translate": "ui.mixedbag.title",
+                      "color": "white",
+                      "font": "mixedbag:tooltip",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "translate": "item.mixedbag.prospecting_pickaxe.description.1",
+                      "color": "gray",
+                      "font": "minecraft:default",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "translate": "item.mixedbag.prospecting_pickaxe.description.2",
+                      "color": "gray",
+                      "font": "minecraft:default",
+                      "italic": false
+                    }
+                  ]
+                ],
+                "minecraft:consumable": {
+                  "consume_seconds": 0.05,
+                  "animation": "none",
+                  "sound": {
+                    "sound_id": ""
+                  },
+                  "has_consume_particles": false,
+                  "on_consume_effects": []
+                },
+                "minecraft:use_cooldown": {
+                  "seconds": 0.5,
+                  "cooldown_group": "mixedbag:prospecting_pickaxe"
+                },
+                "minecraft:custom_data": {
+                  "mixedbag": {
+                    "id": "prospecting_pickaxe"
+                  },
+                  "compliance": {
+                    "persistent_consumable": true
+                  },
+                  "smithed": {
+                    "ignore": {
+                      "functionality": true,
+                      "crafting": true
+                    }
+                  },
+                  "$jade:stack": {
+                    "id": "mixedbag_item:prospecting_pickaxe"
+                  }
+                },
+                "minecraft:repairable": {
+                  "items": "#minecraft:iron_tool_materials"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 2,
+                    "id": "minecraft:base_attack_damage",
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -2.8,
+                    "id": "minecraft:base_attack_speed",
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "blocks": "#minecraft:incorrect_for_iron_tool",
+                      "correct_for_drops": false
+                    },
+                    {
+                      "blocks": "#minecraft:mineable/pickaxe",
+                      "correct_for_drops": true,
+                      "speed": 5
+                    }
+                  ]
+                },
+                "!minecraft:food": {},
+                "minecraft:max_damage": 256,
+                "minecraft:max_stack_size": 1,
+                "!minecraft:enchantable": {}
+              },
+              "conditions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

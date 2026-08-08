@@ -19,7 +19,7 @@
 			],
 			"mode": "replace_all"
 		},
-		"flags": {
+		"minecraft:flags": {
 			"values": [
 				false
 			],

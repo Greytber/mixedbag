@@ -1,0 +1,19 @@
+{
+  "parent": "compliance:technical/revoke",
+  "criteria": {
+    "entity_hurt_player": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "minecraft:effects": {
+            "minecraft:absorption": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "compliance:entity/player/on_hit_absorption"
+  },
+  "sends_telemetry_event": false
+}

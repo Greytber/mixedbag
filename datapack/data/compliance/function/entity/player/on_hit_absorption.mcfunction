@@ -1,0 +1,2 @@
+advancement revoke @s only compliance:technical/entity_hurt_player/absorption
+function compliance:technical/health/calc_absorption

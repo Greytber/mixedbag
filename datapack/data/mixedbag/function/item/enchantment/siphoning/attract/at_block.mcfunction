@@ -1,0 +1,2 @@
+particle minecraft:trial_spawner_detection_ominous ~ ~ ~ 0.05 0.05 0.05 0 4 normal @a[distance=..8]
+execute as @e[distance=..1,type=minecraft:item,nbt={Age:0s}] run function mixedbag:item/enchantment/siphoning/attract/as_item

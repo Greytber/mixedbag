@@ -32,7 +32,11 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "nbt": "{Tags:[\"mixedbag.gashing.marked\"]}"
+            "minecraft:entity_tags": {
+              "any_of": [
+                "mixedbag.gashing.marked"
+              ]
+            }
           }
         }
       }
@@ -43,7 +47,11 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "nbt": "{Tags:[\"mixedbag.gashing.marked\"]}"
+            "minecraft:entity_tags": {
+              "any_of": [
+                "mixedbag.gashing.marked"
+              ]
+            }
           }
         },
         "effect": {

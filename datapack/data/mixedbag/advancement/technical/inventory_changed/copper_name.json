@@ -1,5 +1,5 @@
 {
-  "parent": "mixedbag:technical/revoked",
+  "parent": "mixedbag:technical/inventory_changed/root",
   "criteria": {
     "exposed": {
       "trigger": "minecraft:inventory_changed",

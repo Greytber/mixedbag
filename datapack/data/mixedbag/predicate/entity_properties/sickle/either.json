@@ -5,7 +5,7 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "equipment": {
+        "minecraft:equipment": {
           "mainhand": {
             "items": "#minecraft:swords",
             "predicates": {
@@ -28,7 +28,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "equipment": {
+              "minecraft:equipment": {
                 "mainhand": {
                   "predicates": {
                     "minecraft:custom_data": {
@@ -46,7 +46,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "equipment": {
+            "minecraft:equipment": {
               "offhand": {
                 "items": "#minecraft:swords",
                 "predicates": {

@@ -1,0 +1,12 @@
+execute if entity @s[type=minecraft:salmon] run function mixedbag.iris:get_hitbox/entity/shape_groups/salmon
+execute if entity @s[type=minecraft:sniffer] run function mixedbag.iris:get_hitbox/entity/shape_groups/sniffer
+execute if entity @s[type=minecraft:snow_golem] run function mixedbag.iris:get_hitbox/entity/shape_groups/snow_golem
+execute if entity @s[type=minecraft:spider] run function mixedbag.iris:get_hitbox/entity/shape_groups/spider
+execute if entity @s[type=minecraft:strider] run function mixedbag.iris:get_hitbox/entity/shape_groups/strider
+execute if entity @s[type=minecraft:tropical_fish] run function mixedbag.iris:get_hitbox/entity/shape_groups/tropical_fish
+execute if entity @s[type=minecraft:turtle] run function mixedbag.iris:get_hitbox/entity/shape_groups/turtle
+execute if entity @s[type=minecraft:vex] run function mixedbag.iris:get_hitbox/entity/shape_groups/vex
+execute if entity @s[type=minecraft:warden] run function mixedbag.iris:get_hitbox/entity/shape_groups/warden
+execute if entity @s[type=minecraft:wither] run function mixedbag.iris:get_hitbox/entity/shape_groups/wither
+execute if entity @s[type=minecraft:wither_skeleton] run function mixedbag.iris:get_hitbox/entity/shape_groups/wither_skeleton
+execute if entity @s[type=minecraft:wolf] run function mixedbag.iris:get_hitbox/entity/shape_groups/wolf

@@ -91,6 +91,86 @@
     ],
     "subtitle": "subtitles.mixedbag.item.pet_carrier.deploy"
   },
+  "item.prospecting_pickaxe.crumble": {
+    "sounds": [
+      {
+        "name": "minecraft:block/deepslate/break1",
+        "volume": 1,
+        "pitch": 0.01
+      },
+      {
+        "name": "minecraft:block/deepslate/break2",
+        "volume": 1,
+        "pitch": 0.01
+      },
+      {
+        "name": "minecraft:block/deepslate/break3",
+        "volume": 1,
+        "pitch": 0.01
+      },
+      {
+        "name": "minecraft:block/deepslate/break4",
+        "volume": 1,
+        "pitch": 0.01
+      }
+    ],
+    "subtitle": "subtitles.mixedbag.item.prospecting_pickaxe.crumble"
+  },
+  "item.prospecting_pickaxe.fail": {
+    "sounds": [
+      {
+        "name": "minecraft:block/deepslate/break1",
+        "volume": 1,
+        "pitch": 0.01
+      },
+      {
+        "name": "minecraft:block/deepslate/break2",
+        "volume": 1,
+        "pitch": 0.01
+      },
+      {
+        "name": "minecraft:block/deepslate/break3",
+        "volume": 1,
+        "pitch": 0.01
+      },
+      {
+        "name": "minecraft:block/deepslate/break4",
+        "volume": 1,
+        "pitch": 0.01
+      }
+    ],
+    "subtitle": "subtitles.mixedbag.item.prospecting_pickaxe.fail"
+  },
+  "item.prospecting_pickaxe.ores": {
+    "sounds": [
+      {
+        "name": "minecraft:block/amethyst/shimmer",
+        "volume": 1,
+        "pitch": 0.01
+      }
+    ],
+    "subtitle": "subtitles.mixedbag.item.prospecting_pickaxe.ores"
+  },
+  "item.prospecting_pickaxe.echo": {
+    "sounds": [
+      {
+        "name": "mixedbag:item/prospecting/echo",
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "mixedbag:item/prospecting/echo",
+        "volume": 1,
+        "pitch": 0.75
+      },
+      {
+        "name": "mixedbag:item/prospecting/echo",
+        "volume": 1,
+        "pitch": 0.50
+      }
+    ],
+    "subtitle": "subtitles.mixedbag.item.prospecting_pickaxe.echo"
+  },
   "entity.horse.drink_potion": {
     "sounds": [
       "minecraft:mob/wandering_trader/drink_milk1",

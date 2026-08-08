@@ -34,10 +34,8 @@ execute if predicate mixedbag:entity_properties/enchantment/gashing run scoreboa
 execute as @s at @s anchored eyes positioned ^ ^ ^ run function mixedbag.iris:get_target_sickle
 execute as @s at @s anchored eyes positioned ^ ^ ^2 positioned ~-3 ~-2 ~-3 as @e[tag=mixedbag.temp.sickle_victim,type=!#mixedbag:non_living,dx=6,dy=1.5,dz=6] run tag @s add mixedbag.temp.sickle_victim_valid
 execute at @s as @e[type=!#mixedbag:non_living,tag=mixedbag.temp.sickle_victim,distance=..16] run function mixedbag:item/sickle/attack_macro with storage mixedbag:sickle
-#execute if predicate mixedbag:entity_properties/enchantment/gashing run function mixedbag:item/sickle/gashing/select_entity
 execute if score @s mixedbag.courage.hit matches 1 if score @s mixedbag.sickle.damage_base matches 40.. run advancement grant @s only mixedbag:minecraft/adventure/sickle_stack_damage
 scoreboard players reset @s mixedbag.sickle.damage_base
 scoreboard players reset @s mixedbag.sickle.damage_bonus
 scoreboard players reset #mixedbag.gashing mixedbag.dummy
 function mixedbag:item/sickle/courage/check
-#say srnec

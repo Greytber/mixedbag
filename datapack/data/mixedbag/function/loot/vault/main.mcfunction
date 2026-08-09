@@ -1,4 +1,3 @@
-#say main
 advancement revoke @s only mixedbag:technical/item_used_on_block/vault
 #execute store result score $chance mixedbag.dummy run random value 1..100
 #execute if score $chance mixedbag.dummy matches 15.. run return fail

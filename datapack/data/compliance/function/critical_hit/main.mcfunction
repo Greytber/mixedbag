@@ -1,5 +1,4 @@
 advancement revoke @s only compliance:technical/player_hurt_entity/damage_variance
-say hii
 scoreboard players set #compliance.variance.range compliance.dummy 4
 scoreboard players set #compliance.variance.favor compliance.dummy 8
 scoreboard players set #compliance.variance.min compliance.dummy 0

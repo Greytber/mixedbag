@@ -1,6 +1,4 @@
 advancement revoke @s only compliance:technical/inventory_changed/unique_id
-
-say seks
 execute if items entity @s hotbar.0 *[minecraft:custom_data~{compliance:{"temp":{unique_id:true}}}] run item modify entity @s hotbar.0 compliance:unique_id_stack
 execute if items entity @s hotbar.1 *[minecraft:custom_data~{compliance:{"temp":{unique_id:true}}}] run item modify entity @s hotbar.1 compliance:unique_id_stack
 execute if items entity @s hotbar.2 *[minecraft:custom_data~{compliance:{"temp":{unique_id:true}}}] run item modify entity @s hotbar.2 compliance:unique_id_stack

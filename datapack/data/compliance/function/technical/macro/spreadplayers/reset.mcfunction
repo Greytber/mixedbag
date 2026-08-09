@@ -7,4 +7,3 @@ scoreboard players reset #compliance.temp.spreadplayers.og.y compliance.dummy
 scoreboard players reset #compliance.temp.spreadplayers.og.z compliance.dummy
 scoreboard players reset #compliance.temp.spreadplayers.y_distance compliance.dummy
 scoreboard players reset #compliance.temp.spreadplayers.attempts compliance.dummy
-#say resey

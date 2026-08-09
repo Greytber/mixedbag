@@ -1,2 +1,1 @@
-#$say $(id)
 $execute summon $(id) run function mixedbag:item/pet_carrier/deploy/as_entity

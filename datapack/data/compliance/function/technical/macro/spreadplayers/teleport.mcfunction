@@ -14,7 +14,6 @@ scoreboard players operation #compliance.temp.spreadplayers.y_distance complianc
 scoreboard players operation #compliance.temp.spreadplayers.y_distance compliance.dummy /= #compliance.temp.spreadplayers.y_distance compliance.dummy
 $execute unless score #compliance.temp.spreadplayers.y_distance compliance.dummy matches $(vertical_distance).. run return run function compliance:technical/macro/spreadplayers/reset
 
-#say seksfail
 scoreboard players add #compliance.temp.spreadplayers.attempts compliance.dummy 1
 #$execute if score #compliance.temp.spreadplayers.attempts compliance.dummy matches $(iterations).. run return run function compliance:technical/macro/spreadplayers/reset
 $execute if score #compliance.temp.spreadplayers.attempts compliance.dummy matches $(iterations).. run return run function compliance:technical/macro/spreadplayers/teleport_back with storage compliance:temp root.spreadplayers.og

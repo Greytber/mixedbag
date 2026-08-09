@@ -1,6 +1,6 @@
 {
     "ui.mixedbag.description": "\"Sierpy, przekąski i różne rzeczy!\"",
-    "ui.mixedbag.update": "\"Plus tłuczek!\"",
+    "ui.mixedbag.update": "\"Magia i kopanie\"",
     "ui.mixedbag.menu": "Mixed Bag Menu",
     "ui.mixedbag.website": "Strona internetowa",
 
@@ -10,8 +10,7 @@
     "contributor.creepermagnet.conure.description": "Makra wytrzymałości przedmiotów i inne",
     "contributor.mixedbag.conure.description": "\"Beztickowe\" odliczania",
     "contributor.mixedbag.maybejake.description": "Metoda umieszczania lootu",
-    "contributor.bigpapi13": "BigPapi13",
-    "contributor.mulverinex": "Mulverine",
+    "contributor.mixedbag.aeldrion.description": "Iris Raycasting biblioteka",
     "contributor.mixedbag.mulverinex.description": "Biblioteka Player Motion, z wyróżnieniem %s, za stworzenie biblioteki poprzedzającej ją",
     "contributor.smithed": "Społeczność Smithed",
     "contributor.mixedbag.smithed.description": "Użyte konwencje i biblioteki (body slot library)",

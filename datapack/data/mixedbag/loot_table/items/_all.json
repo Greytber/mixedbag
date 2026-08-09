@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "charmsed:items/_all_tools"
+          "value": "mixedbag:items/_all_tools"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "charmsed:items/_all_misc"
+          "value": "mixedbag:items/_all_food"
         }
       ]
     }

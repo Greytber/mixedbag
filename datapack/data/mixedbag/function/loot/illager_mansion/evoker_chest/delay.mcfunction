@@ -1,0 +1,1 @@
+execute as @a[tag=mixedbag.loot.evoker_chest] at @s run function mixedbag:loot/illager_mansion/evoker_chest/ray/start

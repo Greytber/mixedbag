@@ -1,0 +1,1 @@
+$loot replace block ~ ~ ~ container.$(slot) loot mixedbag:chests/illager_mansion/evoker_chest

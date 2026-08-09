@@ -62,15 +62,6 @@
           "value": "mixedbag:items/netherite_sickle"
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "mixedbag:items/rare_sickle"
-        }
-      ]
     }
   ]
 }

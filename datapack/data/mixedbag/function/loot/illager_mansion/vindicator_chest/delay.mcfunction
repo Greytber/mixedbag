@@ -1,0 +1,1 @@
+execute as @a[tag=mixedbag.loot.vindicator_chest] at @s run function mixedbag:loot/illager_mansion/vindicator_chest/ray/start

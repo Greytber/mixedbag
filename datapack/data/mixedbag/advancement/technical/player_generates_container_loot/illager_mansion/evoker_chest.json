@@ -1,0 +1,19 @@
+{
+  "parent": "mixedbag:technical/player_generates_container_loot/root",
+  "criteria": {
+    "minecraft:chests/illager_mansion/evoker_chest": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/illager_mansion/evoker_chest"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:chests/illager_mansion/evoker_chest"
+    ]
+  ],
+  "rewards": {
+    "function": "mixedbag:loot/illager_mansion/evoker_chest/main"
+  }
+}

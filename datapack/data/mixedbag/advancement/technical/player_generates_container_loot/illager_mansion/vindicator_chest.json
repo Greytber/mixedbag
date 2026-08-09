@@ -1,0 +1,19 @@
+{
+  "parent": "mixedbag:technical/player_generates_container_loot/root",
+  "criteria": {
+    "minecraft:chests/illager_mansion/vindicator_chest": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/illager_mansion/vindicator_chest"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:chests/illager_mansion/vindicator_chest"
+    ]
+  ],
+  "rewards": {
+    "function": "mixedbag:loot/illager_mansion/vindicator_chest/main"
+  }
+}

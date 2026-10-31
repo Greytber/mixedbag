@@ -17,18 +17,6 @@
       },
       "minecraft:item_model": "mixedbag:chocolate_bar_emerald",
       "minecraft:lore": [
-        {
-          "translate": "item.mixedbag.chocolate_bar_emerald.duration.regeneration",
-          "with": [
-            {
-              "translate": "effect.minecraft.regeneration",
-              "color": "blue",
-              "italic": false
-            }
-          ],
-          "color": "blue",
-          "italic": false
-        },
         [
           {
             "translate": "ui.mixedbag.title.symbol",
@@ -43,7 +31,19 @@
             "font": "mixedbag:tooltip",
             "italic": false
           }
-        ]
+        ],
+        {
+          "translate": "item.mixedbag.chocolate_bar_emerald.duration.regeneration",
+          "with": [
+            {
+              "translate": "effect.minecraft.regeneration",
+              "color": "blue",
+              "italic": false
+            }
+          ],
+          "color": "blue",
+          "italic": false
+        }
       ],
       "minecraft:food": {
         "nutrition": 6,

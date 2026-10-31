@@ -1,36 +1,39 @@
-[
-  {
-    "condition": "minecraft:inverted",
-    "term": {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "minecraft:equipment": {
-          "offhand": {
-            "predicates": {
-              "minecraft:custom_data": {
-                "smithed": {
-                  "ignore_functionality": true
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:inverted",
+      "term": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:equipment": {
+            "offhand": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "smithed": {
+                    "ignore_functionality": true
+                  }
                 }
               }
             }
           }
         }
       }
-    }
-  },
-  {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "minecraft:equipment": {
-        "offhand": {
-          "items": "minecraft:wind_charge",
-          "count": {
-            "min": 1
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:equipment": {
+          "offhand": {
+            "items": "minecraft:wind_charge",
+            "count": {
+              "min": 1
+            }
           }
         }
       }
     }
-  }
-]
+  ]
+}

@@ -23,14 +23,14 @@
     "minecraft:location_changed": [
       {
         "requirements": {
-          "condition": "minecraft:inverted",
           "term": {
-            "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
               "minecraft:passenger": {}
-            }
-          }
+            },
+            "type": "minecraft:entity_properties"
+          },
+          "type": "minecraft:inverted"
         },
         "effect": {
           "type": "minecraft:attribute",
@@ -42,14 +42,14 @@
       },
       {
         "requirements": {
-          "condition": "minecraft:inverted",
           "term": {
-            "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
               "minecraft:passenger": {}
-            }
-          }
+            },
+            "type": "minecraft:entity_properties"
+          },
+          "type": "minecraft:inverted"
         },
         "effect": {
           "type": "minecraft:attribute",

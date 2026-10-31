@@ -8,7 +8,7 @@
           "predicates": {
             "minecraft:custom_data": {
               "mixedbag": {
-                "id": "prospecting_pickaxe"
+                "functionality": "prospecting_pickaxe"
               }
             }
           }

@@ -5,6 +5,6 @@ execute if score @s mixedbag.tunneler.count matches 64..100 run scoreboard playe
 execute unless score @s mixedbag.tunneler.count matches 100.. run scoreboard players add @s mixedbag.tunneler.count 1
 execute if score @s mixedbag.tunneler.count matches 100.. run scoreboard players add @s mixedbag.tunneler.instamined 1
 execute if score @s mixedbag.tunneler.instamined matches 512.. run advancement grant @s only mixedbag:minecraft/adventure/tunneler
-scoreboard players set @s mixedbag.tunneler.timer 100
+scoreboard players set @s mixedbag.tunneler.timer 80
 advancement revoke @s only mixedbag:technical/tick/effects/tunneler
 function mixedbag:item/enchantment/tunneler/haste

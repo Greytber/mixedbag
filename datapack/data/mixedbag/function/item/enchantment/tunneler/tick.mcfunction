@@ -1,3 +1,4 @@
+execute unless predicate mixedbag:entity_properties/enchantment/tunneler run return fail
 execute if score @s mixedbag.used_item.iron_pickaxe matches 1.. run return run function mixedbag:item/enchantment/tunneler/start
 execute if score @s mixedbag.used_item.diamond_pickaxe matches 1.. run return run function mixedbag:item/enchantment/tunneler/start
 execute if score @s mixedbag.used_item.netherite_pickaxe matches 1.. run return run function mixedbag:item/enchantment/tunneler/start

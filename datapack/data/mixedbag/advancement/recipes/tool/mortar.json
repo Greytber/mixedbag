@@ -1,5 +1,5 @@
 {
-  "parent": "metalmorphy:recipes/root",
+  "parent": "mixedbag:recipes/tool/root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

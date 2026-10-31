@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/gashing_book"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/mirroring_book"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.65
+      }
+    }
+  ]
+}

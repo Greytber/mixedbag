@@ -1,0 +1,2 @@
+advancement revoke @s only compliance:technical/inventory_changed/special_item_frame_model
+item modify entity @s compliance:player_inventory_whole compliance:special_item_frame_model/clear

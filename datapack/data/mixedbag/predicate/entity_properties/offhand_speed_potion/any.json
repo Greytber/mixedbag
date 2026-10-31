@@ -1,8 +1,8 @@
 {
-  "condition": "minecraft:any_of",
+  "type": "minecraft:any_of",
   "terms": [
     {
-      "condition": "minecraft:entity_properties",
+      "type": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "minecraft:equipment": {
@@ -13,14 +13,16 @@
               "minecraft:lingering_potion"
             ],
             "predicates": {
-              "minecraft:potion_contents": "minecraft:swiftness"
+              "minecraft:potion_contents": {
+                "potions": "minecraft:swiftness"
+              }
             }
           }
         }
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "type": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "minecraft:equipment": {
@@ -31,14 +33,16 @@
               "minecraft:lingering_potion"
             ],
             "predicates": {
-              "minecraft:potion_contents": "minecraft:long_swiftness"
+              "minecraft:potion_contents": {
+                "potions": "minecraft:long_swiftness"
+              }
             }
           }
         }
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "type": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "minecraft:equipment": {
@@ -49,7 +53,9 @@
               "minecraft:lingering_potion"
             ],
             "predicates": {
-              "minecraft:potion_contents": "minecraft:strong_swiftness"
+              "minecraft:potion_contents": {
+                "potions": "minecraft:strong_swiftness"
+              }
             }
           }
         }

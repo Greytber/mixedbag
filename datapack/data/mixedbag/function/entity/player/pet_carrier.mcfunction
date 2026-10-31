@@ -1,0 +1,2 @@
+execute if items entity @s compliance:hands minecraft:poisonous_potato[minecraft:custom_data~{mixedbag:{id:pet_carrier}}] if predicate mixedbag:entity_properties/is_sneaking run return run attribute @s minecraft:entity_interaction_range modifier add mixedbag:pet_carrier -999 add_value
+attribute @s minecraft:entity_interaction_range modifier remove mixedbag:pet_carrier

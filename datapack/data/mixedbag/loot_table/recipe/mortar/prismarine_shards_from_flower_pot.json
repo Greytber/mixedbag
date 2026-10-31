@@ -5,14 +5,12 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"functions": [
-						{
-							"add": false,
-							"count": 3,
-							"function": "minecraft:set_count"
-						}
-					],
-					"name": "minecraft:prismarine_shard"
+					"name": "minecraft:prismarine_shard",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"add": false,
+						"count": 3
+					}
 				}
 			],
 			"rolls": 1

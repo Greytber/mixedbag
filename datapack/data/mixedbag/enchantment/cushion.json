@@ -26,6 +26,14 @@
           "function": "mixedbag:item/enchantment/cushion/check"
         }
       }
+    ],
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:block_interaction_range",
+        "id": "mixedbag:cushion",
+        "amount": 1,
+        "operation": "add_value"
+      }
     ]
   }
 }

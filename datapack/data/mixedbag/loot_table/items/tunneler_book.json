@@ -6,16 +6,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_book",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:stored_enchantments": {
-                  "mixedbag:tunneler": 1
-                }
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:stored_enchantments": {
+                "mixedbag:tunneler": 1
               }
             }
-          ]
+          }
         }
       ]
     }

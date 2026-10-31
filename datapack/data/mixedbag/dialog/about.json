@@ -10,9 +10,9 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "translate": "ui.thallium.not_paused",
+        "translate": "ui.compliance.not_paused",
         "color": "#e00239",
-        "font": "thallium:5"
+        "font": "compliance:5"
       }
     },
     {
@@ -32,13 +32,13 @@
         {
           "translate": "ui.mixedbag.version",
           "color": "gray",
-          "font": "thallium:5"
+          "font": "compliance:5"
         },
         "\n",
         {
           "translate": "book.byAuthor",
           "color": "gray",
-          "font": "thallium:5",
+          "font": "compliance:5",
           "with": [
             {
               "translate": "contributor.greytber",

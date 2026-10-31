@@ -1,0 +1,2 @@
+execute as @s[type=#compliance:markers,tag=compliance.marker] run function compliance:entity/marker_cleanup
+execute as @s[type=#compliance:tp_to_id,tag=compliance.tp_to_player] run function compliance:entity/tp_to_player/main

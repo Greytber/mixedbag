@@ -1,1 +1,1 @@
-execute store result score $sendCommandFeedback smithed.data run return run gamerule command_block_output
+execute store result score $send_command_feedback smithed.data run return run gamerule command_block_output

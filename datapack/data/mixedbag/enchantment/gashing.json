@@ -29,7 +29,6 @@
           "value": 12.5
         },
         "requirements": {
-          "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
             "minecraft:entity_tags": {
@@ -37,14 +36,14 @@
                 "mixedbag.gashing.marked"
               ]
             }
-          }
+          },
+          "type": "minecraft:entity_properties"
         }
       }
     ],
     "minecraft:post_attack": [
       {
         "requirements": {
-          "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
             "minecraft:entity_tags": {
@@ -52,7 +51,8 @@
                 "mixedbag.gashing.marked"
               ]
             }
-          }
+          },
+          "type": "minecraft:entity_properties"
         },
         "effect": {
           "type": "minecraft:run_function",

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:group",
+  "terms": [
+    "compliance:player_inventory_except_offhand",
+    "compliance:container"
+  ]
+}

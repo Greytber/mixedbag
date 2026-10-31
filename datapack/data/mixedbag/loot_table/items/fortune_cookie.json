@@ -8,62 +8,60 @@
           "name": "minecraft:poisonous_potato",
           "weight": 1,
           "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_name": {
-                  "translate": "item.mixedbag.fortune_cookie"
-                },
-                "minecraft:item_model": "mixedbag:fortune_cookie",
-                "minecraft:food": {
-                  "nutrition": 2,
-                  "saturation": 1,
-                  "can_always_eat": true
-                },
-                "minecraft:consumable": {
-                  "animation": "eat",
-                  "on_consume_effects": []
-                },
-                "minecraft:lore": [
-                  [
-                    {
-                      "translate": "ui.mixedbag.title.symbol",
-                      "color": "white",
-                      "font": "mixedbag:icon",
-                      "italic": false
-                    },
-                    " ",
-                    {
-                      "translate": "ui.mixedbag.title",
-                      "color": "white",
-                      "font": "mixedbag:tooltip",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
-                      "translate": "item.mixedbag.fortune_cookie.lore",
-                      "color": "gray",
-                      "font": "minecraft:default",
-                      "italic": false
-                    }
-                  ]
-                ],
-                "minecraft:custom_data": {
-                  "mixedbag": {
-                    "id": "fortune_cookie"
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.mixedbag.fortune_cookie"
+              },
+              "minecraft:item_model": "mixedbag:fortune_cookie",
+              "minecraft:food": {
+                "nutrition": 2,
+                "saturation": 1,
+                "can_always_eat": true
+              },
+              "minecraft:consumable": {
+                "animation": "eat",
+                "on_consume_effects": []
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "translate": "ui.mixedbag.title.symbol",
+                    "color": "white",
+                    "font": "mixedbag:icon",
+                    "italic": false
                   },
-                  "smithed": {
-                    "ignore": {
-                      "functionality": true,
-                      "crafting": true
-                    }
+                  " ",
+                  {
+                    "translate": "ui.mixedbag.title",
+                    "color": "white",
+                    "font": "mixedbag:tooltip",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "item.mixedbag.fortune_cookie.lore",
+                    "color": "gray",
+                    "font": "minecraft:default",
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_data": {
+                "mixedbag": {
+                  "id": "fortune_cookie"
+                },
+                "smithed": {
+                  "ignore": {
+                    "functionality": true,
+                    "crafting": true
                   }
                 }
               }
             }
-          ]
+          }
         }
       ]
     }

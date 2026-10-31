@@ -4,8 +4,7 @@
     "crafter_chocolate": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "mixedbag:chocolate_bar",
-        "ingredients": []
+        "recipes": "mixedbag:chocolate_bar"
       }
     }
   },

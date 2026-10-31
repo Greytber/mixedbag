@@ -5,19 +5,20 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"functions": [
-						{
-							"add": false,
-							"count": {
-								"type": "minecraft:uniform",
-								"max": 2,
-								"min": 1
-							},
-							"function": "minecraft:set_count"
+					"name": "minecraft:prismarine_shard",
+					"condition": {
+						"type": "minecraft:all_of",
+						"terms": []
+					},
+					"modifier": {
+						"type": "minecraft:set_count",
+						"add": false,
+						"count": {
+							"type": "minecraft:uniform",
+							"max": 2,
+							"min": 1
 						}
-					],
-					"conditions": [],
-					"name": "minecraft:prismarine_shard"
+					}
 				}
 			],
 			"rolls": 1

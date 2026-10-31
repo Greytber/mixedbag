@@ -13,11 +13,25 @@
           }
         ]
       }
+    },
+    "prospecting_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": "{mixedbag:{id:\"diamond_prospecting_pickaxe\"}}"
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
     [
-      "sickle"
+      "sickle",
+      "prospecting_pickaxe"
     ]
   ],
   "rewards": {

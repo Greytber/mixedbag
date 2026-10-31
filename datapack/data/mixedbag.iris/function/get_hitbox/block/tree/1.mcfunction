@@ -21,4 +21,4 @@ execute if block ~ ~ ~ #mixedbag.iris:shape_groups/calibrated_sculk_sensor run f
 execute if block ~ ~ ~ #mixedbag.iris:shape_groups/campfire run function mixedbag.iris:get_hitbox/block/shape_groups/campfire
 execute if block ~ ~ ~ #mixedbag.iris:shape_groups/carrots run function mixedbag.iris:get_hitbox/block/shape_groups/carrots
 execute if block ~ ~ ~ #mixedbag.iris:shape_groups/cauldron run function mixedbag.iris:get_hitbox/block/shape_groups/cauldron
-execute if block ~ ~ ~ minecraft:chain run function mixedbag.iris:get_hitbox/block/shape_groups/chain
+execute if block ~ ~ ~ #minecraft:chains run function mixedbag.iris:get_hitbox/block/shape_groups/chain

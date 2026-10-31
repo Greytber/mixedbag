@@ -4,7 +4,7 @@
     "minecraft:chests/nether_bridge": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "minecraft:chests/nether_bridge"
+        "loot_tables": "minecraft:chests/nether_bridge"
       }
     }
   },

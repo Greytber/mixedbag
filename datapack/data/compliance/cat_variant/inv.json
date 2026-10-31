@@ -1,0 +1,5 @@
+{
+    "asset_id": "compliance:entity/cat_variant/inv_cat",
+    "baby_asset_id": "compliance:entity/cat_variant/inv_cat_baby",
+    "spawn_conditions": []
+}

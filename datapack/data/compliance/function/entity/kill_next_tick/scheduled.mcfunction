@@ -1,0 +1,1 @@
+execute as @e[tag=compliance.kill_next_tick] run kill @s

@@ -1,69 +1,86 @@
-[
-  {
-    "function": "minecraft:set_custom_data",
-    "tag": {
-      "mixedbag": {
-        "id": "pet_carrier",
-        "pet_carrier": {
-          "full": true
+{
+  "type": "sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": {
+        "mixedbag": {
+          "id": "pet_carrier",
+          "pet_carrier": {
+            "full": true
+          }
         }
       }
-    }
-  },
-  {
-    "function": "minecraft:set_custom_model_data",
-    "minecraft:flags": {
-      "values": [
-        true
-      ],
-      "mode": "replace_all"
-    }
-  },
-  {
-    "function": "minecraft:copy_custom_data",
-    "source": {
-      "type": "minecraft:storage",
-      "source": "mixedbag:storage"
     },
-    "ops": [
-      {
-        "source": "root.temp.entity",
-        "target": "mixedbag.entity_data",
-        "op": "replace"
+    {
+      "type": "minecraft:set_custom_model_data",
+      "flags": {
+        "values": [
+          true
+        ],
+        "mode": "replace_all"
       }
-    ]
-  },
-  {
-    "function": "minecraft:set_lore",
-    "entity": "this",
-    "lore": [
-      {
-        "selector": "@e[tag=mixedbag.pet_carrier.collected,limit=1]",
-        "color": "gray",
-        "italic": false
-      }
-    ],
-    "mode": "replace_all"
-  },
-  {
-    "function": "minecraft:set_lore",
-    "entity": "this",
-    "lore": [
-      [
+    },
+    {
+      "type": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "mixedbag:temp"
+      },
+      "ops": [
         {
-          "text": "0 ",
-          "color": "white",
-          "font": "mixedbag:icon",
-          "italic": false
-        },
-        {
-          "translate": "ui.mixedbag.title",
-          "color": "white",
-          "font": "mixedbag:tooltip",
-          "italic": false
+          "source": "root.pet_carrier.entity",
+          "target": "mixedbag.entity_data",
+          "op": "replace"
         }
       ]
-    ],
-    "mode": "append"
-  }
-]
+    },
+    {
+      "type": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        [
+          {
+            "text": "0 ",
+            "color": "white",
+            "font": "mixedbag:icon",
+            "italic": false
+          },
+          {
+            "translate": "ui.mixedbag.title",
+            "color": "white",
+            "font": "mixedbag:tooltip",
+            "italic": false
+          }
+        ]
+      ],
+      "mode": "replace_all"
+    },
+    {
+      "type": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "selector": "@e[tag=mixedbag.pet_carrier.collected,limit=1]",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "mode": "append"
+    },
+    {
+      "type": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "mixedbag:temp"
+      },
+      "ops": [
+        {
+          "source": "root.pet_carrier.easter_egg",
+          "target": "mixedbag.pet_carrier.easter_egg",
+          "op": "replace"
+        }
+      ]
+    }
+  ]
+}

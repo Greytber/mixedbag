@@ -1,6 +1,17 @@
-[
-  {
-    "function": "minecraft:set_components",
+{
+  "type": "minecraft:filtered",
+  "item_filter": {
+    "items": "minecraft:netherite_sword",
+    "predicates": {
+      "minecraft:custom_data": {
+        "mixedbag": {
+          "id": "diamond_sickle"
+        }
+      }
+    }
+  },
+  "on_pass": {
+    "type": "minecraft:set_components",
     "components": {
       "item_name": {
         "translate": "item.mixedbag.netherite_sickle"
@@ -60,4 +71,4 @@
       ]
     }
   }
-]
+}

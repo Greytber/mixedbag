@@ -32,24 +32,7 @@
             "type": "minecraft:gust_emitter_large"
           },
           "sound": "minecraft:entity.wind_charge.wind_burst"
-        },
-        "requirements": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_tags": {
-                "any_of": [
-                  "mixedbag.explosion.cushion_wind_burst"
-                ]
-              }
-            }
-          },
-          {
-            "condition": "enchantment_active_check",
-            "active": false
-          }
-        ]
+        }
       },
       {
         "effect": {
@@ -57,8 +40,8 @@
           "function": "mixedbag:entity/technical/custom_explosion/kill_explosion"
         },
         "requirements": {
-          "condition": "enchantment_active_check",
-          "active": false
+          "active": false,
+          "type": "minecraft:enchantment_active_check"
         }
       }
     ]

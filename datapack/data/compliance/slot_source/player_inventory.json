@@ -1,0 +1,113 @@
+{
+  "type": "minecraft:group",
+  "terms": [
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.0"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.1"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.2"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.3"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.4"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.5"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.6"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.7"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.8"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.9"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.10"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.11"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.12"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.13"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.14"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.15"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.16"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.17"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.18"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.19"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.20"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.21"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.22"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.23"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.24"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.25"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "inventory.26"
+    }
+  ]
+}

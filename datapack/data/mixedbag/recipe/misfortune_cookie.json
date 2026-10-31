@@ -19,18 +19,6 @@
 			},
 			"minecraft:item_model": "mixedbag:misfortune_cookie",
 			"minecraft:lore": [
-				{
-					"translate": "item.mixedbag.misfortune_cookie.duration.omen",
-					"with": [
-						{
-							"translate": "effect.minecraft.trial_omen",
-							"color": "blue",
-							"italic": false
-						}
-					],
-					"color": "blue",
-					"italic": false
-				},
 				[
 					{
 						"translate": "ui.mixedbag.title.symbol",
@@ -45,7 +33,19 @@
 						"font": "mixedbag:tooltip",
 						"italic": false
 					}
-				]
+				],
+				{
+					"translate": "item.mixedbag.misfortune_cookie.duration.omen",
+					"with": [
+						{
+							"translate": "effect.minecraft.trial_omen",
+							"color": "blue",
+							"italic": false
+						}
+					],
+					"color": "blue",
+					"italic": false
+				}
 			],
 			"minecraft:food": {
 				"nutrition": 2,

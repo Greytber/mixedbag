@@ -5,8 +5,12 @@
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "player": {
-          "minecraft:effects": {
-            "minecraft:absorption": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:effects": {
+              "minecraft:absorption": {}
+            }
           }
         }
       }

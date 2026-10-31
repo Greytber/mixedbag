@@ -1,0 +1,2 @@
+execute if score @s mixedbag.dropped.stone_sword matches 1.. run return run function mixedbag:entity/dropped_item/check
+execute if score @s mixedbag.dropped.poisonous_potato matches 1.. run return run function mixedbag:entity/dropped_item/check

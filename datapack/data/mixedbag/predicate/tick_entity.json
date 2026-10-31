@@ -1,11 +1,15 @@
 {
-  "condition": "minecraft:all_of",
+  "type": "minecraft:all_of",
   "terms": [
     {
-      "condition": "minecraft:entity_properties",
+      "type": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Tags:[\"mixedbag.tick\"]}"
+        "minecraft:entity_tags": {
+          "any_of": [
+            "mixedbag.tick"
+          ]
+        }
       }
     }
   ]

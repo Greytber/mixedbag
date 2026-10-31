@@ -2,8 +2,7 @@
   "values": [
     "compliance:technical/load",
     "smithed.tech_slots:impl/technical/load",
-    "player_motion:internal/init",
     "mixedbag:technical/load",
-		"mixedbag.iris:setup/load"
+    "mixedbag.iris:setup/load"
   ]
 }

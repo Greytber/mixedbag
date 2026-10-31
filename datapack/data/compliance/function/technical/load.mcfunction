@@ -27,6 +27,7 @@ scoreboard objectives add compliance.technical_weapon.holding dummy
 scoreboard objectives add compliance.tick.falling.flag dummy
 scoreboard objectives add compliance.falling.flag dummy
 
+scoreboard objectives add compliance.dual_swing.hand dummy
 scoreboard objectives add compliance.dual_swing.timer dummy
 scoreboard objectives add compliance.dual_swing.swing dummy
 

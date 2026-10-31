@@ -32,7 +32,25 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mixedbag:items/prospecting_pickaxe"
+          "value": "mixedbag:items/iron_prospecting_pickaxe"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/diamond_prospecting_pickaxe"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mixedbag:items/netherite_prospecting_pickaxe"
         }
       ]
     },

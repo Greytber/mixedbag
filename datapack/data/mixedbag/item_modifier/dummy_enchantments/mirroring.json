@@ -1,29 +1,35 @@
-[
-  {
-    "function": "minecraft:set_enchantments",
-    "enchantments": {
-      "mixedbag:mirroring_dummy": 0
+{
+  "type": "sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_enchantments",
+      "enchantments": {
+        "mixedbag:mirroring_dummy": 0
+      },
+      "add": false
     },
-    "add": false
-  },
-  {
-    "function": "minecraft:filtered",
-    "item_filter": {
-      "predicates": {
-        "minecraft:custom_data": {
-          "compliance": {
-            "dual_swing": {}
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "compliance": {
+              "dual_swing": {}
+            }
           }
         }
-      }
-    },
-    "on_pass": {
-      "function": "minecraft:set_enchantments",
-      "enchantments": {
-        "mixedbag:mirroring": 1
       },
-      "add": false,
-      "conditions": []
+      "on_pass": {
+        "type": "minecraft:set_enchantments",
+        "enchantments": {
+          "mixedbag:mirroring": 1
+        },
+        "add": false,
+        "condition": {
+          "type": "minecraft:all_of",
+          "terms": []
+        }
+      }
     }
-  }
-]
+  ]
+}

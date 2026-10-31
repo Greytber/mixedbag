@@ -1,2 +1,4 @@
-execute unless predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{effects:{"minecraft:speed":{}}}} run return run function mixedbag:entity/happy_ghast/clear_modifiers
-function mixedbag:entity/happy_ghast/apply_modifiers
+execute unless predicate {type:"minecraft:entity_properties",entity:"this",predicate:{"minecraft:effects":{"minecraft:speed":{amplifier:0}}}} run return run function mixedbag:entity/happy_ghast/clear_modifiers
+execute if predicate {type:"minecraft:entity_properties",entity:"this",predicate:{"minecraft:effects":{"minecraft:speed":{amplifier:0}}}} run return run attribute @s minecraft:flying_speed modifier add mixedbag:effect.speed 0.01 add_value
+execute if predicate {type:"minecraft:entity_properties",entity:"this",predicate:{"minecraft:effects":{"minecraft:speed":{amplifier:1}}}} run return run attribute @s minecraft:flying_speed modifier add mixedbag:effect.speed 0.02 add_value
+execute if predicate {type:"minecraft:entity_properties",entity:"this",predicate:{"minecraft:effects":{"minecraft:speed":{amplifier:2}}}} run return run attribute @s minecraft:flying_speed modifier add mixedbag:effect.speed 0.03 add_value

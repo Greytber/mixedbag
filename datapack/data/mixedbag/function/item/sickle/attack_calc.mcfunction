@@ -24,7 +24,8 @@ execute if predicate mixedbag:entity_properties/sickle/both run scoreboard playe
 
 # Storing total value
 #execute store result storage mixedbag:sickle damage_total float 1 run scoreboard players get @s mixedbag.sickle.damage_base
-execute store result storage mixedbag:sickle damage_total float 0.75 run scoreboard players get @s mixedbag.sickle.damage_base
+execute store result storage mixedbag:sickle damage_total float 0.8 run scoreboard players get @s mixedbag.sickle.damage_base
+#execute store result storage mixedbag:sickle damage_total float 0.75 run scoreboard players get @s mixedbag.sickle.damage_base
 #execute store result storage mixedbag:sickle damage_total float 0.5 run scoreboard players get @s mixedbag.sickle.damage_base
 
 # Running an attack macro function

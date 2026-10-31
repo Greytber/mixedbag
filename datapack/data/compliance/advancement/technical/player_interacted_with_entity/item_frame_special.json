@@ -1,0 +1,65 @@
+{
+  "criteria": {
+    "check": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "compliance": {
+                "special_item_frame_model": {}
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": [
+              "minecraft:item_frame",
+              "minecraft:glow_item_frame"
+            ]
+          }
+        }
+      }
+    },
+    "down": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "compliance": {
+                "special_item_frame_model": {
+                  "condition": [
+                    "down"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": [
+              "minecraft:item_frame",
+              "minecraft:glow_item_frame"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "check",
+      "down"
+    ]
+  ],
+  "rewards": {
+    "function": "compliance:item/special_item_frame_model/main"
+  }
+}

@@ -17,6 +17,6 @@ function mixedbag:technical/macro/damage_slot/damage with storage mixedbag:temp 
 # Anything after this line runs if the item should break
 $execute if items entity @s $(slot) *[minecraft:damage~{durability:{min:1}}] run return 0
 
-$item modify entity @s $(slot) mixedbag:count/remove_1
+$item modify entity @s $(slot) compliance:count/remove_1
 execute at @s run function mixedbag:technical/macro/damage_slot/particle with storage mixedbag:temp root
 playsound minecraft:entity.item.break player @a[distance=..16]

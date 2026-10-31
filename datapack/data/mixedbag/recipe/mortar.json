@@ -18,11 +18,6 @@
       },
       "minecraft:item_model": "mixedbag:mortar",
       "minecraft:lore": [
-        {
-          "translate": "item.mixedbag.mortar.lore",
-          "color": "gray",
-          "italic": false
-        },
         [
           {
             "translate": "ui.mixedbag.title.symbol",
@@ -37,7 +32,12 @@
             "font": "mixedbag:tooltip",
             "italic": false
           }
-        ]
+        ],
+        {
+          "translate": "item.mixedbag.mortar.lore",
+          "color": "gray",
+          "italic": false
+        }
       ],
       "!minecraft:food": {},
       "minecraft:consumable": {
@@ -48,7 +48,22 @@
         },
         "has_consume_particles": false
       },
-      "minecraft:custom_data": "{mixedbag:{id:\"mortar\"},smithed:{ignore:{functionality:1b,crafting:1b}}}",
+      "minecraft:custom_data": {
+			  "compliance": {
+			  	"special_item_frame_model": {
+			  		"condition": ["down"]
+			  	}
+			  },
+        "mixedbag": {
+          "id": "mortar"
+        },
+        "smithed": {
+          "ignore": {
+            "functionality": true,
+            "crafting": true
+          }
+        }
+      },
       "minecraft:use_remainder": {
         "id": "minecraft:stone_pickaxe",
         "components": {
@@ -88,6 +103,11 @@
             "has_consume_particles": false
           },
           "minecraft:custom_data": {
+				    "compliance": {
+				    	"special_item_frame_model": {
+				    		"condition": ["down"]
+				    	}
+				    },
             "mixedbag": {
               "id": "mortar"
             },

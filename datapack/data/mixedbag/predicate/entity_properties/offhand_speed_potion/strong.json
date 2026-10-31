@@ -1,5 +1,5 @@
 {
-  "condition": "minecraft:entity_properties",
+  "type": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
     "minecraft:equipment": {
@@ -10,7 +10,9 @@
           "minecraft:lingering_potion"
         ],
         "predicates": {
-          "minecraft:potion_contents": "minecraft:strong_swiftness"
+          "minecraft:potion_contents": {
+            "potions": "minecraft:strong_swiftness"
+          }
         }
       }
     }

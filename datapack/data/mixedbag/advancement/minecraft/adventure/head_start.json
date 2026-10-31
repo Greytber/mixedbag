@@ -4,28 +4,27 @@
     "player_hurt_entity": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_scores",
-            "entity": "this",
-            "scores": {
-              "compliance.spear.flag": {
-                "min": 0
-              },
-              "mixedbag.timer.head_start": {
-                "min": 0
-              }
+        "player": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "compliance.spear.flag": {
+              "min": 0
+            },
+            "mixedbag.timer.head_start": {
+              "min": 0
             }
           }
-        ],
+        },
         "damage": {
           "type": {
             "tags": [
               {
-                "id": "compliance:spear",
-                "expected": false
+                "id": "minecraft:spear",
+                "expected": true
               }
-            ]
+            ],
+            "is_direct": true
           }
         }
       }

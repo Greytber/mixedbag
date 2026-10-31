@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "compliance:minor",
+      "required": false
+    }
+  ]
+}

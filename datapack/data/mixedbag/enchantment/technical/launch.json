@@ -1,0 +1,56 @@
+{
+  "anvil_cost": 2,
+  "description": "",
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                1,
+                1,
+                1.1
+              ],
+              "direction": [
+                0,
+                -1,
+                1
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 0.5,
+                "per_level_above_first": 0.5
+              }
+            }
+          ]
+        },
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:enchantment_active_check",
+              "active": false
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 8
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "saddle"
+  ],
+  "supported_items": "minecraft:barrier",
+  "weight": 5
+}

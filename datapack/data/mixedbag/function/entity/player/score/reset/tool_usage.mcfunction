@@ -19,5 +19,12 @@ scoreboard players reset @s mixedbag.used_item.iron_shovel
 scoreboard players reset @s mixedbag.used_item.golden_shovel
 scoreboard players reset @s mixedbag.used_item.diamond_shovel
 scoreboard players reset @s mixedbag.used_item.netherite_shovel
+scoreboard players reset @s mixedbag.used_item.wooden_hoe
+scoreboard players reset @s mixedbag.used_item.stone_hoe
+scoreboard players reset @s mixedbag.used_item.copper_hoe
+scoreboard players reset @s mixedbag.used_item.iron_hoe
+scoreboard players reset @s mixedbag.used_item.golden_hoe
+scoreboard players reset @s mixedbag.used_item.diamond_hoe
+scoreboard players reset @s mixedbag.used_item.netherite_hoe
 scoreboard players reset @s mixedbag.used_item.shears
 scoreboard players reset @s mixedbag.tool_usage

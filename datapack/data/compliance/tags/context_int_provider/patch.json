@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "compliance:patch",
+      "required": false
+    }
+  ]
+}

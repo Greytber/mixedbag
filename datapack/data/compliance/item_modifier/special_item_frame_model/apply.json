@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:set_custom_data",
+  "tag": {
+    "compliance": {
+      "special_item_frame_model": {
+        "toggle": true
+      }
+    }
+  }
+}

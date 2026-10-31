@@ -8,9 +8,9 @@
 					"name": "minecraft:poisonous_potato",
 					"weight": 1,
 					"quality": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:item_name": "{\"translate\":\"item.mixedbag.fortune_paper\",\"color\":\"#967a67\",\"shadow_color\":[0.361,0.251,0.176,1]}",
 								"minecraft:item_model": "mixedbag:fortune_paper",
@@ -18,14 +18,17 @@
 								"!minecraft:consumable": {},
 								"minecraft:tooltip_style": "mixedbag:fortune"
 							},
-							"conditions": []
+							"condition": {
+								"type": "minecraft:all_of",
+								"terms": []
+							}
 						},
 						{
-							"function": "minecraft:set_custom_data",
+							"type": "minecraft:set_custom_data",
 							"tag": "{mixedbag:{id:\"fortune_paper\"},smithed:{ignore:{functionality:1b,crafting:1b}}}"
 						},
 						{
-							"function": "minecraft:set_lore",
+							"type": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								[
@@ -40,7 +43,8 @@
 											0.176,
 											1
 										]
-									}," ",
+									},
+									" ",
 									{
 										"translate": "ui.mixedbag.title",
 										"color": "white",

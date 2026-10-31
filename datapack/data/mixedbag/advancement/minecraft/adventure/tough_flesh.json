@@ -4,7 +4,7 @@
     "craft_leather": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:leather",
+        "recipes": "minecraft:leather",
         "ingredients": [
           {
             "predicates": {
@@ -21,13 +21,13 @@
     "smelt_rotten_flesh": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "mixedbag:tough_flesh"
+        "recipes": "mixedbag:tough_flesh"
       }
     },
     "smoke_rotten_flesh": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "mixedbag:tough_flesh_from_smoking"
+        "recipes": "mixedbag:tough_flesh_from_smoking"
       }
     }
   },

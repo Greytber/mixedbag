@@ -1,0 +1,1 @@
+execute as @a[tag=mixedbag.loot.woodland_mansion] at @s run function mixedbag:loot/woodland_mansion/ray/start

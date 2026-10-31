@@ -1,21 +1,24 @@
-[
-  {
-    "function": "minecraft:set_custom_data",
-    "tag": {
-      "compliance": {
-        "dual_swing": {
-          "swing_offhand": true
+{
+  "type": "sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": {
+        "compliance": {
+          "dual_swing": {
+            "swing_offhand": true
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:attack_animation": {
+          "type": "none",
+          "duration": 1
         }
       }
     }
-  },
-  {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:swing_animation": {
-        "type": "none",
-        "duration": 1
-      }
-    }
-  }
-]
+  ]
+}

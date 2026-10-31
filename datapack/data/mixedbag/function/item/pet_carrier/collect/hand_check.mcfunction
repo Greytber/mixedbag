@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand minecraft:poisonous_potato[minecraft:custom_data~{mixedbag:{id:"pet_carrier"}}] run return run item modify entity @s weapon.mainhand mixedbag:pet_carrier/full
+item modify entity @s weapon.offhand mixedbag:pet_carrier/full

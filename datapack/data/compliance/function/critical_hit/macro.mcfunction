@@ -1,1 +1,0 @@
-advancement revoke @s only compliance:technical/player_hurt_entity/damage_variance

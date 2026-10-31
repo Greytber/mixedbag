@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:filtered",
+  "item_filter": {
+    "predicates": {
+      "minecraft:custom_data": {
+        "compliance": {
+          "special_item_frame_model": {
+            "toggle": true
+          }
+        }
+      }
+    }
+  },
+  "on_pass": {
+    "type": "minecraft:set_custom_data",
+    "tag": {
+      "compliance": {
+        "special_item_frame_model": {
+          "toggle": false
+        }
+      }
+    }
+  }
+}

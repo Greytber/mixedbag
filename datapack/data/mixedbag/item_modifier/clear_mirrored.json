@@ -1,7 +1,7 @@
 {
-  "function": "minecraft:filtered",
+  "type": "minecraft:filtered",
   "item_filter": {
-    "items": "#minecraft:swords",
+    "items": "minecraft:poisonous_potato",
     "predicates": {
       "minecraft:custom_data": {
         "mixedbag": {
@@ -11,6 +11,6 @@
     }
   },
   "on_pass": {
-    "function": "minecraft:discard"
+    "type": "minecraft:discard"
   }
 }

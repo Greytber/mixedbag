@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "minecraft:chests/illager_mansion/vindicator_chest",
+      "required": false
+    }
+  ]
+}

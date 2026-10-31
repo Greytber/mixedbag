@@ -1,0 +1,2 @@
+advancement revoke @s only compliance:technical/player_interacted_with_entity/item_frame_special
+execute as @e[type=#compliance:item_frames,distance=..5] if items entity @s container.0 *[minecraft:custom_data~{compliance:{special_item_frame_model:{condition:["down"]}}}] if data entity @s {Facing:1b} run function compliance:item/special_item_frame_model/apply_item_frame

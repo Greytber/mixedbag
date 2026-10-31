@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=mixedbag.siphoning.hammer.marker] at @s run function mixedbag:item/enchantment/siphoning/hammer/scheduled

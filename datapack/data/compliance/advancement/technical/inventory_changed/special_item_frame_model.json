@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "special_item_frame_model": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "compliance": {
+                  "special_item_frame_model": {
+                    "toggle": true
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "special_item_frame_model"
+    ]
+  ],
+  "rewards": {
+    "function": "compliance:item/special_item_frame_model/clear_inventory"
+  }
+}

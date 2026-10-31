@@ -1,5 +1,5 @@
 {
-  "function": "minecraft:filtered",
+  "type": "minecraft:filtered",
   "item_filter": {
     "items": "#compliance:enchantable/technical_weapon",
     "predicates": {
@@ -11,9 +11,9 @@
     }
   },
   "on_pass": {
-    "function": "minecraft:set_enchantments",
+    "type": "minecraft:set_enchantments",
     "enchantments": {
-      "ascension:technical/weapon": 1
+      "compliance:technical/weapon": 1
     },
     "add": false
   }

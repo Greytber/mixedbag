@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:group",
+  "terms": [
+    {
+      "type": "minecraft:slot_range",
+      "slots": "armor.head"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "armor.chest"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "armor.legs"
+    },
+    {
+      "type": "minecraft:slot_range",
+      "slots": "armor.feet"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+#data modify entity @s Item.components."minecraft:custom_model_data".strings append value compliance_special_item_frame_model
+item modify entity @s container.0 compliance:special_item_frame_model/apply

@@ -22,7 +22,6 @@
     "minecraft:tick": [
       {
         "requirements": {
-          "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
             "minecraft:flags": {
@@ -31,7 +30,8 @@
             "movement": {
               "horizontal_speed": 0
             }
-          }
+          },
+          "type": "minecraft:entity_properties"
         },
         "effect": {
           "type": "minecraft:run_function",

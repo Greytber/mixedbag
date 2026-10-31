@@ -1,7 +1,13 @@
 {
-  "function": "minecraft:set_enchantments",
-  "enchantments": {
-    "ascension:technical/weapon": 0
+  "type": "minecraft:filtered",
+  "item_filter": {
+    "items": "#compliance:enchantable/technical_weapon_exclude"
   },
-  "add": false
+  "on_fail": {
+    "type": "minecraft:set_enchantments",
+    "enchantments": {
+      "compliance:technical/weapon": 0
+    },
+    "add": false
+  }
 }

@@ -1,0 +1,11 @@
+{
+  "entity": "this",
+  "predicate": {
+    "minecraft:slots": {
+      "weapon.*": {
+        "items": "#mixedbag:mortar/give_andesite"
+      }
+    }
+  },
+  "type": "minecraft:entity_properties"
+}

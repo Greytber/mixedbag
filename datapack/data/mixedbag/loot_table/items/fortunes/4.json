@@ -8,19 +8,18 @@
 					"value": "mixedbag:items/fortunes/base"
 				}
 			],
-			"functions": [
-				
+			"modifier": [
 				{
-					"function": "minecraft:set_custom_data",
+					"type": "minecraft:set_custom_data",
 					"tag": "{mixedbag:{id:\"fortune_paper\",fortune:4}}"
 				},
 				{
-					"function": "minecraft:set_lore",
+					"type": "minecraft:set_lore",
 					"entity": "this",
 					"lore": [
 						{
 							"translate": "fortune.mixedbag.4",
-              				"font": "mixedbag:handwritten",
+							"font": "mixedbag:handwritten",
 							"color": "#6d523e",
 							"shadow_color": 0,
 							"italic": false

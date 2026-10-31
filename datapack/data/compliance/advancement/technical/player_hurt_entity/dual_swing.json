@@ -1,17 +1,21 @@
 {
-  "parent": "ascension:technical/revoke",
+  "parent": "mixedbag:technical/revoke",
   "criteria": {
     "player_hurt_entity": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": {
-          "minecraft:equipment": {
-            "mainhand": {
-              "predicates": {
-                "minecraft:custom_data": {
-                  "compliance": {
-                    "dual_swing": {
-                      "flag": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "compliance": {
+                      "dual_swing": {
+                        "flag": true
+                      }
                     }
                   }
                 }

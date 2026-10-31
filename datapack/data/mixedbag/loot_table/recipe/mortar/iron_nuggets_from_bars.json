@@ -6,14 +6,15 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_nugget",
-          "functions": [
-            {
-              "add": false,
-              "count": 2,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "conditions": []
+          "condition": {
+            "type": "minecraft:all_of",
+            "terms": []
+          },
+          "modifier": {
+            "type": "minecraft:set_count",
+            "add": false,
+            "count": 2
+          }
         }
       ],
       "rolls": 1

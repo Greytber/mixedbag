@@ -1,0 +1,2 @@
+execute if entity @s[advancements={compliance:technical/player_interacted_with_entity/item_frame_special={down=true}}] run return run function compliance:item/special_item_frame_model/down
+advancement revoke @s only compliance:technical/player_interacted_with_entity/item_frame_special

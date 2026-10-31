@@ -1,2 +1,2 @@
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{mixedbag:{id:prospecting_pickaxe}}] run return run function compliance:entity/player/swing/mainhand
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{mixedbag:{functionality:prospecting_pickaxe}}] run return run function compliance:entity/player/swing/mainhand
 function compliance:entity/player/swing/offhand

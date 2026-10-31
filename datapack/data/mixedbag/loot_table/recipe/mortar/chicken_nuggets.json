@@ -6,18 +6,19 @@
         {
           "type": "minecraft:loot_table",
           "value": "mixedbag:items/chicken_nugget",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5,
-                "min": 3
-              },
-              "function": "minecraft:set_count"
+          "condition": {
+            "type": "minecraft:all_of",
+            "terms": []
+          },
+          "modifier": {
+            "type": "minecraft:set_count",
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 5,
+              "min": 3
             }
-          ],
-          "conditions": []
+          }
         }
       ],
       "rolls": 1

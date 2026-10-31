@@ -1,0 +1,19 @@
+{
+  "parent": "mixedbag:technical/player_generates_container_loot/root",
+  "criteria": {
+    "minecraft:chests/woodland_mansion": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_tables": "minecraft:chests/woodland_mansion"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:chests/woodland_mansion"
+    ]
+  ],
+  "rewards": {
+    "function": "mixedbag:loot/woodland_mansion/main"
+  }
+}

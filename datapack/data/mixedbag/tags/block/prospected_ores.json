@@ -11,6 +11,8 @@
         "#minecraft:gold_ores",
         "#minecraft:iron_ores",
         "#minecraft:lapis_ores",
-        "#minecraft:redstone_ores"
+        "#minecraft:redstone_ores",
+        "minecraft:nether_quartz_ore",
+        "minecraft:ancient_debris"
     ]
 }

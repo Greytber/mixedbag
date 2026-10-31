@@ -20,167 +20,185 @@
   "effects": {
     "minecraft:damage_immunity": [
       {
-        "requirements": [
-          {
-            "condition": "minecraft:entity_scores",
-            "entity": "this",
-            "scores": {
-              "mixedbag.courage.flag": 1
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mixedbag.courage.flag": 1
+              }
+            },
+            {
+              "type": "minecraft:damage_source_properties",
+              "predicate": {
+                "tags": [
+                  {
+                    "id": "#mixedbag:bypasses_courage",
+                    "expected": false
+                  }
+                ]
+              }
             }
-          },
-          {
-            "condition": "minecraft:damage_source_properties",
-            "predicate": {
-              "tags": [
-                {
-                  "id": "mixedbag:bypasses_courage",
-                  "expected": false
-                }
-              ]
-            }
-          }
-        ],
+          ]
+        },
         "effect": {}
       }
     ],
     "minecraft:damage_protection": [
       {
-        "requirements": [
-          {
-            "condition": "minecraft:damage_source_properties",
-            "predicate": {
-              "tags": [
-                {
-                  "id": "minecraft:bypasses_shield",
-                  "expected": false
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:damage_source_properties",
+              "predicate": {
+                "tags": [
+                  {
+                    "id": "#minecraft:bypasses_shield",
+                    "expected": false
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mixedbag.sickle.timer": {
+                  "min": 5,
+                  "max": 20
                 }
-              ]
-            }
-          },
-          {
-            "condition": "minecraft:entity_scores",
-            "entity": "this",
-            "scores": {
-              "mixedbag.sickle.timer": {
-                "min": 5,
-                "max": 20
               }
             }
-          }
-        ],
+          ]
+        },
         "effect": {
           "type": "minecraft:add",
           "value": 5
         }
       },
       {
-        "requirements": [
-          {
-            "condition": "minecraft:damage_source_properties",
-            "predicate": {
-              "tags": [
-                {
-                  "id": "minecraft:bypasses_shield",
-                  "expected": false
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:damage_source_properties",
+              "predicate": {
+                "tags": [
+                  {
+                    "id": "#minecraft:bypasses_shield",
+                    "expected": false
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mixedbag.sickle.timer": {
+                  "min": 5,
+                  "max": 60
                 }
-              ]
-            }
-          },
-          {
-            "condition": "minecraft:entity_scores",
-            "entity": "this",
-            "scores": {
-              "mixedbag.sickle.timer": {
-                "min": 5,
-                "max": 60
               }
             }
-          }
-        ],
+          ]
+        },
         "effect": {
           "type": "minecraft:add",
           "value": 5
         }
       },
       {
-        "requirements": [
-          {
-            "condition": "minecraft:damage_source_properties",
-            "predicate": {
-              "tags": [
-                {
-                  "id": "minecraft:bypasses_shield",
-                  "expected": false
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:damage_source_properties",
+              "predicate": {
+                "tags": [
+                  {
+                    "id": "#minecraft:bypasses_shield",
+                    "expected": false
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mixedbag.sickle.timer": {
+                  "min": 5,
+                  "max": 100
                 }
-              ]
-            }
-          },
-          {
-            "condition": "minecraft:entity_scores",
-            "entity": "this",
-            "scores": {
-              "mixedbag.sickle.timer": {
-                "min": 5,
-                "max": 100
               }
             }
-          }
-        ],
+          ]
+        },
         "effect": {
           "type": "minecraft:add",
           "value": 5
         }
       },
       {
-        "requirements": [
-          {
-            "condition": "minecraft:damage_source_properties",
-            "predicate": {
-              "tags": [
-                {
-                  "id": "minecraft:bypasses_shield",
-                  "expected": false
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:damage_source_properties",
+              "predicate": {
+                "tags": [
+                  {
+                    "id": "#minecraft:bypasses_shield",
+                    "expected": false
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mixedbag.sickle.timer": {
+                  "min": 5,
+                  "max": 119
                 }
-              ]
-            }
-          },
-          {
-            "condition": "minecraft:entity_scores",
-            "entity": "this",
-            "scores": {
-              "mixedbag.sickle.timer": {
-                "min": 5,
-                "max": 119
               }
             }
-          }
-        ],
+          ]
+        },
         "effect": {
           "type": "minecraft:add",
           "value": 5
         }
       },
       {
-        "requirements": [
-          {
-            "condition": "minecraft:entity_scores",
-            "entity": "this",
-            "scores": {
-              "mixedbag.courage.flag": 1
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mixedbag.courage.flag": 1
+              }
+            },
+            {
+              "type": "minecraft:damage_source_properties",
+              "predicate": {
+                "tags": [
+                  {
+                    "id": "#minecraft:is_explosion",
+                    "expected": true
+                  }
+                ]
+              }
             }
-          },
-          {
-            "condition": "minecraft:damage_source_properties",
-            "predicate": {
-              "tags": [
-                {
-                  "id": "minecraft:is_explosion",
-                  "expected": true
-                }
-              ]
-            }
-          }
-        ],
+          ]
+        },
         "effect": {
           "type": "minecraft:set",
           "value": 40

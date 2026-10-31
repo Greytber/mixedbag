@@ -1,8 +1,8 @@
 {
-  "condition": "minecraft:any_of",
+  "type": "minecraft:any_of",
   "terms": [
     {
-      "condition": "minecraft:entity_properties",
+      "type": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "minecraft:flags": {
@@ -12,14 +12,14 @@
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "type": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "minecraft:entity_type": "#mixedbag:pet_carrier_viable_if_owner"
       }
     },
     {
-      "condition": "minecraft:entity_properties",
+      "type": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "minecraft:entity_type": "#mixedbag:pet_carrier_viable_always"

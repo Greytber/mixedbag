@@ -5,14 +5,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 3,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:brick"
+          "name": "minecraft:brick",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "add": false,
+            "count": 3
+          }
         }
       ],
       "rolls": 1

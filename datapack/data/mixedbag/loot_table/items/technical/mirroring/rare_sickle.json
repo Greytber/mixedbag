@@ -6,15 +6,15 @@
         {
           "type": "minecraft:loot_table",
           "value": "mixedbag:items/rare_sickle",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "item_model": "mixedbag:rare_sickle_mirrored"
               }
             },
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": {
                 "mixedbag": {
                   "mirrored": true
@@ -22,7 +22,7 @@
               }
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 {
                   "translate": "item.mixedbag.mirrored_sickle.description",

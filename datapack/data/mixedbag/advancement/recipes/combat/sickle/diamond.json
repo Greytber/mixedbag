@@ -1,5 +1,5 @@
 {
-  "parent": "mixedbag:recipes/root",
+  "parent": "mixedbag:recipes/combat/root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

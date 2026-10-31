@@ -6,4 +6,5 @@ scoreboard players reset #mixedbag.prospecting.wall_check mixedbag.dummy
 scoreboard players reset #mixedbag.prospecting.ore mixedbag.dummy
 scoreboard players reset #mixedbag.prospecting.air mixedbag.dummy
 scoreboard players reset #mixedbag.prospecting.particles mixedbag.dummy
+kill @e[type=minecraft:marker,tag=mixedbag.prospecting.small,distance=..16]
 kill @s

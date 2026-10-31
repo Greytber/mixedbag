@@ -76,12 +76,12 @@
           "value": "mixedbag:items/fortunes/18"
         }
       ],
-      "functions": [
-        {
-          "function": "minecraft:set_lore",
-          "entity": "this",
-          "lore": [
-            [{
+      "modifier": {
+        "type": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+          [
+            {
               "translate": "ui.mixedbag.title.symbol.paper",
               "color": "white",
               "font": "mixedbag:icon",
@@ -105,12 +105,15 @@
                 0.176,
                 1
               ]
-            }]
-          ],
-          "mode": "append",
-          "conditions": []
+            }
+          ]
+        ],
+        "mode": "append",
+        "condition": {
+          "type": "minecraft:all_of",
+          "terms": []
         }
-      ]
+      }
     }
   ]
 }

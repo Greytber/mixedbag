@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:chests/abandoned_mineshaft",
+    {
+      "id": "nova_structures:chests/mineshaft_overhaul/barrel",
+      "required": false
+    }
+  ]
+}

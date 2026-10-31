@@ -26,12 +26,10 @@
             "per_level_above_first": 1
           }
         },
-        "requirements": [
-          {
-            "condition": "enchantment_active_check",
-            "active": false
-          }
-        ]
+        "requirements": {
+          "type": "enchantment_active_check",
+          "active": false
+        }
       }
     ]
   }

@@ -48,5 +48,6 @@
         "can_always_eat": false
       }
     }
-  }
+  },
+  "cookingtime": 200
 }

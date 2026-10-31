@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:group",
+  "terms": [
+    "compliance:armor",
+    "compliance:hotbar_offhand",
+    "compliance:player_inventory",
+    "compliance:player_crafting",
+    "compliance:player_cursor"
+  ]
+}

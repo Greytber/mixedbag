@@ -1,5 +1,5 @@
 {
-  "parent": "mixedbag:recipes/root",
+  "parent": "mixedbag:recipes/tool/root",
   "criteria": {
     "copper_ingot": {
       "trigger": "minecraft:inventory_changed",

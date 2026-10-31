@@ -2,7 +2,7 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "thallium:font/tooltip.png",
+            "file": "compliance:font/5.png",
             "ascent": 8,
             "chars": [
                 "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",

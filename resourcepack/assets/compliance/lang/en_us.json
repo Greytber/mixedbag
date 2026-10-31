@@ -1,0 +1,26 @@
+{
+ "ui.compliance.title": "compliance",
+ "ui.compliance.version": "v1.5.2",
+ "ui.compliance.load.announce": "%s %s initialized",
+ "ui.compliance.load.suggest": "Run %s to bring up this menu again",
+ "ui.compliance.load.installed": "Installed datapacks:",
+ "ui.compliance.load.list_entry": "%s %s - %s",
+ "ui.compliance.hyphen": "%s - %s",
+ "ui.compliance.colon": "%s: %s",
+ "ui.compliance.quotations": "\"%s\"",
+ "ui.compliance.credits": "Credits",
+ "ui.compliance.links": "Links",
+ "ui.compliance.not_paused": "Game is not paused",
+ "ui.compliance.when_applied": "When Applied:",
+
+ "platform.modrinth": "Modrinth",
+ "platform.smithed": "Smithed",
+ "platform.github": "GitHub",
+
+ "item.modifiers.compliance.inventory": "When in Inventory:",
+ "item.compliance.when_applied": "When Applied:",
+ 
+ "item.compliance.music_disc": "Music Disc",
+ 
+ "enchantment.compliance.technical": "Technical Enchantment | Ignore this!"
+}

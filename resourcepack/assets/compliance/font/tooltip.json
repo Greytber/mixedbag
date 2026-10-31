@@ -6,7 +6,7 @@
         },
         {
             "type": "reference",
-            "id": "thallium:include/tooltip"
+            "id": "compliance:include/tooltip"
         }
     ]
 }

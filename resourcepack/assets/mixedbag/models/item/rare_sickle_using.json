@@ -1,6 +1,0 @@
-{
-  "parent": "mixedbag:item/sickle_using",
-  "textures": {
-    "layer0": "mixedbag:item/rare_sickle"
-  }
-}

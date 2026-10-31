@@ -1,0 +1,77 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "compliance": {
+        "special_item_frame_model": {
+          "toggle": true
+        }
+      }
+    },
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": "fixed",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:custom_model_data",
+            "on_true": {
+              "type": "minecraft:condition",
+              "model": "",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "mixedbag": {
+                  "entity_data": {
+                    "CustomName": "Greja",
+                    "id": "minecraft:polar_bear"
+                  }
+                }
+              },
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "mixedbag:item/pet_carrier_3d_secret"
+              },
+              "on_false": {
+                "type": "minecraft:model",
+                "model": "mixedbag:item/pet_carrier_3d_full"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "mixedbag:item/pet_carrier_3d_empty"
+            }
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "mixedbag:item/pet_carrier_closed"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "mixedbag:item/pet_carrier_open"
+        }
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:custom_model_data",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "mixedbag:item/pet_carrier_closed"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "mixedbag:item/pet_carrier_open"
+      }
+    }
+  }
+}

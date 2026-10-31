@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "mixedbag:item/rare_sickle"
+    "layer0": "mixedbag:item/diamond_prospecting_pickaxe"
   }
 }

@@ -57,7 +57,8 @@
           "ignore": {
             "crafting": 1
           }
-        }
+        },
+        "SE_data":{}
       },
       "minecraft:use_effects": {
         "can_sprint": true

@@ -1,0 +1,1 @@
+execute if entity @s[type=minecraft:happy_ghast] run function mixedbag:entity/happy_ghast/effect_check

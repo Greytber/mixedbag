@@ -1,5 +1,5 @@
 {
-  "parent": "compliance:technical/root",
+  "parent": "compliance:technical/revoke_hard",
   "criteria": {
     "impossible": {
       "trigger": "minecraft:impossible"

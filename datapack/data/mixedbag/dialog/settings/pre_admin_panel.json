@@ -1,0 +1,32 @@
+{
+  "": {
+    "": {
+      "": "trigger mixedbag.settings set 1"
+    }
+  },
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "mixedbag.dialog.admin_panel"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "mixedbag.dialog.settings.admin_panel.explanation"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "mixedbag.dialog.settings.admin_panel.command"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "/function mixedbag:admin_panel",
+        "underlined": true
+      }
+    }
+  ]
+}

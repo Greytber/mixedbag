@@ -76,6 +76,15 @@
         "type": "open_url",
         "url": "https://github.com/Greytber/mixedbag/wiki"
       }
+    },
+    {
+      "label": {
+        "translate": "ui.mixedbag.settings"
+      },
+      "action": {
+        "type": "show_dialog",
+        "dialog": "mixedbag:settings"
+      }
     }
   ],
   "exit_action": {

@@ -1,0 +1,13 @@
+{
+  "parent": "compliance:technical/revoke",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

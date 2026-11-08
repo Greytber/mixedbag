@@ -1,0 +1,1 @@
+$data modify storage mixedbag:admin settings.happy_ghast_swiftness set value $(happy_ghast_swiftness)b

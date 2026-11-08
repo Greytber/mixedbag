@@ -15,7 +15,7 @@
         "type": "minecraft:max",
         "inputs": "#compliance:minor"
       },
-      "test": 0
+      "test": 1
     }
   ]
 }

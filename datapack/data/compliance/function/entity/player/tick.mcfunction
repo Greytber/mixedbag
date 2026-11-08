@@ -1,6 +1,7 @@
 function compliance:entity/player/vehicle_check
 function compliance:item/dual_swing/attribute_check
 execute if score @s compliance.tick.falling.flag matches 1.. if predicate compliance:entity_properties/is_falling run function compliance:entity/player/falling/set
+function compliance:entity/player/tool_usage
 
 execute if items entity @s weapon.* minecraft:crossbow run scoreboard players set @s compliance.crossbow.holding 1
 execute unless items entity @s weapon.* minecraft:crossbow run scoreboard players reset @s compliance.crossbow.holding

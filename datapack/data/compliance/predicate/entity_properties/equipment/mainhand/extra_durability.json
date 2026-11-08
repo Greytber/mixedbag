@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:equipment": {
+      "mainhand": {
+        "items": "#minecraft:enchantable/durability",
+        "predicates": {
+          "minecraft:custom_data": {
+            "compliance": {
+              "modifier": {
+                "extra_durability": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

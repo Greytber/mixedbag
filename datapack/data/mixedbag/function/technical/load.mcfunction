@@ -1,6 +1,8 @@
 function mixedbag:technical/second_clock
 #function mixedbag:technical/revoke_technical_light
 
+scoreboard objectives add mixedbag.settings trigger
+
 scoreboard objectives add mixedbag.dummy dummy
 scoreboard objectives add mixedbag.dummy_secondary dummy
 scoreboard objectives add mixedbag.entity dummy
@@ -40,41 +42,73 @@ scoreboard objectives add mixedbag.mirroring.flag dummy
 scoreboard objectives add mixedbag.dropped.stone_sword minecraft.dropped:minecraft.stone_sword
 scoreboard objectives add mixedbag.dropped.poisonous_potato minecraft.dropped:minecraft.poisonous_potato
 
-scoreboard objectives add mixedbag.tool_usage dummy
-scoreboard objectives add mixedbag.used_item.wooden_axe minecraft.used:minecraft.wooden_axe
-scoreboard objectives add mixedbag.used_item.stone_axe minecraft.used:minecraft.stone_axe
-scoreboard objectives add mixedbag.used_item.copper_axe minecraft.used:minecraft.copper_axe
-scoreboard objectives add mixedbag.used_item.iron_axe minecraft.used:minecraft.iron_axe
-scoreboard objectives add mixedbag.used_item.golden_axe minecraft.used:minecraft.golden_axe
-scoreboard objectives add mixedbag.used_item.diamond_axe minecraft.used:minecraft.diamond_axe
-scoreboard objectives add mixedbag.used_item.netherite_axe minecraft.used:minecraft.netherite_axe
+#scoreboard objectives add mixedbag.tool_usage dummy
+#scoreboard objectives add mixedbag.used_item.wooden_axe minecraft.used:minecraft.wooden_axe
+#scoreboard objectives add mixedbag.used_item.stone_axe minecraft.used:minecraft.stone_axe
+#scoreboard objectives add mixedbag.used_item.copper_axe minecraft.used:minecraft.copper_axe
+#scoreboard objectives add mixedbag.used_item.iron_axe minecraft.used:minecraft.iron_axe
+#scoreboard objectives add mixedbag.used_item.golden_axe minecraft.used:minecraft.golden_axe
+#scoreboard objectives add mixedbag.used_item.diamond_axe minecraft.used:minecraft.diamond_axe
+#scoreboard objectives add mixedbag.used_item.netherite_axe minecraft.used:minecraft.netherite_axe
+#
+#scoreboard objectives add mixedbag.used_item.wooden_pickaxe minecraft.used:minecraft.wooden_pickaxe
+#scoreboard objectives add mixedbag.used_item.stone_pickaxe minecraft.used:minecraft.stone_pickaxe
+#scoreboard objectives add mixedbag.used_item.copper_pickaxe minecraft.used:minecraft.copper_pickaxe
+#scoreboard objectives add mixedbag.used_item.iron_pickaxe minecraft.used:minecraft.iron_pickaxe
+#scoreboard objectives add mixedbag.used_item.golden_pickaxe minecraft.used:minecraft.golden_pickaxe
+#scoreboard objectives add mixedbag.used_item.diamond_pickaxe minecraft.used:minecraft.diamond_pickaxe
+#scoreboard objectives add mixedbag.used_item.netherite_pickaxe minecraft.used:minecraft.netherite_pickaxe
+#
+#scoreboard objectives add mixedbag.used_item.wooden_shovel minecraft.used:minecraft.wooden_shovel
+#scoreboard objectives add mixedbag.used_item.stone_shovel minecraft.used:minecraft.stone_shovel
+#scoreboard objectives add mixedbag.used_item.copper_shovel minecraft.used:minecraft.copper_shovel
+#scoreboard objectives add mixedbag.used_item.iron_shovel minecraft.used:minecraft.iron_shovel
+#scoreboard objectives add mixedbag.used_item.golden_shovel minecraft.used:minecraft.golden_shovel
+#scoreboard objectives add mixedbag.used_item.diamond_shovel minecraft.used:minecraft.diamond_shovel
+#scoreboard objectives add mixedbag.used_item.netherite_shovel minecraft.used:minecraft.netherite_shovel
+#
+#scoreboard objectives add mixedbag.used_item.wooden_hoe minecraft.used:minecraft.wooden_hoe
+#scoreboard objectives add mixedbag.used_item.stone_hoe minecraft.used:minecraft.stone_hoe
+#scoreboard objectives add mixedbag.used_item.copper_hoe minecraft.used:minecraft.copper_hoe
+#scoreboard objectives add mixedbag.used_item.iron_hoe minecraft.used:minecraft.iron_hoe
+#scoreboard objectives add mixedbag.used_item.golden_hoe minecraft.used:minecraft.golden_hoe
+#scoreboard objectives add mixedbag.used_item.diamond_hoe minecraft.used:minecraft.diamond_hoe
+#scoreboard objectives add mixedbag.used_item.netherite_hoe minecraft.used:minecraft.netherite_hoe
 
-scoreboard objectives add mixedbag.used_item.wooden_pickaxe minecraft.used:minecraft.wooden_pickaxe
-scoreboard objectives add mixedbag.used_item.stone_pickaxe minecraft.used:minecraft.stone_pickaxe
-scoreboard objectives add mixedbag.used_item.copper_pickaxe minecraft.used:minecraft.copper_pickaxe
-scoreboard objectives add mixedbag.used_item.iron_pickaxe minecraft.used:minecraft.iron_pickaxe
-scoreboard objectives add mixedbag.used_item.golden_pickaxe minecraft.used:minecraft.golden_pickaxe
-scoreboard objectives add mixedbag.used_item.diamond_pickaxe minecraft.used:minecraft.diamond_pickaxe
-scoreboard objectives add mixedbag.used_item.netherite_pickaxe minecraft.used:minecraft.netherite_pickaxe
-
-scoreboard objectives add mixedbag.used_item.wooden_shovel minecraft.used:minecraft.wooden_shovel
-scoreboard objectives add mixedbag.used_item.stone_shovel minecraft.used:minecraft.stone_shovel
-scoreboard objectives add mixedbag.used_item.copper_shovel minecraft.used:minecraft.copper_shovel
-scoreboard objectives add mixedbag.used_item.iron_shovel minecraft.used:minecraft.iron_shovel
-scoreboard objectives add mixedbag.used_item.golden_shovel minecraft.used:minecraft.golden_shovel
-scoreboard objectives add mixedbag.used_item.diamond_shovel minecraft.used:minecraft.diamond_shovel
-scoreboard objectives add mixedbag.used_item.netherite_shovel minecraft.used:minecraft.netherite_shovel
-
-scoreboard objectives add mixedbag.used_item.wooden_hoe minecraft.used:minecraft.wooden_hoe
-scoreboard objectives add mixedbag.used_item.stone_hoe minecraft.used:minecraft.stone_hoe
-scoreboard objectives add mixedbag.used_item.copper_hoe minecraft.used:minecraft.copper_hoe
-scoreboard objectives add mixedbag.used_item.iron_hoe minecraft.used:minecraft.iron_hoe
-scoreboard objectives add mixedbag.used_item.golden_hoe minecraft.used:minecraft.golden_hoe
-scoreboard objectives add mixedbag.used_item.diamond_hoe minecraft.used:minecraft.diamond_hoe
-scoreboard objectives add mixedbag.used_item.netherite_hoe minecraft.used:minecraft.netherite_hoe
+scoreboard objectives remove mixedbag.tool_usage 
+scoreboard objectives remove mixedbag.used_item.wooden_axe
+scoreboard objectives remove mixedbag.used_item.stone_axe
+scoreboard objectives remove mixedbag.used_item.copper_axe
+scoreboard objectives remove mixedbag.used_item.iron_axe
+scoreboard objectives remove mixedbag.used_item.golden_axe
+scoreboard objectives remove mixedbag.used_item.diamond_axe
+scoreboard objectives remove mixedbag.used_item.netherite_axe
+scoreboard objectives remove mixedbag.used_item.wooden_pickaxe
+scoreboard objectives remove mixedbag.used_item.stone_pickaxe
+scoreboard objectives remove mixedbag.used_item.copper_pickaxe
+scoreboard objectives remove mixedbag.used_item.iron_pickaxe
+scoreboard objectives remove mixedbag.used_item.golden_pickaxe
+scoreboard objectives remove mixedbag.used_item.diamond_pickaxe
+scoreboard objectives remove mixedbag.used_item.netherite_pickaxe
+scoreboard objectives remove mixedbag.used_item.wooden_shovel
+scoreboard objectives remove mixedbag.used_item.stone_shovel
+scoreboard objectives remove mixedbag.used_item.copper_shovel
+scoreboard objectives remove mixedbag.used_item.iron_shovel
+scoreboard objectives remove mixedbag.used_item.golden_shovel
+scoreboard objectives remove mixedbag.used_item.diamond_shovel
+scoreboard objectives remove mixedbag.used_item.netherite_shovel
+scoreboard objectives remove mixedbag.used_item.wooden_hoe
+scoreboard objectives remove mixedbag.used_item.stone_hoe
+scoreboard objectives remove mixedbag.used_item.copper_hoe
+scoreboard objectives remove mixedbag.used_item.iron_hoe
+scoreboard objectives remove mixedbag.used_item.golden_hoe
+scoreboard objectives remove mixedbag.used_item.diamond_hoe
+scoreboard objectives remove mixedbag.used_item.netherite_hoe
+scoreboard objectives remove mixedbag.used_item.shears
 
 scoreboard objectives add mixedbag.used_item.shears minecraft.used:minecraft.shears
 
 scoreboard objectives add mixedbag.prospecting_pickaxe.cooldown dummy
 
 execute as @a run function mixedbag:entity/player/reload
+function mixedbag:technical/load_message

@@ -1,0 +1,3 @@
+execute if entity @s[tag=mixedbag.siphoning.marker.ks_lumberjack] run return run function mixedbag:item/enchantment/siphoning/compat/ks_lumberjack/scheduled
+execute if entity @s[tag=mixedbag.siphoning.marker.ks_veinminer] run return run function mixedbag:item/enchantment/siphoning/compat/ks_veinminer/scheduled
+execute if entity @s[tag=mixedbag.siphoning.marker.hammer] run return run function mixedbag:item/enchantment/siphoning/compat/hammer/scheduled

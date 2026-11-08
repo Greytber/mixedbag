@@ -3,7 +3,7 @@
     "translate": "enchantment.mixedbag.siphoning"
   },
   "supported_items": "#mixedbag:enchantable/siphoning",
-  "primary_items": "#mixedbag:enchantable/siphoning",
+  "primary_items": "#mixedbag:enchantable/siphoning_primary",
   "weight": 1,
   "max_level": 1,
   "min_cost": {

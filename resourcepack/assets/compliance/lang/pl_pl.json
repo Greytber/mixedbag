@@ -1,0 +1,11 @@
+{
+ "ui.compliance.credits": "Uznania",
+ "ui.compliance.links": "Odnośniki",
+ "ui.compliance.not_paused": "Gra NIE JEST zapauzowana",
+ "ui.compliance.when_applied": "Po zaaplikowaniu:",
+ "item.modifiers.compliance.inventory": "Kiedy w ekwipunku:",
+ "item.compliance.when_applied": "Po zaaplikowaniu:",
+ 
+ "item.compliance.extra_durability": "Dodatkowa trwałość: %s",
+ "item.compliance.music_disc": "Płyta muzyczna"
+}

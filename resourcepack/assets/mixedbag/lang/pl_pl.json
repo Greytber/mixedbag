@@ -3,6 +3,7 @@
     "ui.mixedbag.update": "\"Magia i kopanie\"",
     "ui.mixedbag.menu": "Mixed Bag Menu",
     "ui.mixedbag.website": "Strona internetowa",
+    "ui.mixedbag.settings": "Ustawienia",
 
     "contributor.mixedbag.greytber.description": "Tak to ja",
     "contributor.mixedbag.lead.description": "Główna inspiracja, referencjonowana struktura plików, thallium (rip)",
@@ -14,6 +15,17 @@
     "contributor.mixedbag.mulverinex.description": "Biblioteka Player Motion, z wyróżnieniem %s, za stworzenie biblioteki poprzedzającej ją",
     "contributor.smithed": "Społeczność Smithed",
     "contributor.mixedbag.smithed.description": "Użyte konwencje i biblioteki (body slot library)",
+    
+    "mixedbag.dialog.settings.admin_panel.explanation": "Panel administracyjny pazwala na kontrolę nad pewnymi aspektami paczki danych, będacych bardziej po stronie rzeczy tecznicznych i balansu rzeczy",
+    "mixedbag.dialog.settings.admin_panel.command": "Dostęp do niego wymaga uprawnień operatora i może być uzyskany poprzez wykonanie komendy: ",
+    "mixedbag.dialog.admin_panel": "Panel administratorski",
+    "mixedbag.dialog.admin_panel.tooltip": "Panel służący do modyfikacji paczki danych",
+    "mixedbag.dialog.settings.happy_ghast_swiftness": "Szybkość wesołęgo ghasta",
+    "mixedbag.dialog.admin_panel.happy_ghast_swiftness.body": "Szybkość wesołęgo ghasta determinuje czy jest zwiększona szybkość latania, kiedy wesoły ghast ma efekt szybkości",
+    "mixedbag.dialog.admin_panel.happy_ghast_swiftness.note": "Powinno się ją wyłączać jeśli inna paczka danych lub mod już to modyfikuje",
+    "mixedbag.dialog.admin_panel.enable": "Włącz %1$s",
+    "mixedbag.dialog.admin_panel.disable": "Wyłącz %1$s",
+    "mixedbag.dialog.admin_panel.confirm": "Potwierdź",
 
     "advancements.metalmorphy.mortar.description":"Stwórz moździerz i tłuczek i przemiel przedmiot",
     "advancements.metalmorphy.mortar.title":"NIGDY NIE PRZESTAWAJ GRINDOWAĆ",

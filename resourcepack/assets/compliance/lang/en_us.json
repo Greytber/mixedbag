@@ -1,10 +1,8 @@
 {
  "ui.compliance.title": "compliance",
- "ui.compliance.version": "v1.5.2",
+ "ui.compliance.load.version": "(%s.%s.%s) initialized",
  "ui.compliance.load.announce": "%s %s initialized",
  "ui.compliance.load.suggest": "Run %s to bring up this menu again",
- "ui.compliance.load.installed": "Installed datapacks:",
- "ui.compliance.load.list_entry": "%s %s - %s",
  "ui.compliance.hyphen": "%s - %s",
  "ui.compliance.colon": "%s: %s",
  "ui.compliance.quotations": "\"%s\"",
@@ -20,6 +18,7 @@
  "item.modifiers.compliance.inventory": "When in Inventory:",
  "item.compliance.when_applied": "When Applied:",
  
+ "item.compliance.extra_durability": "Extra Durability: %s",
  "item.compliance.music_disc": "Music Disc",
  
  "enchantment.compliance.technical": "Technical Enchantment | Ignore this!"
